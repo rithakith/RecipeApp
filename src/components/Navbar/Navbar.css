@@ -5,9 +5,11 @@
 }
 
 #navUL {
+  margin: 0;
   list-style: none;
   display: flex;
   justify-content: space-between;
+  height: 8vh;
 }
 
 #navUL li {
@@ -19,14 +21,24 @@
   color: black;
 }
 
+.logo {
+  display: flex;
+  justify-content: center;
+  width: fit-content;
+}
+
 .logo img {
+  box-shadow: 0px 5px 10px 1px rgb(87, 87, 87);
   border-radius: 50%;
+  width: 8vh;
+  height: 8vh;
 }
 
 .remainingNav {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .remainingNav li {
