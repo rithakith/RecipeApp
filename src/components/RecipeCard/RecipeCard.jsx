@@ -2,7 +2,7 @@ import React from "react";
 import "./RecipeCard.css";
 import { Link } from "react-router-dom";
 import useFetch from "../../Hooks/useFetch";
-import { Star } from "@phosphor-icons/react";
+import { Star, ArrowCircleRight, Heart } from "@phosphor-icons/react";
 
 const RecipeCard = ({ recipe }) => {
   console.log(recipe);
@@ -15,9 +15,9 @@ const RecipeCard = ({ recipe }) => {
       </div>
 
       <div id="card-container">
-        {/* <p>{recipe.owner}</p> */}
+        <p id="recipe-owner">{recipe.owner}</p>
 
-        <div>
+        <div id="card-container-top">
           <p id="recipe-name">{recipe.name}</p>
           <section>
             <Star size={20} color="#ffd700" weight="fill" />
@@ -25,26 +25,31 @@ const RecipeCard = ({ recipe }) => {
           </section>
         </div>
 
-        {recipe.category &&
-          recipe.category.map((cat) => {
-            return (
-              <>
-                <button
-                  onClick={() => {
-                    // setURL("http://localhost:3000/recipes?category=option3");
-                    setURL("http://localhost:3000/recipes");
-                  }}
-                  className="tags"
-                >
-                  {cat}
-                </button>
-              </>
-            );
-          })}
-        <br />
-        <Link to={`/recipes/${recipe.id}`}>
-          <button>View Recipe</button>
-        </Link>
+        <div>
+          {recipe.category &&
+            recipe.category.map((cat) => {
+              return (
+                <>
+                  <button
+                    onClick={() => {
+                      // setURL("http://localhost:3000/recipes?category=option3");
+                      setURL("http://localhost:3000/recipes");
+                    }}
+                    className="tags"
+                  >
+                    {cat}
+                  </button>
+                </>
+              );
+            })}
+        </div>
+
+        <div id="card-button-section">
+          <Heart size={32} color="#509e2f" />
+          <Link to={`/recipes/${recipe.id}`}>
+            <ArrowCircleRight size={32} color="#509e2f" weight="fill" />
+          </Link>
+        </div>
       </div>
     </div>
   );

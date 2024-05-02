@@ -2,6 +2,7 @@
   padding: 0.5rem 2rem;
   border-radius: 5px;
   box-shadow: 1px 2px 7px 0px rgba(0, 0, 0, 0.75);
+  margin: 10px 10px 1.5rem;
 }
 
 #navUL {
@@ -55,11 +56,11 @@
   text-underline-offset: 5px; /* Adjust the value as needed */
 }
 
-#loginButtonNavbar{
+#loginButtonNavbar {
   background-color: green;
   color: white;
   border: "none";
-  opacity:0.9;
+  opacity: 0.9;
 }
 
 #loginButtonNavbar:hover {

@@ -1,6 +1,10 @@
+#recipe-collection-container {
+  width: 98%;
+  margin: 0 auto;
+}
 #collection-container {
   display: flex;
   flex-wrap: wrap;
-  gap: 2vw;
+  gap: 1vw;
   width: fit-content;
 }
