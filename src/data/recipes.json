@@ -3,13 +3,11 @@
     {
       "id": 1,
       "name": "Crock Pot Roast",
-      "owner": "John",
       "category": ["option1"],
-      
       "ingredients": [
         {
           "quantity": "1",
-          "name": " beef roast",
+          "name": "beef roast",
           "type": "Meat"
         },
         {
@@ -40,18 +38,16 @@
         "Cook on low for 7-9 hours."
       ],
       "timers": [0, 0, 0, 420],
-      "imageURL": "http://img.sndimg.com/food/image/upload/w_266/v1/img/recipes/27/20/8/picVfzLZo.jpg",
-      "originalURL": "http://www.food.com/recipe/to-die-for-crock-pot-roast-27208"
+      "imageURL": "http://img.sndimg.com/food/image/upload/w_266/v1/img/recipes/27/20/8/picVfzLZo.jpg"
     },
     {
       "id": 2,
       "name": "Roasted Asparagus",
-      "owner": "John",
       "category": ["option2"],
       "ingredients": [
         {
           "quantity": "1 lb",
-          "name": " asparagus",
+          "name": "asparagus",
           "type": "Produce"
         },
         {
@@ -68,7 +64,7 @@
       "steps": [
         "Preheat oven to 425°F.",
         "Cut off the woody bottom part of the asparagus spears and discard.",
-        "With a vegetable peeler, peel off the skin on the bottom 2-3 inches of the spears (this keeps the asparagus from being all.\",string.\", and if you eat asparagus you know what I mean by that).",
+        "With a vegetable peeler, peel off the skin on the bottom 2-3 inches of the spears.",
         "Place asparagus on foil-lined baking sheet and drizzle with olive oil.",
         "Sprinkle with salt.",
         "With your hands, roll the asparagus around until they are evenly coated with oil and salt.",
@@ -78,15 +74,12 @@
         "They are great plain, but sometimes I serve them with a light vinaigrette if we need something acidic to balance out our meal."
       ],
       "timers": [0, 0, 0, 0, 0, 0, 10, 0, 0, 0],
-      "imageURL": "http://img.sndimg.com/food/image/upload/w_266/v1/img/recipes/50/84/7/picMcSyVd.jpg",
-      "originalURL": "http://www.food.com/recipe/roasted-asparagus-50847"
+      "imageURL": "http://img.sndimg.com/food/image/upload/w_266/v1/img/recipes/50/84/7/picMcSyVd.jpg"
     },
     {
       "id": 3,
       "name": "Curried Lentils and Rice",
-      "owner": "John",
       "category": ["option3"],
-
       "ingredients": [
         {
           "quantity": "1 quart",
@@ -127,9 +120,7 @@
     {
       "id": 4,
       "name": "Big Night Pizza",
-      "owner": "John",
       "category": ["option3"],
-
       "ingredients": [
         {
           "quantity": "5 teaspoons",
@@ -183,6 +174,254 @@
       ],
       "timers": [15, 60, 0, 0, 0, 15, 0],
       "imageURL": "http://upload.wikimedia.org/wikipedia/commons/c/c7/Spinach_pizza.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Grilled Steak",
+      "category": ["option1"],
+      "ingredients": [
+        {
+          "quantity": "1",
+          "name": "beef steak",
+          "type": "Meat"
+        },
+        {
+          "quantity": "1/2 cup",
+          "name": "barbecue sauce",
+          "type": "Condiments"
+        },
+        {
+          "quantity": "1 tsp",
+          "name": "garlic powder",
+          "type": "Condiments"
+        },
+        {
+          "quantity": "1 tsp",
+          "name": "black pepper",
+          "type": "Condiments"
+        }
+      ],
+      "steps": [
+        "Marinate beef steak with barbecue sauce, garlic powder, and black pepper for 30 minutes.",
+        "Grill the steak over medium heat until desired doneness.",
+        "Let it rest for 5 minutes before slicing.",
+        "Serve hot and enjoy!"
+      ],
+      "timers": [30, 0, 0, 0],
+      "imageURL": "https://hips.hearstapps.com/hmg-prod/images/how-to-grill-steak-1653399983.jpeg"
+    },
+    {
+      "id": 6,
+      "name": "Chicken Alfredo Pasta",
+      "category": ["option2"],
+      "ingredients": [
+        {
+          "quantity": "2 cups",
+          "name": "penne pasta",
+          "type": "Pasta"
+        },
+        {
+          "quantity": "1 lb",
+          "name": "chicken breast",
+          "type": "Meat"
+        },
+        {
+          "quantity": "1 cup",
+          "name": "broccoli florets",
+          "type": "Produce"
+        },
+        {
+          "quantity": "1/2 cup",
+          "name": "heavy cream",
+          "type": "Dairy"
+        },
+        {
+          "quantity": "1/2 cup",
+          "name": "parmesan cheese",
+          "type": "Dairy"
+        }
+      ],
+      "steps": [
+        "Cook penne pasta according to package instructions.",
+        "Season chicken breast with salt and pepper, then grill until cooked through.",
+        "Steam broccoli until tender-crisp.",
+        "In a saucepan, heat heavy cream and parmesan cheese until cheese is melted and sauce is smooth.",
+        "Slice chicken breast into strips.",
+        "Combine cooked pasta, broccoli, sliced chicken, and creamy sauce.",
+        "Serve hot and enjoy!"
+      ],
+      "timers": [0, 0, 0, 0, 0, 0],
+      "imageURL": "https://www.budgetbytes.com/wp-content/uploads/2022/07/Chicken-Alfredo-above.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Grilled Salmon with Honey Soy",
+      "category": ["option3"],
+      "ingredients": [
+        {
+          "quantity": "1 lb",
+          "name": "salmon fillets",
+          "type": "Seafood"
+        },
+        {
+          "quantity": "2 tbsp",
+          "name": "soy sauce",
+          "type": "Condiments"
+        },
+        {
+          "quantity": "1 tbsp",
+          "name": "honey",
+          "type": "Condiments"
+        },
+        {
+          "quantity": "1 tsp",
+          "name": "minced garlic",
+          "type": "Produce"
+        },
+        {
+          "quantity": "1 tsp",
+          "name": "ginger",
+          "type": "Produce"
+        }
+      ],
+      "steps": [
+        "In a small bowl, mix together soy sauce, honey, minced garlic, and ginger.",
+        "Marinate salmon fillets in the mixture for at least 30 minutes.",
+        "Preheat grill to medium-high heat.",
+        "Grill salmon for 4-5 minutes per side, or until cooked through.",
+        "Serve hot and enjoy!"
+      ],
+      "timers": [30, 0, 0, 0, 0],
+      "imageURL": "https://carlsbadcravings.com/wp-content/uploads/2021/04/honey-glazed-salmon-6.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Garlic Grilled Shrimp",
+      "category": ["option1"],
+      "ingredients": [
+        {
+          "quantity": "1 lb",
+          "name": "shrimp",
+          "type": "Seafood"
+        },
+        {
+          "quantity": "2 tbsp",
+          "name": "olive oil",
+          "type": "Condiments"
+        },
+        {
+          "quantity": "1 tbsp",
+          "name": "minced garlic",
+          "type": "Produce"
+        },
+        {
+          "quantity": "1 tsp",
+          "name": "paprika",
+          "type": "Condiments"
+        },
+        {
+          "quantity": "1/2 tsp",
+          "name": "salt",
+          "type": "Condiments"
+        },
+        {
+          "quantity": "1/4 tsp",
+          "name": "black pepper",
+          "type": "Condiments"
+        }
+      ],
+      "steps": [
+        "In a bowl, mix together olive oil, minced garlic, paprika, salt, and black pepper.",
+        "Add shrimp to the bowl and toss to coat evenly.",
+        "Thread shrimp onto skewers.",
+        "Preheat grill to medium-high heat.",
+        "Grill shrimp for 2-3 minutes per side, or until pink and opaque.",
+        "Serve hot and enjoy!"
+      ],
+      "timers": [0, 0, 0, 0, 0],
+      "imageURL": "https://s23209.pcdn.co/wp-content/uploads/2018/07/Grilled-Garlic-Butter-ShrimpIMG_5629.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Grilled Soy Honey Sesame Chicken Thighs",
+      "category": ["option1"],
+      "ingredients": [
+        {
+          "quantity": "2",
+          "name": "chicken thighs",
+          "type": "Meat"
+        },
+        {
+          "quantity": "2 tbsp",
+          "name": "soy sauce",
+          "type": "Condiments"
+        },
+        {
+          "quantity": "1 tbsp",
+          "name": "honey",
+          "type": "Condiments"
+        },
+        {
+          "quantity": "1 tbsp",
+          "name": "rice vinegar",
+          "type": "Condiments"
+        },
+        {
+          "quantity": "1/2 tsp",
+          "name": "sesame oil",
+          "type": "Condiments"
+        }
+      ],
+      "steps": [
+        "In a bowl, whisk together soy sauce, honey, rice vinegar, and sesame oil.",
+        "Marinate chicken thighs in the mixture for at least 30 minutes.",
+        "Preheat grill to medium-high heat.",
+        "Grill chicken thighs for 6-7 minutes per side, or until cooked through.",
+        "Serve hot and enjoy!"
+      ],
+      "timers": [30, 0, 0, 0, 0],
+      "imageURL": "https://cafedelites.com/wp-content/uploads/2019/02/Honey-Soy-Chicken-IMAGE-3.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Grilled Pork Chops",
+      "category": ["option2"],
+      "ingredients": [
+        {
+          "quantity": "1 lb",
+          "name": "pork chops",
+          "type": "Meat"
+        },
+        {
+          "quantity": "1/4 cup",
+          "name": "balsamic vinegar",
+          "type": "Condiments"
+        },
+        {
+          "quantity": "2 tbsp",
+          "name": "honey",
+          "type": "Condiments"
+        },
+        {
+          "quantity": "1 tbsp",
+          "name": "dijon mustard",
+          "type": "Condiments"
+        },
+        {
+          "quantity": "1 tsp",
+          "name": "minced garlic",
+          "type": "Produce"
+        }
+      ],
+      "steps": [
+        "In a bowl, whisk together balsamic vinegar, honey, dijon mustard, and minced garlic.",
+        "Marinate pork chops in the mixture for at least 30 minutes.",
+        "Preheat grill to medium-high heat.",
+        "Grill pork chops for 5-6 minutes per side, or until cooked through.",
+        "Serve hot and enjoy!"
+      ],
+      "timers": [30, 0, 0, 0, 0],
+      "imageURL": "https://static01.nyt.com/images/2023/06/07/multimedia/02GRILL-BASICSrex2-pork-chops-mvzf/07GRILL-BASICSrex2-pork-chops-mvzf-superJumbo.jpg"
     }
   ]
 }
