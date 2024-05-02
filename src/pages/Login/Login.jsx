@@ -2,7 +2,7 @@ import React from 'react'
 
 import './Login.css'
 import Navbar from '../../components/Navbar/Navbar'
-import leftImg from '../../assets/images/loginImg.png'
+import leftImg from '../../assets/images/loginImg.jpeg'
 const Login = () => {
   return (
     <>
@@ -36,7 +36,7 @@ const Login = () => {
             </div>
           </form>
           Don't have an account? then 
-          <span id="SignupSpan"> <a href="'/signup" id="signupButton"> Sign up</a></span>
+          <span id="SignupSpan"> <a href="/signup" id="signupButton"> Sign up</a></span>
         </div>
       </div>
     </div>
