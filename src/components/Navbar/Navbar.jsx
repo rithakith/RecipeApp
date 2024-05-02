@@ -9,11 +9,10 @@ const Navbar = () => {
       <nav className="navContainer">
         <ul id="navUL">
           <div className="logo">
-            <li>
-              <Link to={"/"}>
-                <img src={logo} alt="logo" />
-              </Link>
-            </li>
+            <Link to={"/"}>
+              <img src={logo} alt="logo" />
+            </Link>
+            <p></p>
           </div>
 
           <div className="remainingNav">
