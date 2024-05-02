@@ -3,6 +3,7 @@
     {
       "id": 1,
       "name": "Crock Pot Roast",
+      "owner": "John",
       "category": ["option1"],
       "ingredients": [
         {
@@ -43,6 +44,7 @@
     {
       "id": 2,
       "name": "Roasted Asparagus",
+      "owner": "John",
       "category": ["option2"],
       "ingredients": [
         {
@@ -79,6 +81,7 @@
     {
       "id": 3,
       "name": "Curried Lentils and Rice",
+      "owner": "John",
       "category": ["option3"],
       "ingredients": [
         {
@@ -120,6 +123,7 @@
     {
       "id": 4,
       "name": "Big Night Pizza",
+      "owner": "John",
       "category": ["option3"],
       "ingredients": [
         {
@@ -178,6 +182,7 @@
     {
       "id": 5,
       "name": "Grilled Steak",
+      "owner": "John",
       "category": ["option1"],
       "ingredients": [
         {
@@ -213,6 +218,7 @@
     {
       "id": 6,
       "name": "Chicken Alfredo Pasta",
+      "owner": "Anna",
       "category": ["option2"],
       "ingredients": [
         {
@@ -256,6 +262,7 @@
     {
       "id": 7,
       "name": "Grilled Salmon with Honey Soy",
+      "owner": "Anna",
       "category": ["option3"],
       "ingredients": [
         {
@@ -297,6 +304,7 @@
     {
       "id": 8,
       "name": "Garlic Grilled Shrimp",
+      "owner": "Anna",
       "category": ["option1"],
       "ingredients": [
         {
@@ -344,6 +352,7 @@
     {
       "id": 9,
       "name": "Grilled Soy Honey Sesame Chicken Thighs",
+      "owner": "Anna",
       "category": ["option1"],
       "ingredients": [
         {
@@ -385,6 +394,7 @@
     {
       "id": 10,
       "name": "Grilled Pork Chops",
+      "owner": "Anna",
       "category": ["option2"],
       "ingredients": [
         {
