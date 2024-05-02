@@ -2,12 +2,13 @@
     width: 60%;
     margin: 0 auto;
     display: flex;
-    height: 1000px;
+    height: 700px;
     /* align-items: center; */
     flex-direction: column;
     justify-content: center;
     box-shadow: 1px 1cap 26px 0px rgba(0, 0, 0, 0.75);
-    margin-top: 100px;
+    margin-top:50px;
+    margin-bottom: 50px;
   
   }
   h1 {
@@ -15,15 +16,15 @@
     text-align: center;
     color: green;
   }
-  .fullname,
+
   .collection {
     margin: 10px 50px;
     display: flex;
     justify-content: space-between;
   }
   
-  .firstnameDiv,
-  .lastnameDiv,
+
+  
   .ageDiv,
   .genderDiv {
     width: 45%;
@@ -38,7 +39,7 @@
   }
   
   .emailDiv,
-  .contactNoDiv,
+
   .usernameDiv,
   .passwordDivSignup {
     margin: 10px 50px;
