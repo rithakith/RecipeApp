@@ -60,7 +60,7 @@ const Signup = () => {
             <input type="text" name="" id="username" placeholder="username" />
           </label>
         </div>
-        <div class="passwordDivSignup">
+        <div class="passwordDiv">
           <label for="password">
             Password:<br/>
             <input
