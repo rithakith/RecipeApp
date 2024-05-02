@@ -2,7 +2,7 @@ import React from 'react'
 
 import './Login.css'
 import Navbar from '../../components/Navbar/Navbar'
-import leftImg from '../../assets/images/loginImg.png'
+import leftImg from '../../assets/images/loginImg.jpeg'
 const Login = () => {
   return (
     <>

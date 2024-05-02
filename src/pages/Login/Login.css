@@ -16,7 +16,7 @@
 
 .leftLogin{
   height: 100%;
-  width: 40%;
+  width: 50%;
   background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)),url('./images/loginImg.png');
 }
 
@@ -29,7 +29,7 @@
 
 .rightLogin{
   height: 100%;
-  width: 60%;
+  width: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
