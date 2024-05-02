@@ -1,6 +1,7 @@
 import React from "react";
 import "./Navbar.css";
 import { Link } from "react-router-dom";
+import logo from "../../assets/Gemini_Generated_Image_jsac2kjsac2kjsac.jpeg";
 
 const Navbar = () => {
   return (
@@ -10,7 +11,9 @@ const Navbar = () => {
           <ul id="navUL">
             <div className="logo">
               <li>
-                <Link to={"/"}>LOGO</Link>
+                <Link to={"/"}>
+                  <img src={logo} alt="logo" />
+                </Link>
               </li>
             </div>
             <div className="remainingNav">
@@ -32,7 +35,9 @@ const Navbar = () => {
                   border: "none",
                 }}
               >
-                <Link to={"/login"} style={{color:"white"}}>Login</Link>
+                <Link to={"/login"} style={{ color: "white" }}>
+                  Login
+                </Link>
               </li>
             </div>
           </ul>
