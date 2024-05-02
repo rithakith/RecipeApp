@@ -1,0 +1,64 @@
+.containerSignup {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    height: 1000px;
+    /* align-items: center; */
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 1px 1cap 26px 0px rgba(0, 0, 0, 0.75);
+    margin-top: 100px;
+  
+  }
+  h1 {
+    margin-top: 50px;
+    text-align: center;
+    color: green;
+  }
+  .fullname,
+  .collection {
+    margin: 10px 50px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .firstnameDiv,
+  .lastnameDiv,
+  .ageDiv,
+  .genderDiv {
+    width: 45%;
+  }
+  
+  input,
+  #selectGender {
+    padding: 8px;
+    width: 100%;
+    margin: 10px 0;
+    font-size: 15px;
+  }
+  
+  .emailDiv,
+  .contactNoDiv,
+  .usernameDiv,
+  .passwordDiv {
+    margin: 10px 50px;
+  }
+  
+  #submitSignup {
+    width: 300px;
+    width: 30%;
+    height: 40px;
+    color: white;
+    border: none;
+    letter-spacing: 2px;
+    opacity: 0.8;
+    background-color: green;
+  }
+  
+  #submitSignup:hover {
+    opacity: 1;
+  }
+  
+  .submitSignupDiv {
+    margin: 20px 0;
+  }

@@ -26,7 +26,8 @@ const Navbar = () => {
                 Create Recipe
               </Link>
             </li>
-            <li>Signup</li>
+            <li> <Link to={'/signup'}>Signup</Link>
+              </li>
             <li
               style={{
                 backgroundColor: "green",
