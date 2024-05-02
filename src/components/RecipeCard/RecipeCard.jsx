@@ -1,6 +1,7 @@
 import React from "react";
 import "./RecipeCard.css";
 import { Link } from "react-router-dom";
+import useFetch from "../../Hooks/useFetch";
 
 const RecipeCard = ({ recipe }) => {
   console.log(recipe);
@@ -17,7 +18,9 @@ const RecipeCard = ({ recipe }) => {
             <>
               <button
                 onClick={() => {
-                  setURL("http://localhost:3000/recipes?category=option3");
+                  // setURL("http://localhost:3000/recipes?category=option3");
+                                    setURL("http://localhost:3000/recipes");
+
                 }}
                 className="tags"
               >
