@@ -15,12 +15,12 @@ const RecipeCard = ({ recipe }) => {
       </div>
 
       <div id="card-container">
-        <p>{recipe.owner}</p>
+        {/* <p>{recipe.owner}</p> */}
 
         <div>
           <p id="recipe-name">{recipe.name}</p>
           <section>
-            <Star size={32} color="#ffd700" weight="fill" />
+            <Star size={20} color="#ffd700" weight="fill" />
             <p>4.5</p>
           </section>
         </div>
