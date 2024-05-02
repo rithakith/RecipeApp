@@ -27,7 +27,7 @@ const Login = () => {
               <label for="password">
                 Password:
                 <br />
-                <input type="password" name="" id="password" placeholder="Password" />
+                <input type="password" name="" id="passwordLogin" placeholder="Password" />
               </label>
             </div>
 
