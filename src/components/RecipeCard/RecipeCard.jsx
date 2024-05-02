@@ -14,7 +14,9 @@ const RecipeCard = ({ recipe }) => {
       </div>
 
       <div id="card-container">
+        <p>{recipe.owner}</p>
         <p>{recipe.name}</p>
+
         {recipe.category &&
           recipe.category.map((cat) => {
             return (

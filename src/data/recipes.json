@@ -3,6 +3,7 @@
     {
       "id": 1,
       "name": "Crock Pot Roast",
+      "owner": "John",
       "category": ["option1"],
 
       "ingredients": [
@@ -45,6 +46,7 @@
     {
       "id": 2,
       "name": "Roasted Asparagus",
+      "owner": "John",
       "category": ["option2"],
       "ingredients": [
         {
@@ -82,6 +84,7 @@
     {
       "id": 3,
       "name": "Curried Lentils and Rice",
+      "owner": "John",
       "category": ["option3"],
 
       "ingredients": [
@@ -124,6 +127,7 @@
     {
       "id": 4,
       "name": "Big Night Pizza",
+      "owner": "John",
       "category": ["option3"],
 
       "ingredients": [
