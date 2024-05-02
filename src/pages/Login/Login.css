@@ -38,6 +38,7 @@
 
 h1{
   text-align: center;
+  color: green;
 }
 label{
   font-size: 30;
@@ -52,14 +53,14 @@ label{
 }
 
 .buttonsLogin{
-  display: flex;
-  justify-content: space-around;
+  /* display: flex;
+  justify-content: space-around; */
   margin-top: 20px ;
   margin-bottom: 30px;
 
 }
 
-#loginButton, #cancelButton{
+#loginButton{
   width: 30%;
   height: 40px;
   color: white;
@@ -70,14 +71,12 @@ label{
 }
 
 #loginButton{
-  background-color: #44115b;
+  background-color: #509e2f;
+  border-radius: 10px;
 }
 
-#cancelButton{
-  background-color: #670724;
-}
 
-#loginButton:hover, #cancelButton:hover{
+#loginButton:hover{
   opacity: 1;
 }
 
@@ -86,7 +85,7 @@ label{
 
 #signupButton{
   text-decoration: underline;
-  color: #44115b;
+  color: green;
   
 }
 
