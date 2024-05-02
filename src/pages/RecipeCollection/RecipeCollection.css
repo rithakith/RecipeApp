@@ -1,6 +1,6 @@
 #collection-container {
   display: flex;
   flex-wrap: wrap;
-  gap: 1rem;
+  gap: 2vw;
   width: fit-content;
 }
