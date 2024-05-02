@@ -39,6 +39,7 @@ const RecipeCollection = () => {
       {recipes &&
         recipes.map((recipe, index) => {
           return (
+            
             <RecipeCard key={index} recipe={recipe} />
           );
         })}
