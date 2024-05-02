@@ -50,22 +50,12 @@ const RecipeCollection = () => {
       {isPending && <div>Loading...</div>}
       {error && <div>{error}</div>}
 
-
       <div id="collection-container">
         {recipes &&
           recipes.map((recipe, index) => {
             return <RecipeCard key={index} recipe={recipe} />;
           })}
       </div>
-
-      {recipes &&
-        recipes.map((recipe, index) => {
-          return (
-            
-            <RecipeCard key={index} recipe={recipe} />
-          );
-        })}
-
     </>
   );
 };
