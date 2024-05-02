@@ -9,7 +9,7 @@ Currently, two official plugins are available:
 
 
 first in a terminal of the root folder just type
-  npm install json-server
+  npm install json-server -g
   json-server --watch src/data/recipes.json
 
 open another terminal to launch react

@@ -1,7 +1,7 @@
 import React from "react";
 import "./Navbar.css";
 import { Link } from "react-router-dom";
-import logo from "../../assets/Gemini_Generated_Image_jsac2kjsac2kjsac.jpeg";
+import logo from "../../assets/logo.jpeg";
 
 const Navbar = () => {
   return (
