@@ -28,14 +28,12 @@ const Navbar = () => {
             </li>
             <li> <Link to={'/signup'}>Signup</Link>
               </li>
-            <li
+            <li id="loginButtonNavbar"
               style={{
-                backgroundColor: "green",
-                color: "white",
-                border: "none",
+               
               }}
             >
-              <Link to={"/login"} style={{ color: "white" }}>
+              <Link to={"/login"}  style={{ color: "white"}}>
                 Login
               </Link>
             </li>
