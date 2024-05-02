@@ -2,6 +2,7 @@ import React from "react";
 import "./RecipeCard.css";
 import { Link } from "react-router-dom";
 import useFetch from "../../Hooks/useFetch";
+import { Star } from "@phosphor-icons/react";
 
 const RecipeCard = ({ recipe }) => {
   console.log(recipe);
@@ -15,7 +16,14 @@ const RecipeCard = ({ recipe }) => {
 
       <div id="card-container">
         <p>{recipe.owner}</p>
-        <p>{recipe.name}</p>
+
+        <div>
+          <p id="recipe-name">{recipe.name}</p>
+          <section>
+            <Star size={32} color="#ffd700" weight="fill" />
+            <p>4.5</p>
+          </section>
+        </div>
 
         {recipe.category &&
           recipe.category.map((cat) => {

@@ -20,3 +20,8 @@
   border-radius: 10px;
   border: 2px solid grey;
 }
+
+#recipe-name {
+  font-weight: 600;
+  color: #509e2f;
+}
