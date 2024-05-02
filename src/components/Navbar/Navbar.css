@@ -54,3 +54,15 @@
   text-decoration-thickness: 5px;
   text-underline-offset: 5px; /* Adjust the value as needed */
 }
+
+#loginButtonNavbar{
+  background-color: green;
+  color: white;
+  border: "none";
+  opacity:0.9;
+}
+
+#loginButtonNavbar:hover {
+  text-decoration: none;
+  opacity: 1;
+}
