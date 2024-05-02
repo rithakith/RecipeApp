@@ -21,6 +21,25 @@
   border: 2px solid grey;
 }
 
+#card-container {
+  padding: 0 0.5rem;
+}
+#card-container div {
+  display: flex;
+  justify-content: space-between;
+}
+
+#card-container div p {
+  margin: 0.5rem 0;
+}
+#card-container div section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.7rem;
+  color: grey;
+}
 #recipe-name {
   font-weight: 600;
   color: #509e2f;
