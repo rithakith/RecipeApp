@@ -33,7 +33,6 @@ const Login = () => {
 
             <div class="buttonsLogin">
               <input type="submit" value="Login" id="loginButton" />
-              <input type="submit" value="Cancel" id="cancelButton" />
             </div>
           </form>
           Don't have an account? then 
