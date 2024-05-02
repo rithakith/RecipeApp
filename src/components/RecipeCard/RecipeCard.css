@@ -1,9 +1,12 @@
 #recipeCard {
-  box-shadow: 0 0 5px grey;
-  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 0 0 5px 1px grey;
+  border-radius: 10px;
   padding: 1rem;
   margin: 1rem;
-  width: 40%;
+  width: 20rem;
 }
 
 #card-img {
@@ -11,5 +14,9 @@
 }
 
 #card-img img {
+  width: 100%;
+  height: 30vh;
   object-fit: cover;
+  border-radius: 10px;
+  border: 2px solid grey;
 }
