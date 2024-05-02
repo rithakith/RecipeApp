@@ -6,11 +6,13 @@ import useFetch from "../../Hooks/useFetch";
 const RecipeCard = ({ recipe }) => {
   console.log(recipe);
   return (
-    <div>
+    <div id="recipeCard">
       <h5>{recipe.id}</h5>
       <p>{recipe.name}</p>
 
-      <img src={recipe.imageURL} alt={recipe.name} />
+      <div id="card-img">
+        <img src={recipe.imageURL} alt={recipe.name} />
+      </div>
       <br />
       {recipe.category &&
         recipe.category.map((cat) => {
@@ -19,8 +21,7 @@ const RecipeCard = ({ recipe }) => {
               <button
                 onClick={() => {
                   // setURL("http://localhost:3000/recipes?category=option3");
-                                    setURL("http://localhost:3000/recipes");
-
+                  setURL("http://localhost:3000/recipes");
                 }}
                 className="tags"
               >
