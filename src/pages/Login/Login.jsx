@@ -9,10 +9,10 @@ const Login = () => {
     <Navbar/>
     <div class="containerLogin">
       <div class="leftLogin">
-        <img src={leftImg} alt="" />
+        <img src={leftImg} alt="" id='loginImg' />
       </div>
-      <div class="rightLogin">
-        <div class="contentLogin">
+      <div className="rightLogin">
+        <div className="contentLogin">
           <h1>Welcome Back!!</h1>
 
           <form action="">
