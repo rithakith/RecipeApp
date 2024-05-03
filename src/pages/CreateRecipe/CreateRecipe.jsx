@@ -11,7 +11,7 @@ const CreateRecipe = () => {
   const [newIngredient, setNewIngredient] = useState("");
   const [ingredients, setIngredients] = useState([]);
   const ingredientInput = useRef(null);
-  const stepInput = useStef(null);
+  const stepInput = useRef(null);
   const [category, setCategory] = useState("option1");
   const [owner, setOwner] = useState("");
   const [image, setImage] = useState("");
