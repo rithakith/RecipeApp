@@ -26,14 +26,12 @@ const Navbar = () => {
                 Create Recipe
               </Link>
             </li>
-            <li> <Link to={'/signup'}>Signup</Link>
-              </li>
-            <li id="loginButtonNavbar"
-              style={{
-               
-              }}
-            >
-              <Link to={"/login"}  style={{ color: "white"}}>
+            <li>
+              {" "}
+              <Link to={"/signup"}>Signup</Link>
+            </li>
+            <li id="loginButtonNavbar" style={{}}>
+              <Link to={"/login"} style={{ color: "white" }}>
                 Login
               </Link>
             </li>

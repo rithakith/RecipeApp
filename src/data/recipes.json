@@ -6,31 +6,13 @@
       "owner": "John",
       "category": ["option1"],
       "ingredients": [
-        {
-          "quantity": "1",
-          "name": "beef roast",
-          "type": "Meat"
-        },
-        {
-          "quantity": "1 package",
-          "name": "brown gravy mix",
-          "type": "Baking"
-        },
-        {
-          "quantity": "1 package",
-          "name": "dried Italian salad dressing mix",
-          "type": "Condiments"
-        },
-        {
-          "quantity": "1 package",
-          "name": "dry ranch dressing mix",
-          "type": "Condiments"
-        },
-        {
-          "quantity": "1/2 cup",
-          "name": "water",
-          "type": "Drinks"
-        }
+       
+          "1 beef roast Meat"
+        , "1 package brown gravy mix Baking"
+         
+       ,"1 package dried Italian salad dressing mix"
+        , "1 package dry ranch dressing mix","1/2 cup water"
+        
       ],
       "steps": [
         "Place beef roast in crock pot.",
@@ -47,21 +29,10 @@
       "owner": "John",
       "category": ["option2"],
       "ingredients": [
-        {
-          "quantity": "1 lb",
-          "name": "asparagus",
-          "type": "Produce"
-        },
-        {
-          "quantity": "1 1/2 tbsp",
-          "name": "olive oil",
-          "type": "Condiments"
-        },
-        {
-          "quantity": "1/2 tsp",
-          "name": "kosher salt",
-          "type": "Baking"
-        }
+    
+        "1 lb asparagus","1 1/2 tbsp olive oil",
+          "1/2 tsp kosher salt Baking"
+      
       ],
       "steps": [
         "Preheat oven to 425°F.",
@@ -84,31 +55,10 @@
       "owner": "John",
       "category": ["option3"],
       "ingredients": [
-        {
-          "quantity": "1 quart",
-          "name": "beef broth",
-          "type": "Misc"
-        },
-        {
-          "quantity": "1 cup",
-          "name": "dried green lentils",
-          "type": "Misc"
-        },
-        {
-          "quantity": "1/2 cup",
-          "name": "basmati rice",
-          "type": "Misc"
-        },
-        {
-          "quantity": "1 tsp",
-          "name": "curry powder",
-          "type": "Condiments"
-        },
-        {
-          "quantity": "1 tsp",
-          "name": "salt",
-          "type": "Condiments"
-        }
+         "1 quart beef broth", "1 cup dried green lentils"
+        ,"1/2 cup basmati rice",
+            "1 tsp curry powder" ,"1 tsp salt" 
+  
       ],
       "steps": [
         "Bring broth to a low boil.",
@@ -126,46 +76,13 @@
       "owner": "John",
       "category": ["option3"],
       "ingredients": [
-        {
-          "quantity": "5 teaspoons",
-          "name": "yeast",
-          "type": "Baking"
-        },
-        {
-          "quantity": "5 cups",
-          "name": "flour",
-          "type": "Baking"
-        },
-        {
-          "quantity": "4 tablespoons",
-          "name": "vegetable oil",
-          "type": "Baking"
-        },
-        {
-          "quantity": "2 tablespoons",
-          "name": "sugar",
-          "type": "Baking"
-        },
-        {
-          "quantity": "2 teaspoons",
-          "name": "salt",
-          "type": "Baking"
-        },
-        {
-          "quantity": "2 cups",
-          "name": "hot water",
-          "type": "Misc"
-        },
-        {
-          "quantity": "1/4 cup",
-          "name": "pizza sauce",
-          "type": "Misc"
-        },
-        {
-          "quantity": "3/4 cup",
-          "name": "mozzarella cheese",
-          "type": "Dairy"
-        }
+         "5 teaspoons yeast",
+            "5 cups flour",
+            "4 tablespoons vegetable oil" ,"2 tablespoons sugar",
+           "2 teaspoons salt",
+          "2 cups hot water",
+           "1/4 cup pizza sauce",
+          "3/4 cup mozzarella cheese" 
       ],
       "steps": [
         "Add hot water to yeast in a large bowl and let sit for 15 minutes.",
@@ -185,26 +102,10 @@
       "owner": "John",
       "category": ["option1"],
       "ingredients": [
-        {
-          "quantity": "1",
-          "name": "beef steak",
-          "type": "Meat"
-        },
-        {
-          "quantity": "1/2 cup",
-          "name": "barbecue sauce",
-          "type": "Condiments"
-        },
-        {
-          "quantity": "1 tsp",
-          "name": "garlic powder",
-          "type": "Condiments"
-        },
-        {
-          "quantity": "1 tsp",
-          "name": "black pepper",
-          "type": "Condiments"
-        }
+ "beef steak Meat"
+       , "1/2 cup barbecue sauce",
+           "1 tsp garlic powder",
+          "1 tsp black pepper" 
       ],
       "steps": [
         "Marinate beef steak with barbecue sauce, garlic powder, and black pepper for 30 minutes.",
@@ -221,31 +122,8 @@
       "owner": "Anna",
       "category": ["option2"],
       "ingredients": [
-        {
-          "quantity": "2 cups",
-          "name": "penne pasta",
-          "type": "Pasta"
-        },
-        {
-          "quantity": "1 lb",
-          "name": "chicken breast",
-          "type": "Meat"
-        },
-        {
-          "quantity": "1 cup",
-          "name": "broccoli florets",
-          "type": "Produce"
-        },
-        {
-          "quantity": "1/2 cup",
-          "name": "heavy cream",
-          "type": "Dairy"
-        },
-        {
-          "quantity": "1/2 cup",
-          "name": "parmesan cheese",
-          "type": "Dairy"
-        }
+         "2 cups penne pasta" , "chicken breast Meat", "1 cup broccoli florets",
+           "1/2 cup heavy cream" ,"1/2 cup parmesan cheese" 
       ],
       "steps": [
         "Cook penne pasta according to package instructions.",
@@ -265,31 +143,9 @@
       "owner": "Anna",
       "category": ["option3"],
       "ingredients": [
-        {
-          "quantity": "1 lb",
-          "name": "salmon fillets",
-          "type": "Seafood"
-        },
-        {
-          "quantity": "2 tbsp",
-          "name": "soy sauce",
-          "type": "Condiments"
-        },
-        {
-          "quantity": "1 tbsp",
-          "name": "honey",
-          "type": "Condiments"
-        },
-        {
-          "quantity": "1 tsp",
-          "name": "minced garlic",
-          "type": "Produce"
-        },
-        {
-          "quantity": "1 tsp",
-          "name": "ginger",
-          "type": "Produce"
-        }
+         "1 lb salmon fillets" , "2 tbsp soy sauce", "1 tbsp honey",
+          "1 tsp minced garlic" , "1 tsp ginger" 
+ 
       ],
       "steps": [
         "In a small bowl, mix together soy sauce, honey, minced garlic, and ginger.",
@@ -307,36 +163,11 @@
       "owner": "Anna",
       "category": ["option1"],
       "ingredients": [
-        {
-          "quantity": "1 lb",
-          "name": "shrimp",
-          "type": "Seafood"
-        },
-        {
-          "quantity": "2 tbsp",
-          "name": "olive oil",
-          "type": "Condiments"
-        },
-        {
-          "quantity": "1 tbsp",
-          "name": "minced garlic",
-          "type": "Produce"
-        },
-        {
-          "quantity": "1 tsp",
-          "name": "paprika",
-          "type": "Condiments"
-        },
-        {
-          "quantity": "1/2 tsp",
-          "name": "salt",
-          "type": "Condiments"
-        },
-        {
-          "quantity": "1/4 tsp",
-          "name": "black pepper",
-          "type": "Condiments"
-        }
+        "1 lb shrimp" , "2 tbsp olive oil",
+            "1 tbsp minced garlic",
+           "1 tsp paprika",
+            "1/2 tsp salt" ,"1/4 tsp black pepper"
+         
       ],
       "steps": [
         "In a bowl, mix together olive oil, minced garlic, paprika, salt, and black pepper.",
@@ -355,31 +186,12 @@
       "owner": "Anna",
       "category": ["option1"],
       "ingredients": [
-        {
-          "quantity": "2",
-          "name": "chicken thighs",
-          "type": "Meat"
-        },
-        {
-          "quantity": "2 tbsp",
-          "name": "soy sauce",
-          "type": "Condiments"
-        },
-        {
-          "quantity": "1 tbsp",
-          "name": "honey",
-          "type": "Condiments"
-        },
-        {
-          "quantity": "1 tbsp",
-          "name": "rice vinegar",
-          "type": "Condiments"
-        },
-        {
-          "quantity": "1/2 tsp",
-          "name": "sesame oil",
-          "type": "Condiments"
-        }
+         "2 chicken thighs",
+           "2 tbsp soy sauce",
+          "1 tbsp honey",
+            "1 tbsp rice vinegar",
+          "1/2 tsp sesame oil" 
+           
       ],
       "steps": [
         "In a bowl, whisk together soy sauce, honey, rice vinegar, and sesame oil.",
@@ -397,31 +209,12 @@
       "owner": "Anna",
       "category": ["option2"],
       "ingredients": [
-        {
-          "quantity": "1 lb",
-          "name": "pork chops",
-          "type": "Meat"
-        },
-        {
-          "quantity": "1/4 cup",
-          "name": "balsamic vinegar",
-          "type": "Condiments"
-        },
-        {
-          "quantity": "2 tbsp",
-          "name": "honey",
-          "type": "Condiments"
-        },
-        {
-          "quantity": "1 tbsp",
-          "name": "dijon mustard",
-          "type": "Condiments"
-        },
-        {
-          "quantity": "1 tsp",
-          "name": "minced garlic",
-          "type": "Produce"
-        }
+         "pork chops",
+           "1/4 cup balsamic vinegar",
+            "2 tbsp honey",
+            "1 tbsp dijon mustard",
+           "1 tsp minced garlic"
+          
       ],
       "steps": [
         "In a bowl, whisk together balsamic vinegar, honey, dijon mustard, and minced garlic.",
@@ -432,6 +225,14 @@
       ],
       "timers": [30, 0, 0, 0, 0],
       "imageURL": "https://static01.nyt.com/images/2023/06/07/multimedia/02GRILL-BASICSrex2-pork-chops-mvzf/07GRILL-BASICSrex2-pork-chops-mvzf-superJumbo.jpg"
+    },
+    {
+      "name": "dfsdf",
+      "owner": "fdsfdfs",
+      "category": ["option1"],
+      "ingredients": ["fdfdsfsf"],
+      "steps": ["dfsdfdsfsdf"],
+      "imageURL": "https://static01.nyt.com/images/2023/06/07/multimedia/02GRILL-BASICSrex2-pork-chops-mvzf/07GRILL-BASICSrex2-pork-chops-mvzf-superJumbo.jpg",      "id": 11
     }
   ]
 }
