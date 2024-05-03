@@ -19,42 +19,44 @@ const RecipeCollection = () => {
   return (
     <>
       <Navbar />
-      <br />
-      <button
-        onClick={() => handleButtonClick("http://localhost:3000/recipes")}
-      >
-        All
-      </button>
-      <button
-        onClick={() =>
-          handleButtonClick("http://localhost:3000/recipes?category=option1")
-        }
-      >
-        Option 1
-      </button>
-      <button
-        onClick={() =>
-          handleButtonClick("http://localhost:3000/recipes?category=option2")
-        }
-      >
-        Option 2
-      </button>
-      <button
-        onClick={() =>
-          handleButtonClick("http://localhost:3000/recipes?category=option3")
-        }
-      >
-        Option 3
-      </button>
 
-      {isPending && <div>Loading...</div>}
-      {error && <div>{error}</div>}
+      <div id="recipe-collection-container">
+        <button
+          onClick={() => handleButtonClick("http://localhost:3000/recipes")}
+        >
+          All
+        </button>
+        <button
+          onClick={() =>
+            handleButtonClick("http://localhost:3000/recipes?category=option1")
+          }
+        >
+          Option 1
+        </button>
+        <button
+          onClick={() =>
+            handleButtonClick("http://localhost:3000/recipes?category=option2")
+          }
+        >
+          Option 2
+        </button>
+        <button
+          onClick={() =>
+            handleButtonClick("http://localhost:3000/recipes?category=option3")
+          }
+        >
+          Option 3
+        </button>
 
-      <div id="collection-container">
-        {recipes &&
-          recipes.map((recipe, index) => {
-            return <RecipeCard key={index} recipe={recipe} />;
-          })}
+        {isPending && <div>Loading...</div>}
+        {error && <div>{error}</div>}
+
+        <div id="collection-container">
+          {recipes &&
+            recipes.map((recipe, index) => {
+              return <RecipeCard key={index} recipe={recipe} />;
+            })}
+        </div>
       </div>
     </>
   );

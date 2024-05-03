@@ -24,15 +24,18 @@
 #card-container {
   padding: 0 0.5rem;
 }
-#card-container div {
+
+#card-container-top {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 0.5rem;
 }
 
-#card-container div p {
-  margin: 0.5rem 0;
+#card-container-top p {
+  margin: 0;
 }
-#card-container div section {
+
+#card-container-top section {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -40,7 +43,14 @@
   font-size: 0.7rem;
   color: grey;
 }
+
 #recipe-name {
   font-weight: 600;
   color: #509e2f;
+}
+
+#recipe-owner {
+  margin: 0;
+  font-size: 0.5rem;
+  color: grey;
 }
