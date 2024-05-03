@@ -1,0 +1,68 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 0;
+  width: 100%;
+  height: 35vh;
+  padding: 10px 0;
+  background-color: #f8f9fa;
+  border-top: 1px solid #e9ecef;
+  margin-top: 20px;
+  margin-bottom: 0;
+  position: fixed;
+}
+
+.logo-section {
+  width: 35%;
+  font-size: 14px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.logo-section img {
+  width: 8vh;
+  height: 8vh;
+  border-radius: 50%;
+  box-shadow: 0px 5px 10px 1px rgb(87, 87, 87);
+}
+
+.company-menu{
+  padding: 0 10px;
+  font-size: 14px;
+  width: 15%;
+}
+
+.company-menu h3{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.company-menu ul{
+  list-style-type: none;
+  padding: 0;
+}
+
+.company-menu ul li{
+  margin: 5px 5px;
+  text-decoration: none;
+  color: black;
+}
+
+.resouces-menu{
+  width: 15%;
+  font-size: 14px;
+}
+
+.subscribe-section{
+  width: 35%;
+  font-size: 14px;
+  padding-right: 25px;
+}
+
+.subscribe-section img {
+  width: 8vh;
+  height: 8vh;
+  border-radius: 50%;
+  box-shadow: 0px 5px 10px 1px rgb(87, 87, 87);
+}
