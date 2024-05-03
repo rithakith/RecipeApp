@@ -12,7 +12,6 @@ const Home = () => {
   return (
     <>
       <Navbar />
-
       <div>Home</div>
       <Footer />
 
