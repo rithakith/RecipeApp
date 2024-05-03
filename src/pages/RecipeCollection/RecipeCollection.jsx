@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./RecipeCollection.css";
 import Navbar from "../../components/Navbar/Navbar";
+import Footer from "../../components/Footer/Footer";
 import RecipeCard from "../../components/RecipeCard/RecipeCard";
 import useFetch from "../../Hooks/useFetch";
 
@@ -58,6 +59,8 @@ const RecipeCollection = () => {
             })}
         </div>
       </div>
+
+      <Footer />
     </>
   );
 };
