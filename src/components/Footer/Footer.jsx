@@ -4,11 +4,9 @@ import "./Footer.css";
 import { Link } from "react-router-dom";
 import logo from "../../assets/logo.jpeg";
 
-
 const Footer = () => {
   return (
     <>
-
       <footer className="footer">
         <div className="logo-section">
           <img src={logo} alt="logo" />
@@ -53,10 +51,7 @@ const Footer = () => {
           <button>Subscribe</button>
         </div>
       </footer>
-      <div className="social-media">
-        
-      </div>
-      <div>Footer</div>
+      <div className="social-media"></div>
     </>
   );
 };
