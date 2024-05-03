@@ -1,11 +1,14 @@
 import React from "react";
 import "./Footer.css";
+
 import { Link } from "react-router-dom";
 import logo from "../../assets/logo.jpeg";
+
 
 const Footer = () => {
   return (
     <>
+
       <footer className="footer">
         <div className="logo-section">
           <img src={logo} alt="logo" />
@@ -53,6 +56,7 @@ const Footer = () => {
       <div className="social-media">
         
       </div>
+      <div>Footer</div>
     </>
   );
 };
