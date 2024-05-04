@@ -10,9 +10,10 @@ const Navbar = () => {
         <ul id="navUL">
           <div className="logo">
             <Link to={"/"}>
-              <img src={logo} alt="logo" />
+              <img src={logo} alt="logo" /> 
+              
             </Link>
-            <p></p>
+            <p>Cookpal</p>
           </div>
 
           <div className="remainingNav">
