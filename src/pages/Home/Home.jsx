@@ -1,4 +1,7 @@
 import React from "react";
+
+import './Home.css'
+
 import Navbar from "../../components/Navbar/Navbar";
 import Footer from "../../components/Footer/Footer";
 import { Carousel } from "bootstrap";
@@ -15,7 +18,7 @@ const Home = () => {
         <div id="home-container">
           <div id="home-section1">Carousel</div>
           <div id="tag-buttons">
-            <input type="button" value="Recipes and Menus" />
+            <input type="button" value="Recipes and Menus"  />
           </div>
         </div>
       </div>
