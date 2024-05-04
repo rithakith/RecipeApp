@@ -22,11 +22,6 @@ const Navbar = () => {
               </Link>
             </li>
             <li>
-              <Link to={"/newrecipe"} style={{ textDecoration: "none" }}>
-                Create Recipe
-              </Link>
-            </li>
-            <li>
               {" "}
               <Link to={"/signup"}>Signup</Link>
             </li>
