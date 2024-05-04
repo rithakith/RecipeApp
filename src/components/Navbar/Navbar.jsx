@@ -1,7 +1,7 @@
 import React from "react";
 import "./Navbar.css";
 import { Link } from "react-router-dom";
-import logo from "../../assets/logo.jpeg";
+import logo from "../../assets/images/logoFinal.png";
 
 const Navbar = () => {
   return (
@@ -10,8 +10,7 @@ const Navbar = () => {
         <ul id="navUL">
           <div className="logo">
             <Link to={"/"}>
-              <img src={logo} alt="logo" /> 
-              
+              <img src={logo} alt="logo" />
             </Link>
             <p>Cookpal</p>
           </div>
