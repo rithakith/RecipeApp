@@ -20,6 +20,7 @@ const RecipePage = () => {
         <h4>
           <u>Ingredients</u>
         </h4>
+        <p></p>
         <ul>
           {recipe.ingredients &&
             recipe.ingredients.map((ingredient, index) => {

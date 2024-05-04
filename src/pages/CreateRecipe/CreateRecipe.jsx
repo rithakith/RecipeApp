@@ -1,6 +1,7 @@
-import React, { useState, useRef } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import Navbar from "../../components/Navbar/Navbar";
 import useFetch from "../../Hooks/useFetch";
+import {useNavigate} from 'react-router-dom'
 
 import "./CreateRecipe.css";
 
@@ -15,6 +16,7 @@ const CreateRecipe = () => {
   const [category, setCategory] = useState("option1");
   const [owner, setOwner] = useState("");
   const [image, setImage] = useState("");
+  const history = useNavigate()
 
   const { postData, data, error } = useFetch(
     "http://localhost:3000/recipes",
@@ -64,6 +66,13 @@ const CreateRecipe = () => {
     setNewStep("");
     stepInput.current.focus();
   };
+
+  // redirect
+  useEffect(() => {
+    if(data){
+
+    }
+  }, [data]);
 
   return (
     <>
@@ -120,7 +129,6 @@ const CreateRecipe = () => {
                   }}
                   value={newIngredient}
                   ref={ingredientInput}
-
                 />
                 <button onClick={handleIngAdd}>Add</button>
               </label>
