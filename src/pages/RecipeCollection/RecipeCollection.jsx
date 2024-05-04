@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import {Link} from "react-router-dom";
 import "./RecipeCollection.css";
 import Navbar from "../../components/Navbar/Navbar";
 import Footer from "../../components/Footer/Footer";
@@ -48,6 +49,8 @@ const RecipeCollection = () => {
         >
           Option 3
         </button>
+        <span className="createRecipeBtn"><Link to={"/newrecipe"} style={{textDecoration:"none",color:"white"}}>+ Recipe</Link></span>
+
 
         {isPending && <div>Loading...</div>}
         {error && <div>{error}</div>}
