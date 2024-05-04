@@ -10,3 +10,17 @@
   justify-content: center;
   margin: 1.5rem 0;
 }
+
+.createRecipeBtn{
+  background-color: rgb(80, 158, 47);
+  color: white;
+  float: right;
+  margin-right: 50px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.createRecipeBtn:hover{
+  padding: 6px;
+  
+}
