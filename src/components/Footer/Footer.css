@@ -10,13 +10,13 @@
   border-top: 1px solid #e9ecef;
   margin-top: 20px;
   margin-bottom: 0;
-  position: fixed;
 }
 
 .logo-section {
   width: 35%;
   font-size: 14px;
-  padding-left: 40px;
+  padding-left: 100px;
+
 }
 
 .description {
@@ -108,15 +108,19 @@
   padding: 0 10px;
   border: 1px solid #ced4da;
   border-radius: 5px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
 }
 
 .subscribe-section button {
-  width: 30%;
+  width: 25%;
   height: 40px;
   margin: 10px 0;
   padding: 0 10px;
   border: 1px solid #ced4da;
   border-radius: 5px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
   background-color: #509e2f;
   color: white;
 }

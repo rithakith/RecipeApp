@@ -239,15 +239,6 @@
       ],
       "timers": [30, 0, 0, 0, 0],
       "imageURL": "https://static01.nyt.com/images/2023/06/07/multimedia/02GRILL-BASICSrex2-pork-chops-mvzf/07GRILL-BASICSrex2-pork-chops-mvzf-superJumbo.jpg"
-    },
-    {
-      "name": "dfsdf",
-      "owner": "fdsfdfs",
-      "category": ["option1"],
-      "ingredients": ["fdfdsfsf"],
-      "steps": ["dfsdfdsfsdf"],
-      "imageURL": "https://static01.nyt.com/images/2023/06/07/multimedia/02GRILL-BASICSrex2-pork-chops-mvzf/07GRILL-BASICSrex2-pork-chops-mvzf-superJumbo.jpg",
-      "id": 11
     }
   ]
 }
