@@ -7,7 +7,7 @@ import RecipePage from "./pages/RecipePage/RecipePage";
 import CreateRecipe from "./pages/CreateRecipe/CreateRecipe";
 import Login from "./pages/Login/Login";
 import Signup from "./pages/SignUp/Signup";
-import "bootstrap/dist/css/bootstrap.min.css";
+// import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (

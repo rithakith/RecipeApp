@@ -2,11 +2,11 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  box-shadow: 0 0 5px 1px grey;
+  box-shadow: 0 0 2px 1px grey;
   border-radius: 10px;
   padding: 1rem;
   margin: 1rem;
-  width: 20rem;
+  width: 19rem;
 }
 
 #card-img {
@@ -42,15 +42,30 @@
   gap: 0.5rem;
   font-size: 0.7rem;
   color: grey;
+  padding-right: 5px;
 }
 
 #recipe-name {
+  font-size: 1rem;
   font-weight: 600;
   color: #509e2f;
 }
 
 #recipe-owner {
-  margin: 0;
-  font-size: 0.5rem;
+  margin: 8px 0 0;
+  font-size: 0.6rem;
   color: grey;
+  line-height: 0.5rem;
+}
+
+#card-container-bottom {
+  margin-top: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#recipe-time {
+  color: #0a6847;
+  font-weight: 600;
 }

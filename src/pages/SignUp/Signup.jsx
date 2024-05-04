@@ -16,7 +16,7 @@ const Signup = () => {
           Username:
           <label for="username">
             <br />
-            <input type="text" name="" id="username" placeholder="username" />
+            <input type="text" name="" id="username" placeholder="username"  />
           </label>
         </div>
 

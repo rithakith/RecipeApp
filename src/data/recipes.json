@@ -4,15 +4,15 @@
       "id": 1,
       "name": "Crock Pot Roast",
       "owner": "John",
+      "time": "40 min",
       "category": ["option1"],
       "ingredients": [
-       
-          "1 beef roast Meat"
-        , "1 package brown gravy mix Baking"
-         
-       ,"1 package dried Italian salad dressing mix"
-        , "1 package dry ranch dressing mix","1/2 cup water"
-        
+        "1 beef roast Meat",
+        "1 package brown gravy mix Baking",
+
+        "1 package dried Italian salad dressing mix",
+        "1 package dry ranch dressing mix",
+        "1/2 cup water"
       ],
       "steps": [
         "Place beef roast in crock pot.",
@@ -27,12 +27,12 @@
       "id": 2,
       "name": "Roasted Asparagus",
       "owner": "John",
+      "time": "40 min",
       "category": ["option2"],
       "ingredients": [
-    
-        "1 lb asparagus","1 1/2 tbsp olive oil",
-          "1/2 tsp kosher salt Baking"
-      
+        "1 lb asparagus",
+        "1 1/2 tbsp olive oil",
+        "1/2 tsp kosher salt Baking"
       ],
       "steps": [
         "Preheat oven to 425°F.",
@@ -53,12 +53,14 @@
       "id": 3,
       "name": "Curried Lentils and Rice",
       "owner": "John",
+      "time": "40 min",
       "category": ["option3"],
       "ingredients": [
-         "1 quart beef broth", "1 cup dried green lentils"
-        ,"1/2 cup basmati rice",
-            "1 tsp curry powder" ,"1 tsp salt" 
-  
+        "1 quart beef broth",
+        "1 cup dried green lentils",
+        "1/2 cup basmati rice",
+        "1 tsp curry powder",
+        "1 tsp salt"
       ],
       "steps": [
         "Bring broth to a low boil.",
@@ -74,15 +76,17 @@
       "id": 4,
       "name": "Big Night Pizza",
       "owner": "John",
+      "time": "40 min",
       "category": ["option3"],
       "ingredients": [
-         "5 teaspoons yeast",
-            "5 cups flour",
-            "4 tablespoons vegetable oil" ,"2 tablespoons sugar",
-           "2 teaspoons salt",
-          "2 cups hot water",
-           "1/4 cup pizza sauce",
-          "3/4 cup mozzarella cheese" 
+        "5 teaspoons yeast",
+        "5 cups flour",
+        "4 tablespoons vegetable oil",
+        "2 tablespoons sugar",
+        "2 teaspoons salt",
+        "2 cups hot water",
+        "1/4 cup pizza sauce",
+        "3/4 cup mozzarella cheese"
       ],
       "steps": [
         "Add hot water to yeast in a large bowl and let sit for 15 minutes.",
@@ -100,12 +104,13 @@
       "id": 5,
       "name": "Grilled Steak",
       "owner": "John",
+      "time": "40 min",
       "category": ["option1"],
       "ingredients": [
- "beef steak Meat"
-       , "1/2 cup barbecue sauce",
-           "1 tsp garlic powder",
-          "1 tsp black pepper" 
+        "beef steak Meat",
+        "1/2 cup barbecue sauce",
+        "1 tsp garlic powder",
+        "1 tsp black pepper"
       ],
       "steps": [
         "Marinate beef steak with barbecue sauce, garlic powder, and black pepper for 30 minutes.",
@@ -120,10 +125,14 @@
       "id": 6,
       "name": "Chicken Alfredo Pasta",
       "owner": "Anna",
+      "time": "40 min",
       "category": ["option2"],
       "ingredients": [
-         "2 cups penne pasta" , "chicken breast Meat", "1 cup broccoli florets",
-           "1/2 cup heavy cream" ,"1/2 cup parmesan cheese" 
+        "2 cups penne pasta",
+        "chicken breast Meat",
+        "1 cup broccoli florets",
+        "1/2 cup heavy cream",
+        "1/2 cup parmesan cheese"
       ],
       "steps": [
         "Cook penne pasta according to package instructions.",
@@ -141,11 +150,14 @@
       "id": 7,
       "name": "Grilled Salmon with Honey Soy",
       "owner": "Anna",
+      "time": "30 min",
       "category": ["option3"],
       "ingredients": [
-         "1 lb salmon fillets" , "2 tbsp soy sauce", "1 tbsp honey",
-          "1 tsp minced garlic" , "1 tsp ginger" 
- 
+        "1 lb salmon fillets",
+        "2 tbsp soy sauce",
+        "1 tbsp honey",
+        "1 tsp minced garlic",
+        "1 tsp ginger"
       ],
       "steps": [
         "In a small bowl, mix together soy sauce, honey, minced garlic, and ginger.",
@@ -161,13 +173,15 @@
       "id": 8,
       "name": "Garlic Grilled Shrimp",
       "owner": "Anna",
+      "time": "30 min",
       "category": ["option1"],
       "ingredients": [
-        "1 lb shrimp" , "2 tbsp olive oil",
-            "1 tbsp minced garlic",
-           "1 tsp paprika",
-            "1/2 tsp salt" ,"1/4 tsp black pepper"
-         
+        "1 lb shrimp",
+        "2 tbsp olive oil",
+        "1 tbsp minced garlic",
+        "1 tsp paprika",
+        "1/2 tsp salt",
+        "1/4 tsp black pepper"
       ],
       "steps": [
         "In a bowl, mix together olive oil, minced garlic, paprika, salt, and black pepper.",
@@ -184,14 +198,14 @@
       "id": 9,
       "name": "Grilled Soy Honey Sesame Chicken Thighs",
       "owner": "Anna",
+      "time": "30 min",
       "category": ["option1"],
       "ingredients": [
-         "2 chicken thighs",
-           "2 tbsp soy sauce",
-          "1 tbsp honey",
-            "1 tbsp rice vinegar",
-          "1/2 tsp sesame oil" 
-           
+        "2 chicken thighs",
+        "2 tbsp soy sauce",
+        "1 tbsp honey",
+        "1 tbsp rice vinegar",
+        "1/2 tsp sesame oil"
       ],
       "steps": [
         "In a bowl, whisk together soy sauce, honey, rice vinegar, and sesame oil.",
@@ -207,14 +221,14 @@
       "id": 10,
       "name": "Grilled Pork Chops",
       "owner": "Anna",
+      "time": "30 min",
       "category": ["option2"],
       "ingredients": [
-         "pork chops",
-           "1/4 cup balsamic vinegar",
-            "2 tbsp honey",
-            "1 tbsp dijon mustard",
-           "1 tsp minced garlic"
-          
+        "pork chops",
+        "1/4 cup balsamic vinegar",
+        "2 tbsp honey",
+        "1 tbsp dijon mustard",
+        "1 tsp minced garlic"
       ],
       "steps": [
         "In a bowl, whisk together balsamic vinegar, honey, dijon mustard, and minced garlic.",
@@ -225,14 +239,6 @@
       ],
       "timers": [30, 0, 0, 0, 0],
       "imageURL": "https://static01.nyt.com/images/2023/06/07/multimedia/02GRILL-BASICSrex2-pork-chops-mvzf/07GRILL-BASICSrex2-pork-chops-mvzf-superJumbo.jpg"
-    },
-    {
-      "name": "dfsdf",
-      "owner": "fdsfdfs",
-      "category": ["option1"],
-      "ingredients": ["fdfdsfsf"],
-      "steps": ["dfsdfdsfsdf"],
-      "imageURL": "https://static01.nyt.com/images/2023/06/07/multimedia/02GRILL-BASICSrex2-pork-chops-mvzf/07GRILL-BASICSrex2-pork-chops-mvzf-superJumbo.jpg",      "id": 11
     }
   ]
 }
