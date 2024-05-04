@@ -14,7 +14,6 @@ const Home = () => {
       <div id="home">
         <div id="home-container">
           <div id="home-section1">Carousel</div>
-
           <div id="tag-buttons">
             <input type="button" value="Recipes and Menus" />
           </div>

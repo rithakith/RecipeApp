@@ -30,7 +30,7 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-        <div className="resouces-menu">
+        <div className="resources-menu">
           <h3>Resources</h3>
           <ul>
             <li>
