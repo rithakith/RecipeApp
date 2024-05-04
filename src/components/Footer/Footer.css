@@ -1,0 +1,121 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 0;
+  width: 100%;
+  height: 35vh;
+  padding: 10px 0;
+  background-color: #f8f9fa;
+  border-top: 1px solid #e9ecef;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+.logo-section {
+  width: 35%;
+  font-size: 14px;
+  padding-left: 40px;
+}
+
+.description {
+  font-size: 14px;
+  margin: 10px 0;
+  width: 80%;
+}
+
+.logo-section img {
+  width: 8vh;
+  height: 8vh;
+  border-radius: 50%;
+  box-shadow: 0px 5px 10px 1px rgb(87, 87, 87);
+}
+
+.company-menu{
+  font-size: 14px;
+  width: 15%;
+  padding: 0 10px;
+}
+
+.company-menu h3{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.company-menu ul{
+  list-style-type: none;
+  padding: 0;
+}
+
+.company-menu ul li{
+  margin: 5px 5px;
+}
+
+.company-menu ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.resources-menu{
+  width: 15%;
+  font-size: 14px;
+  padding: 0 10px;
+}
+
+.resources-menu h3{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.resources-menu ul{
+  list-style-type: none;
+  padding: 0;
+}
+
+.resources-menu ul li{
+  margin: 5px 5px;
+}
+
+.resources-menu ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.subscribe-section{
+  width: 35%;
+  font-size: 14px;
+  padding: 0 10px;
+  margin-right: 10px;
+}
+
+.subscribe-section p{
+  font-size: 12px;
+  margin: 10px 0;
+}
+
+.subscribe-section img {
+  width: 8vh;
+  height: 8vh;
+  border-radius: 50%;
+  box-shadow: 0px 5px 10px 1px rgb(87, 87, 87);
+}
+
+.subscribe-section input[type="email"] {
+  width: 60%;
+  height: 40px;
+  margin: 10px 0;
+  padding: 0 10px;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+}
+
+.subscribe-section button {
+  width: 30%;
+  height: 40px;
+  margin: 10px 0;
+  padding: 0 10px;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  background-color: #509e2f;
+  color: white;
+}
