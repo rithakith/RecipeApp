@@ -136,16 +136,21 @@
 
 .premium-option {
   width: 20vw;
-  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: fit-content;
   border-radius: 15px;
-  border: 2px solid #509e2f;
-  background-color: #cdffb8;
-  padding: 10px 20px;
+  /* border: 2px solid #509e2f; */
+  background-color: rgb(238, 238, 238);
+  padding: 1.2rem 1rem;
+  box-shadow: 0 0 3px 1px;
 }
 
 #premium-option-top {
   display: flex;
   gap: 1rem;
+  margin-left: 1rem;
 }
 
 #premium-option-top span {
@@ -164,4 +169,18 @@
 
 .premium-option ul {
   margin-top: 1rem;
+}
+
+.premium-option h3 {
+  text-align: center;
+  font-size: 3rem;
+}
+
+.premium-option input {
+  border: none;
+  border-radius: 10px;
+  width: 90%;
+  height: 6vh;
+  margin: 0 auto;
+  background-color: #509e2f;
 }
