@@ -5,9 +5,7 @@
       "name": "Crock Pot Roast",
       "owner": "Sofia Rossi",
       "time": "40",
-      "category": [
-        "Quick & Easy"
-      ],
+      "category": ["Quick & Easy"],
       "portions": 6,
       "last_update": "5/5/2024",
       "ingredients": [
@@ -23,12 +21,7 @@
         "Pour the water around the roast.",
         "Cook on low for 7-9 hours."
       ],
-      "timers": [
-        0,
-        0,
-        0,
-        420
-      ],
+      "timers": [0, 0, 0, 420],
       "imageURL": "http://img.sndimg.com/food/image/upload/w_266/v1/img/recipes/27/20/8/picVfzLZo.jpg"
     },
     {
@@ -36,9 +29,7 @@
       "name": "Roasted Asparagus",
       "owner": "Luca Bianchi",
       "time": "40",
-      "category": [
-        "Italian"
-      ],
+      "category": ["Italian"],
       "portions": 4,
       "last_update": "5/5/2024",
       "ingredients": [
@@ -58,18 +49,7 @@
         "The tips of the spears will get very brown but watch them to prevent burning.",
         "They are great plain, but sometimes I serve them with a light vinaigrette if we need something acidic to balance out our meal."
       ],
-      "timers": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        10,
-        0,
-        0,
-        0
-      ],
+      "timers": [0, 0, 0, 0, 0, 0, 10, 0, 0, 0],
       "imageURL": "http://img.sndimg.com/food/image/upload/w_266/v1/img/recipes/50/84/7/picMcSyVd.jpg"
     },
     {
@@ -77,9 +57,7 @@
       "name": "Curried Lentils and Rice",
       "owner": "Gianna Moretti",
       "time": "40",
-      "category": [
-        "Quick & Easy"
-      ],
+      "category": ["Quick & Easy"],
       "portions": 4,
       "last_update": "5/5/2024",
       "ingredients": [
@@ -96,13 +74,7 @@
         "Add rice and simmer for 20 minutes.",
         "Enjoy!"
       ],
-      "timers": [
-        0,
-        0,
-        20,
-        20,
-        0
-      ],
+      "timers": [0, 0, 20, 20, 0],
       "imageURL": "https://plus.unsplash.com/premium_photo-1699293238823-7f56fe53ae3e?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
@@ -110,9 +82,7 @@
       "name": "Big Night Pizza",
       "owner": "Marco Conti",
       "time": "40",
-      "category": [
-        "Italian"
-      ],
+      "category": ["Italian"],
       "portions": 8,
       "last_update": "5/5/2024",
       "ingredients": [
@@ -134,15 +104,7 @@
         "Bake at 400 deg Fahrenheit for 15 minutes.",
         "Enjoy!"
       ],
-      "timers": [
-        15,
-        60,
-        0,
-        0,
-        0,
-        15,
-        0
-      ],
+      "timers": [15, 60, 0, 0, 0, 15, 0],
       "imageURL": "http://upload.wikimedia.org/wikipedia/commons/c/c7/Spinach_pizza.jpg"
     },
     {
@@ -150,9 +112,7 @@
       "name": "Grilled Steak",
       "owner": "Alessia Romano",
       "time": "40",
-      "category": [
-        "Grilled"
-      ],
+      "category": ["Grilled"],
       "portions": 2,
       "last_update": "5/5/2024",
       "ingredients": [
@@ -167,12 +127,7 @@
         "Let it rest for 5 minutes before slicing.",
         "Serve hot and enjoy!"
       ],
-      "timers": [
-        30,
-        0,
-        0,
-        0
-      ],
+      "timers": [30, 0, 0, 0],
       "imageURL": "https://hips.hearstapps.com/hmg-prod/images/how-to-grill-steak-1653399983.jpeg"
     },
     {
@@ -180,9 +135,7 @@
       "name": "Chicken Alfredo Pasta",
       "owner": "Matteo Russo",
       "time": "40",
-      "category": [
-        "Italian"
-      ],
+      "category": ["Italian"],
       "portions": 4,
       "last_update": "5/5/2024",
       "ingredients": [
@@ -201,14 +154,7 @@
         "Combine cooked pasta, broccoli, sliced chicken, and creamy sauce.",
         "Serve hot and enjoy!"
       ],
-      "timers": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
+      "timers": [0, 0, 0, 0, 0, 0],
       "imageURL": "https://www.budgetbytes.com/wp-content/uploads/2022/07/Chicken-Alfredo-above.jpg"
     },
     {
@@ -216,9 +162,7 @@
       "name": "Grilled Salmon with Honey Soy",
       "owner": "Isabella Ferrari",
       "time": "30",
-      "category": [
-        "Grilled"
-      ],
+      "category": ["Grilled"],
       "portions": 4,
       "last_update": "5/5/2024",
       "ingredients": [
@@ -235,13 +179,7 @@
         "Grill salmon for 4-5 minutes per side, or until cooked through.",
         "Serve hot and enjoy!"
       ],
-      "timers": [
-        30,
-        0,
-        0,
-        0,
-        0
-      ],
+      "timers": [30, 0, 0, 0, 0],
       "imageURL": "https://carlsbadcravings.com/wp-content/uploads/2021/04/honey-glazed-salmon-6.jpg"
     },
     {
@@ -249,9 +187,7 @@
       "name": "Garlic Grilled Shrimp",
       "owner": "Giovanni Martini",
       "time": "30",
-      "category": [
-        "Grilled"
-      ],
+      "category": ["Grilled"],
       "portions": 4,
       "last_update": "5/5/2024",
       "ingredients": [
@@ -270,13 +206,7 @@
         "Grill shrimp for 2-3 minutes per side, or until pink and opaque.",
         "Serve hot and enjoy!"
       ],
-      "timers": [
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
+      "timers": [0, 0, 0, 0, 0],
       "imageURL": "https://s23209.pcdn.co/wp-content/uploads/2018/07/Grilled-Garlic-Butter-ShrimpIMG_5629.jpg"
     },
     {
@@ -284,9 +214,7 @@
       "name": "Grilled Soy Honey Sesame Chicken Thighs",
       "owner": "Chiara Ricci",
       "time": "30",
-      "category": [
-        "Grilled"
-      ],
+      "category": ["Grilled"],
       "portions": 4,
       "last_update": "5/5/2024",
       "ingredients": [
@@ -303,13 +231,7 @@
         "Grill chicken thighs for 6-7 minutes per side, or until cooked through.",
         "Serve hot and enjoy!"
       ],
-      "timers": [
-        30,
-        0,
-        0,
-        0,
-        0
-      ],
+      "timers": [30, 0, 0, 0, 0],
       "imageURL": "https://cafedelites.com/wp-content/uploads/2019/02/Honey-Soy-Chicken-IMAGE-3.jpg"
     },
     {
@@ -317,9 +239,7 @@
       "name": "Grilled Pork Chops",
       "owner": "Elena Ferri",
       "time": "30",
-      "category": [
-        "Grilled"
-      ],
+      "category": ["Grilled"],
       "portions": 2,
       "last_update": "5/5/2024",
       "ingredients": [
@@ -336,81 +256,49 @@
         "Grill pork chops for 5-6 minutes per side, or until cooked through.",
         "Serve hot and enjoy!"
       ],
-      "timers": [
-        30,
-        0,
-        0,
-        0,
-        0
-      ],
+      "timers": [30, 0, 0, 0, 0],
       "imageURL": "https://static01.nyt.com/images/2023/06/07/multimedia/02GRILL-BASICSrex2-pork-chops-mvzf/07GRILL-BASICSrex2-pork-chops-mvzf-superJumbo.jpg"
     },
     {
       "name": "fsdfs",
       "owner": "fdsfds",
-      "category": [
-        "option1"
-      ],
-      "ingredients": [
-        "fdsfsdf"
-      ],
-      "steps": [
-        "fsdfds"
-      ],
+      "category": ["option1"],
+      "ingredients": ["fdsfsdf"],
+      "steps": ["fsdfds"],
       "imageURL": "dsfdsfds",
       "id": "11"
     },
     {
       "name": "dsada",
       "owner": "dsadsad",
-      "category": [
-        "option1"
-      ],
-      "ingredients": [
-        "dsadsadsa"
-      ],
-      "steps": [
-        "sdadsad"
-      ],
+      "category": ["option1"],
+      "ingredients": ["dsadsadsa"],
+      "steps": ["sdadsad"],
       "imageURL": "ssadsadsa",
       "id": "12"
     },
     {
       "name": "dsada",
       "owner": "dsadsad",
-      "category": [
-        "option1"
-      ],
-      "ingredients": [
-        "dsadsadsa"
-      ],
-      "steps": [
-        "sdadsad"
-      ],
+      "category": ["option1"],
+      "ingredients": ["dsadsadsa"],
+      "steps": ["sdadsad"],
       "imageURL": "ssadsadsa",
       "id": "13"
     },
     {
       "name": "dsada",
       "owner": "dsadsad",
-      "category": [
-        "option1"
-      ],
-      "ingredients": [
-        "dsadsadsa"
-      ],
-      "steps": [
-        "sdadsad"
-      ],
+      "category": ["option1"],
+      "ingredients": ["dsadsadsa"],
+      "steps": ["sdadsad"],
       "imageURL": "ssadsadsa",
       "id": "14"
     },
     {
       "name": "",
       "owner": "",
-      "category": [
-        "option1"
-      ],
+      "category": ["option1"],
       "ingredients": [],
       "steps": [],
       "imageURL": "",
@@ -419,344 +307,11 @@
     {
       "name": "fdsa",
       "owner": "dsada",
-      "category": [
-        "option1"
-      ],
-      "ingredients": [
-        "sadsad"
-      ],
-      "steps": [
-        "dsada"
-      ],
+      "category": ["option1"],
+      "ingredients": ["sadsad"],
+      "steps": ["dsada"],
       "imageURL": "dsadad",
       "id": "16"
-    },
-    {
-      "id": "a1b6",
-      "name": "hii",
-      "owner": "hiii",
-      "category": [
-        "option1"
-      ],
-      "ingredients": [
-        "bdhu",
-        "vnefbuoil"
-      ],
-      "steps": [
-        "nvfrn",
-        "nvejiofnruitnbjilbuionbn",
-        "njfkelvrn",
-        "jmidlvnrh"
-      ],
-      "imageURL": "vfhemkoefvnui"
-    },
-    {
-      "id": "e6f9",
-      "name": "huiefnv",
-      "owner": "nvijefjl",
-      "category": [
-        "option1"
-      ],
-      "ingredients": [],
-      "steps": [],
-      "imageURL": "v ebth"
-    },
-    {
-      "id": "c75f",
-      "name": "hiofbrg",
-      "owner": "nvogir",
-      "category": [
-        "option1"
-      ],
-      "ingredients": [],
-      "steps": [],
-      "imageURL": "nhfvutnhl"
-    },
-    {
-      "id": "6a18",
-      "name": "hiofbrg",
-      "owner": "nvogir",
-      "category": [
-        "option1"
-      ],
-      "ingredients": [],
-      "steps": [],
-      "imageURL": "nhfvutnhl"
-    },
-    {
-      "id": "b817",
-      "name": "hiofbrg",
-      "owner": "nvogir",
-      "category": [
-        "option1"
-      ],
-      "ingredients": [],
-      "steps": [],
-      "imageURL": "nhfvutnhl"
-    },
-    {
-      "id": "e638",
-      "name": "hiofbrg",
-      "owner": "nvogir",
-      "category": [
-        "option1"
-      ],
-      "ingredients": [],
-      "steps": [],
-      "imageURL": "nhfvutnhl"
-    },
-    {
-      "id": "2217",
-      "name": "hiofbrg",
-      "owner": "nvogir",
-      "category": [
-        "option1"
-      ],
-      "ingredients": [],
-      "steps": [],
-      "imageURL": "nhfvutnhl"
-    },
-    {
-      "id": "47c5",
-      "name": "hiofbrg",
-      "owner": "nvogir",
-      "category": [
-        "option1"
-      ],
-      "ingredients": [],
-      "steps": [],
-      "imageURL": "nhfvutnhl"
-    },
-    {
-      "id": "f3b6",
-      "name": "hiofbrg",
-      "owner": "nvogir",
-      "category": [
-        "option1"
-      ],
-      "ingredients": [],
-      "steps": [],
-      "imageURL": "nhfvutnhl"
-    },
-    {
-      "id": "5ea4",
-      "name": "hiofbrg",
-      "owner": "nvogir",
-      "category": [
-        "option1"
-      ],
-      "ingredients": [],
-      "steps": [],
-      "imageURL": "nhfvutnhl"
-    },
-    {
-      "id": "8e90",
-      "name": "hiofbrg",
-      "owner": "nvogir",
-      "category": [
-        "option1"
-      ],
-      "ingredients": [],
-      "steps": [],
-      "imageURL": "nhfvutnhl"
-    },
-    {
-      "id": "d64d",
-      "name": "hiofbrg",
-      "owner": "nvogir",
-      "category": [
-        "option1"
-      ],
-      "ingredients": [],
-      "steps": [],
-      "imageURL": "nhfvutnhl"
-    },
-    {
-      "id": "a5f1",
-      "name": "uofvbru",
-      "owner": "nvjeinofji",
-      "category": [
-        "option1"
-      ],
-      "ingredients": [],
-      "steps": [],
-      "imageURL": "nvfrig"
-    },
-    {
-      "id": "d5f7",
-      "name": "uofvbru",
-      "owner": "nvjeinofji",
-      "category": [
-        "option1"
-      ],
-      "ingredients": [],
-      "steps": [],
-      "imageURL": "nvfrig"
-    },
-    {
-      "id": "4198",
-      "name": "uofvbru",
-      "owner": "nvjeinofji",
-      "category": [
-        "option1"
-      ],
-      "ingredients": [],
-      "steps": [],
-      "imageURL": "nvfrig"
-    },
-    {
-      "id": "dd94",
-      "name": "uofvbru",
-      "owner": "nvjeinofji",
-      "category": [
-        "option1"
-      ],
-      "ingredients": [],
-      "steps": [],
-      "imageURL": "nvfrig"
-    },
-    {
-      "id": "5761",
-      "name": "uofvbru",
-      "owner": "nvjeinofji",
-      "category": [
-        "option1"
-      ],
-      "ingredients": [],
-      "steps": [],
-      "imageURL": "nvfrig"
-    },
-    {
-      "id": "cc63",
-      "name": "uofvbru",
-      "owner": "nvjeinofji",
-      "category": [
-        "option1"
-      ],
-      "ingredients": [],
-      "steps": [],
-      "imageURL": "nvfrig"
-    },
-    {
-      "id": "b226",
-      "name": "uofvbru",
-      "owner": "nvjeinofji",
-      "category": [
-        "option1"
-      ],
-      "ingredients": [],
-      "steps": [],
-      "imageURL": "nvfrig"
-    },
-    {
-      "id": "a3f4",
-      "name": "uofvbru",
-      "owner": "nvjeinofji",
-      "category": [
-        "option1"
-      ],
-      "ingredients": [],
-      "steps": [],
-      "imageURL": "nvfrig"
-    },
-    {
-      "id": "d106",
-      "name": "uofvbru",
-      "owner": "nvjeinofji",
-      "category": [
-        "option1"
-      ],
-      "ingredients": [],
-      "steps": [],
-      "imageURL": "nvfrig"
-    },
-    {
-      "id": "8ad0",
-      "name": "njivfnrl",
-      "owner": "nvhfrbnhl",
-      "category": [
-        "option1"
-      ],
-      "ingredients": [],
-      "steps": [],
-      "imageURL": "nvhfubr"
-    },
-    {
-      "id": "be04",
-      "name": "njivfnrl",
-      "owner": "nvhfrbnhl",
-      "category": [
-        "option1"
-      ],
-      "ingredients": [],
-      "steps": [],
-      "imageURL": "nvhfubr"
-    },
-    {
-      "id": "8119",
-      "name": "njivfnrl",
-      "owner": "nvhfrbnhl",
-      "category": [
-        "option1"
-      ],
-      "ingredients": [],
-      "steps": [],
-      "imageURL": "nvhfubr"
-    },
-    {
-      "id": "8af4",
-      "name": "njivfnrl",
-      "owner": "nvhfrbnhl",
-      "category": [
-        "option1"
-      ],
-      "ingredients": [],
-      "steps": [],
-      "imageURL": "nvhfubr"
-    },
-    {
-      "id": "86eb",
-      "name": "njivfnrl",
-      "owner": "nvhfrbnhl",
-      "category": [
-        "option1"
-      ],
-      "ingredients": [],
-      "steps": [],
-      "imageURL": "nvhfubr"
-    },
-    {
-      "id": "02d9",
-      "name": "njivfnrl",
-      "owner": "nvhfrbnhl",
-      "category": [
-        "option1"
-      ],
-      "ingredients": [],
-      "steps": [],
-      "imageURL": "nvhfubr"
-    },
-    {
-      "id": "0d03",
-      "name": "njivfnrl",
-      "owner": "nvhfrbnhl",
-      "category": [
-        "option1"
-      ],
-      "ingredients": [],
-      "steps": [],
-      "imageURL": "nvhfubr"
-    },
-    {
-      "id": "96f7",
-      "name": "bjdongurof",
-      "owner": "nvjfrbijg;",
-      "category": [
-        "option1"
-      ],
-      "ingredients": [],
-      "steps": [],
-      "imageURL": "nvfrbgn"
     }
   ]
 }
