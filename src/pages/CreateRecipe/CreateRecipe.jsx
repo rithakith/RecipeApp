@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from "react";
 import Navbar from "../../components/Navbar/Navbar";
 import useFetch from "../../Hooks/useFetch";
-
+import Modal from "../../components/Modal/Modal";
 import "./CreateRecipe.css";
 import { Link, useNavigate } from "react-router-dom";
 
@@ -16,6 +16,7 @@ const CreateRecipe = () => {
   const [category, setCategory] = useState("option1");
   const [owner, setOwner] = useState("");
   const [image, setImage] = useState("");
+  const [showModal, setShowModal] = useState(false); // State for showing/hiding modal
   const navigate = useNavigate();
 
   const { postData, data, error } = useFetch(
@@ -48,7 +49,7 @@ const CreateRecipe = () => {
     setIngredients([]);
     setSteps([]);
     setOwner("");
-    
+    setShowModal(true); // Show modal after submitting
   };
 
   const handleIngAdd = (e) => {
@@ -62,6 +63,7 @@ const CreateRecipe = () => {
     setNewIngredient("");
     ingredientInput.current.focus();
   };
+  
   const handleStepAdd = (e) => {
     e.preventDefault();
     const step = newStep.trim();
@@ -79,7 +81,7 @@ const CreateRecipe = () => {
       <Navbar />
       <br />
       <form onSubmit={handleSubmit}>
-        <label>
+      <label>
           Recipe name:
           <input
             type="text"
@@ -177,13 +179,21 @@ const CreateRecipe = () => {
         <br />
         <br />
         <button
+          type="submit"
           onClick={() => {
-            handleSubmit;
+            handleSubmit();
           }}
         >
           Create New
         </button>
       </form>
+      {showModal && ( // Render modal only if showModal is true
+        <Modal>
+          <h2>Recipe Created Successfully!</h2>
+          <Link to={"/"}>Go Back</Link>
+          <button onClick={() => setShowModal(false)}>Close</button>
+        </Modal>
+      )}
     </>
   );
 };

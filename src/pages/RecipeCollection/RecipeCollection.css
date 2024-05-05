@@ -2,25 +2,54 @@
   width: 98%;
   margin: 0 auto;
 }
+
+#collectionpage-topic {
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+  text-shadow: 2px 1px 2px;
+}
+#collectionpage-topic span {
+  color: #509e2f;
+  font-weight: 700;
+}
+
+#collectionpage-buttons {
+  margin-right: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+#collectionpage-buttons button {
+  border: none;
+  border-radius: 20px;
+  padding: 5px 18px;
+  margin: 0 5px;
+  font-weight: 500;
+}
+#collectionpage-buttons button:hover {
+  background-color: grey;
+}
+
+.createRecipeBtn {
+  background-color: #509e2f;
+  color: white;
+  height: 2rem;
+  border-radius: 20px;
+  padding: 5px 18px;
+  display: flex;
+  align-items: center;
+}
+
+.createRecipeBtn:hover {
+  background-color: #3f7c25;
+}
+
 #collection-container {
   display: flex;
   flex-wrap: wrap;
   gap: 1vw 0.5vw;
-  width: fit-content;
   justify-content: center;
   margin: 1.5rem 0;
-}
-
-.createRecipeBtn{
-  background-color: rgb(80, 158, 47);
-  color: white;
-  float: right;
-  margin-right: 50px;
-  padding: 5px;
-  border-radius: 5px;
-}
-
-.createRecipeBtn:hover{
-  padding: 6px;
-  
 }
