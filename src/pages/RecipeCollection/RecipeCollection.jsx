@@ -36,8 +36,8 @@ const RecipeCollection = () => {
           <button
             onClick={() =>
               handleButtonClick(
-                "http://localhost:3000/recipes?category" +
-                  encodeURIComponent("Itallian")
+                "http://localhost:3000/recipes?category=" +
+                  encodeURIComponent("Italian")
               )
             }
           >
