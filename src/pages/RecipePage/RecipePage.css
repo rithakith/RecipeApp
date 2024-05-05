@@ -27,6 +27,7 @@
   object-fit: cover;
   border-radius: 15px;
   box-shadow: 0 0 4px 3px rgb(80, 158, 47);
+  margin-top: 10px;
 }
 
 .sub-titles {
@@ -102,6 +103,14 @@
 
 .directions ol li {
   margin: 5px 0;
+}
+#recipe-page-bottom {
+  width: 80%;
+  margin: 15px auto;
+}
+#recipe-page-bottom p {
+  font-size: 2rem;
+  font-weight: 600;
 }
 
 @media screen and (max-width: 768px) {

@@ -76,6 +76,10 @@ const RecipePage = () => {
         </div>
       </div>
 
+      <div id="recipe-page-bottom">
+        <p>You might also like</p>
+      </div>
+
       <Footer />
     </>
   );
