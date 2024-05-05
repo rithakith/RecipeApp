@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import logo from "../../assets/images/logoFinal.png";
 import { useLogout } from "../../Hooks/useLogout";
 import { useAuthContext } from "../../Hooks/useAuthContext";
+import { SignOut, UserCircle } from "@phosphor-icons/react";
 
 const Navbar = () => {
   const { logout } = useLogout();
@@ -34,7 +35,7 @@ const Navbar = () => {
                 </li>
                 <li id="loginButtonNavbar">
                   <Link to={"/login"} style={{ color: "white" }}>
-                    Login
+                    <SignOut size={24} />
                   </Link>
                 </li>
               </>
@@ -42,10 +43,13 @@ const Navbar = () => {
             {user && (
               <>
                 {" "}
-                <li>hello, {user.displayName}</li>
+                <li className="hello-user">
+                  <UserCircle size={24} style={{ color: "#509e2f" }} />{" "}
+                  <Link to={"/profile"}> {user.displayName} </Link>
+                </li>
                 <li id="loginButtonNavbar">
-                  <Link style={{ color: "white" }} onClick={logout}>
-                    Logout
+                  <Link to={"/login"} style={{ color: "white" }}>
+                    <SignOut size={24} />
                   </Link>
                 </li>
               </>
