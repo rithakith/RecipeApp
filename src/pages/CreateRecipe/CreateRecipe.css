@@ -24,14 +24,18 @@
 
 .recipe-name,
 .owner-name,
-.image-url {
+.image-url,
+.portions,
+.time {
   display: flex;
   flex-direction: column;
 }
 
 .recipe-name input,
 .owner-name input,
-.image-url input {
+.image-url input,
+.portions input,
+.time input {
   padding: 5px;
   margin: 4px 0 25px 10px;
   border-radius: 5px;
