@@ -124,6 +124,14 @@
   color: white;
 }
 
+.social-media {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  background-color: #f8f9fa;
+  padding-bottom: 5px;
+}
+
 @media screen and (max-width: 768px) {
   .footer {
     flex-direction: column;
@@ -140,9 +148,9 @@
     margin-bottom: 20px;
   }
 
-  .description{
+  .description {
     text-align: center;
-    width: 100% ;
+    width: 100%;
   }
 
   .logo-section {
@@ -168,3 +176,5 @@
     width: 100%;
   }
 }
+
+

@@ -3,14 +3,16 @@ import "./Login.css";
 import Navbar from "../../components/Navbar/Navbar";
 import leftImg from "../../assets/images/loginImg.jpeg";
 import { useState } from "react";
+import { useLogin } from "../../Hooks/useLogin";
 
 const Login = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const { login, error, isPending } = useLogin();
 
   const handleLogin = (e) => {
     e.preventDefault();
-    console.log(email, password);
+    login(email, password);
   };
 
   return (
@@ -27,13 +29,13 @@ const Login = () => {
             <h1>Welcome Back!!</h1>
             <form action="" onSubmit={handleLogin}>
               <div className="name">
-                <label htmlFor="name">
+                <label htmlFor="email">
                   email:
                   <br />
                   <input
                     type="email"
                     name=""
-                    id="name"
+                    id="email"
                     placeholder="email"
                     onChange={(e) => {
                       setEmail(e.target.value);
@@ -61,14 +63,21 @@ const Login = () => {
                   />
                 </label>
               </div>
+              {error && <p>{error}</p>}
 
               <div className="buttonsLogin">
-                <input type="submit" value="Login" id="loginButton" />
+                {isPending && (
+                  <button className="loginButton" disabled>
+                    Loading...
+                  </button>
+                )}
+                {!isPending && (
+                  <input type="submit" value="Login" className="loginButton" />
+                )}
               </div>
             </form>
             Don't have an account? then
             <span id="SignupSpan">
-           
               <a href="/signup" id="signupButton">
                 {" "}
                 Sign up

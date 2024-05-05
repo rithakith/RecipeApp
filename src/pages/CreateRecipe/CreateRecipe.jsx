@@ -4,6 +4,7 @@ import useFetch from "../../Hooks/useFetch";
 import Modal from "../../components/Modal/Modal";
 import "./CreateRecipe.css";
 import { Link, useNavigate } from "react-router-dom";
+import Footer from "../../components/Footer/Footer";
 
 const CreateRecipe = () => {
   const [title, setTitle] = useState("");
@@ -16,6 +17,8 @@ const CreateRecipe = () => {
   const [category, setCategory] = useState("option1");
   const [owner, setOwner] = useState("");
   const [image, setImage] = useState("");
+  const [portions, setPortions] = useState("");
+  const [time, setTime] = useState("");
   const [showModal, setShowModal] = useState(false); // State for showing/hiding modal
   const navigate = useNavigate();
 
@@ -33,7 +36,9 @@ const CreateRecipe = () => {
       ingredients,
       category,
       owner,
-      image
+      image,
+      portions,
+      time
     );
     postData({
       name: title,
@@ -42,6 +47,8 @@ const CreateRecipe = () => {
       ingredients,
       steps,
       imageURL: image,
+      portions,
+      time,
     });
     setImage("");
     setTitle("");
@@ -49,6 +56,8 @@ const CreateRecipe = () => {
     setIngredients([]);
     setSteps([]);
     setOwner("");
+    setPortions("");
+    setTime("");
     setShowModal(true); // Show modal after submitting
   };
 
@@ -125,12 +134,26 @@ const CreateRecipe = () => {
 
         <label className="portions">
           Portions:
-          <input type="number" required />
+          <input
+            type="number"
+            onChange={(e) => {
+              setPortions(e.target.value);
+            }}
+            value={portions}
+            required
+          />
         </label>
 
         <label className="time">
           Time(min):
-          <input type="number" required />
+          <input
+            type="number"
+            onChange={(e) => {
+              setTime(e.target.value);
+            }}
+            value={time}
+            required
+          />
         </label>
 
         <div className="ingredients">
@@ -208,6 +231,7 @@ const CreateRecipe = () => {
           </button>
         </Modal>
       )}
+      <Footer />
     </>
   );
 };
