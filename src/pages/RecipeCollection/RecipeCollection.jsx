@@ -6,6 +6,8 @@ import Footer from "../../components/Footer/Footer";
 import RecipeCard from "../../components/RecipeCard/RecipeCard";
 import useFetch from "../../Hooks/useFetch";
 import Modal from "../../components/Modal/Modal";
+import { PlusCircle } from "@phosphor-icons/react";
+
 const RecipeCollection = () => {
   const [url, setURL] = useState("http://localhost:3000/recipes");
   const { data: recipes, isPending, error } = useFetch(url);
@@ -67,10 +69,11 @@ const RecipeCollection = () => {
           </div>
           <div className="createRecipeBtn">
             <Link
+              className="hover-underline-animation"
               to={"/newrecipe"}
               style={{ textDecoration: "none", color: "white" }}
             >
-              + Recipe
+              <PlusCircle size={22} weight="bold" /> Recipe
             </Link>
           </div>
         </div>
