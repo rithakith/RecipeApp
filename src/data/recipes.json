@@ -1,7 +1,7 @@
 {
   "recipes": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Crock Pot Roast",
       "owner": "Sofia Rossi",
       "time": "40",
@@ -9,7 +9,7 @@
         "Quick & Easy"
       ],
       "portions": 6,
-      "last update": "5/5/2024",
+      "last_update": "5/5/2024",
       "ingredients": [
         "1 beef roast Meat",
         "1 package brown gravy mix Baking",
@@ -32,7 +32,7 @@
       "imageURL": "http://img.sndimg.com/food/image/upload/w_266/v1/img/recipes/27/20/8/picVfzLZo.jpg"
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "Roasted Asparagus",
       "owner": "Luca Bianchi",
       "time": "40",
@@ -40,7 +40,7 @@
         "Italian"
       ],
       "portions": 4,
-      "last update": "5/5/2024",
+      "last_update": "5/5/2024",
       "ingredients": [
         "1 lb asparagus",
         "1 1/2 tbsp olive oil",
@@ -73,7 +73,7 @@
       "imageURL": "http://img.sndimg.com/food/image/upload/w_266/v1/img/recipes/50/84/7/picMcSyVd.jpg"
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "Curried Lentils and Rice",
       "owner": "Gianna Moretti",
       "time": "40",
@@ -81,7 +81,7 @@
         "Quick & Easy"
       ],
       "portions": 4,
-      "last update": "5/5/2024",
+      "last_update": "5/5/2024",
       "ingredients": [
         "1 quart beef broth",
         "1 cup dried green lentils",
@@ -106,7 +106,7 @@
       "imageURL": "https://plus.unsplash.com/premium_photo-1699293238823-7f56fe53ae3e?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
-      "id": 4,
+      "id": "4",
       "name": "Big Night Pizza",
       "owner": "Marco Conti",
       "time": "40",
@@ -114,7 +114,7 @@
         "Italian"
       ],
       "portions": 8,
-      "last update": "5/5/2024",
+      "last_update": "5/5/2024",
       "ingredients": [
         "5 teaspoons yeast",
         "5 cups flour",
@@ -146,7 +146,7 @@
       "imageURL": "http://upload.wikimedia.org/wikipedia/commons/c/c7/Spinach_pizza.jpg"
     },
     {
-      "id": 5,
+      "id": "5",
       "name": "Grilled Steak",
       "owner": "Alessia Romano",
       "time": "40",
@@ -154,7 +154,7 @@
         "Grilled"
       ],
       "portions": 2,
-      "last update": "5/5/2024",
+      "last_update": "5/5/2024",
       "ingredients": [
         "beef steak Meat",
         "1/2 cup barbecue sauce",
@@ -176,7 +176,7 @@
       "imageURL": "https://hips.hearstapps.com/hmg-prod/images/how-to-grill-steak-1653399983.jpeg"
     },
     {
-      "id": 6,
+      "id": "6",
       "name": "Chicken Alfredo Pasta",
       "owner": "Matteo Russo",
       "time": "40",
@@ -184,7 +184,7 @@
         "Italian"
       ],
       "portions": 4,
-      "last update": "5/5/2024",
+      "last_update": "5/5/2024",
       "ingredients": [
         "2 cups penne pasta",
         "chicken breast Meat",
@@ -212,7 +212,7 @@
       "imageURL": "https://www.budgetbytes.com/wp-content/uploads/2022/07/Chicken-Alfredo-above.jpg"
     },
     {
-      "id": 7,
+      "id": "7",
       "name": "Grilled Salmon with Honey Soy",
       "owner": "Isabella Ferrari",
       "time": "30",
@@ -220,7 +220,7 @@
         "Grilled"
       ],
       "portions": 4,
-      "last update": "5/5/2024",
+      "last_update": "5/5/2024",
       "ingredients": [
         "1 lb salmon fillets",
         "2 tbsp soy sauce",
@@ -245,7 +245,7 @@
       "imageURL": "https://carlsbadcravings.com/wp-content/uploads/2021/04/honey-glazed-salmon-6.jpg"
     },
     {
-      "id": 8,
+      "id": "8",
       "name": "Garlic Grilled Shrimp",
       "owner": "Giovanni Martini",
       "time": "30",
@@ -253,7 +253,7 @@
         "Grilled"
       ],
       "portions": 4,
-      "last update": "5/5/2024",
+      "last_update": "5/5/2024",
       "ingredients": [
         "1 lb shrimp",
         "2 tbsp olive oil",
@@ -280,7 +280,7 @@
       "imageURL": "https://s23209.pcdn.co/wp-content/uploads/2018/07/Grilled-Garlic-Butter-ShrimpIMG_5629.jpg"
     },
     {
-      "id": 9,
+      "id": "9",
       "name": "Grilled Soy Honey Sesame Chicken Thighs",
       "owner": "Chiara Ricci",
       "time": "30",
@@ -288,7 +288,7 @@
         "Grilled"
       ],
       "portions": 4,
-      "last update": "5/5/2024",
+      "last_update": "5/5/2024",
       "ingredients": [
         "2 chicken thighs",
         "2 tbsp soy sauce",
@@ -313,7 +313,7 @@
       "imageURL": "https://cafedelites.com/wp-content/uploads/2019/02/Honey-Soy-Chicken-IMAGE-3.jpg"
     },
     {
-      "id": 10,
+      "id": "10",
       "name": "Grilled Pork Chops",
       "owner": "Elena Ferri",
       "time": "30",
@@ -321,7 +321,7 @@
         "Grilled"
       ],
       "portions": 2,
-      "last update": "5/5/2024",
+      "last_update": "5/5/2024",
       "ingredients": [
         "pork chops",
         "1/4 cup balsamic vinegar",
@@ -358,7 +358,7 @@
         "fsdfds"
       ],
       "imageURL": "dsfdsfds",
-      "id": 11
+      "id": "11"
     },
     {
       "name": "dsada",
@@ -373,7 +373,7 @@
         "sdadsad"
       ],
       "imageURL": "ssadsadsa",
-      "id": 12
+      "id": "12"
     },
     {
       "name": "dsada",
@@ -388,7 +388,7 @@
         "sdadsad"
       ],
       "imageURL": "ssadsadsa",
-      "id": 13
+      "id": "13"
     },
     {
       "name": "dsada",
@@ -403,7 +403,7 @@
         "sdadsad"
       ],
       "imageURL": "ssadsadsa",
-      "id": 14
+      "id": "14"
     },
     {
       "name": "",
@@ -414,7 +414,7 @@
       "ingredients": [],
       "steps": [],
       "imageURL": "",
-      "id": 15
+      "id": "15"
     },
     {
       "name": "fdsa",
@@ -429,7 +429,255 @@
         "dsada"
       ],
       "imageURL": "dsadad",
-      "id": 16
+      "id": "16"
+    },
+    {
+      "id": "6f37",
+      "name": "dhall",
+      "owner": "akith",
+      "category": [
+        "option3"
+      ],
+      "ingredients": [
+        "dhal",
+        "chilly"
+      ],
+      "steps": [
+        "cook",
+        "stir"
+      ],
+      "imageURL": "https://foodvoyageur.com/wp-content/uploads/2021/03/Sri-Lankan-Dhal-Curry.webp"
+    },
+    {
+      "id": "27ee",
+      "name": "nifonib",
+      "owner": "nvjirobnigo",
+      "category": [
+        "option1"
+      ],
+      "ingredients": [
+        "nvferiotbiuo",
+        "vnefignturo"
+      ],
+      "steps": [
+        "njeiorgntjo;frg",
+        "nrehinvfon"
+      ],
+      "imageURL": "fdefiongtjifv",
+      "portions": "5",
+      "time": "88"
     }
-  ]
+  ],
+  "favourites": [
+    {
+      "id": "1",
+      "name": "Crock Pot Roast",
+      "owner": "Sofia Rossi",
+      "time": "40",
+      "category": [
+        "Quick & Easy"
+      ],
+      "portions": 6,
+      "last_update": "5/5/2024",
+      "ingredients": [
+        "1 beef roast Meat",
+        "1 package brown gravy mix Baking",
+        "1 package dried Italian salad dressing mix",
+        "1 package dry ranch dressing mix",
+        "1/2 cup water"
+      ],
+      "steps": [
+        "Place beef roast in crock pot.",
+        "Mix the dried mixes together in a bowl and sprinkle over the roast.",
+        "Pour the water around the roast.",
+        "Cook on low for 7-9 hours."
+      ],
+      "timers": [
+        0,
+        0,
+        0,
+        420
+      ],
+      "imageURL": "http://img.sndimg.com/food/image/upload/w_266/v1/img/recipes/27/20/8/picVfzLZo.jpg"
+    },
+    {
+      "id": "2",
+      "name": "Roasted Asparagus",
+      "owner": "Luca Bianchi",
+      "time": "40",
+      "category": [
+        "Italian"
+      ],
+      "portions": 4,
+      "last_update": "5/5/2024",
+      "ingredients": [
+        "1 lb asparagus",
+        "1 1/2 tbsp olive oil",
+        "1/2 tsp kosher salt Baking"
+      ],
+      "steps": [
+        "Preheat oven to 425°F.",
+        "Cut off the woody bottom part of the asparagus spears and discard.",
+        "With a vegetable peeler, peel off the skin on the bottom 2-3 inches of the spears.",
+        "Place asparagus on foil-lined baking sheet and drizzle with olive oil.",
+        "Sprinkle with salt.",
+        "With your hands, roll the asparagus around until they are evenly coated with oil and salt.",
+        "Roast for 10-15 minutes, depending on the thickness of your stalks and how tender you like them.",
+        "They should be tender when pierced with the tip of a knife.",
+        "The tips of the spears will get very brown but watch them to prevent burning.",
+        "They are great plain, but sometimes I serve them with a light vinaigrette if we need something acidic to balance out our meal."
+      ],
+      "timers": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        10,
+        0,
+        0,
+        0
+      ],
+      "imageURL": "http://img.sndimg.com/food/image/upload/w_266/v1/img/recipes/50/84/7/picMcSyVd.jpg"
+    },
+    {
+      "id": "3",
+      "name": "Curried Lentils and Rice",
+      "owner": "Gianna Moretti",
+      "time": "40",
+      "category": [
+        "Quick & Easy"
+      ],
+      "portions": 4,
+      "last_update": "5/5/2024",
+      "ingredients": [
+        "1 quart beef broth",
+        "1 cup dried green lentils",
+        "1/2 cup basmati rice",
+        "1 tsp curry powder",
+        "1 tsp salt"
+      ],
+      "steps": [
+        "Bring broth to a low boil.",
+        "Add curry powder and salt.",
+        "Cook lentils for 20 minutes.",
+        "Add rice and simmer for 20 minutes.",
+        "Enjoy!"
+      ],
+      "timers": [
+        0,
+        0,
+        20,
+        20,
+        0
+      ],
+      "imageURL": "https://plus.unsplash.com/premium_photo-1699293238823-7f56fe53ae3e?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    }],
+    "recommended": [
+      {
+        "id": "1",
+        "name": "Crock Pot Roast",
+        "owner": "Sofia Rossi",
+        "time": "40",
+        "category": [
+          "Quick & Easy"
+        ],
+        "portions": 6,
+        "last_update": "5/5/2024",
+        "ingredients": [
+          "1 beef roast Meat",
+          "1 package brown gravy mix Baking",
+          "1 package dried Italian salad dressing mix",
+          "1 package dry ranch dressing mix",
+          "1/2 cup water"
+        ],
+        "steps": [
+          "Place beef roast in crock pot.",
+          "Mix the dried mixes together in a bowl and sprinkle over the roast.",
+          "Pour the water around the roast.",
+          "Cook on low for 7-9 hours."
+        ],
+        "timers": [
+          0,
+          0,
+          0,
+          420
+        ],
+        "imageURL": "http://img.sndimg.com/food/image/upload/w_266/v1/img/recipes/27/20/8/picVfzLZo.jpg"
+      },
+      {
+        "id": "2",
+        "name": "Roasted Asparagus",
+        "owner": "Luca Bianchi",
+        "time": "40",
+        "category": [
+          "Italian"
+        ],
+        "portions": 4,
+        "last_update": "5/5/2024",
+        "ingredients": [
+          "1 lb asparagus",
+          "1 1/2 tbsp olive oil",
+          "1/2 tsp kosher salt Baking"
+        ],
+        "steps": [
+          "Preheat oven to 425°F.",
+          "Cut off the woody bottom part of the asparagus spears and discard.",
+          "With a vegetable peeler, peel off the skin on the bottom 2-3 inches of the spears.",
+          "Place asparagus on foil-lined baking sheet and drizzle with olive oil.",
+          "Sprinkle with salt.",
+          "With your hands, roll the asparagus around until they are evenly coated with oil and salt.",
+          "Roast for 10-15 minutes, depending on the thickness of your stalks and how tender you like them.",
+          "They should be tender when pierced with the tip of a knife.",
+          "The tips of the spears will get very brown but watch them to prevent burning.",
+          "They are great plain, but sometimes I serve them with a light vinaigrette if we need something acidic to balance out our meal."
+        ],
+        "timers": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          10,
+          0,
+          0,
+          0
+        ],
+        "imageURL": "http://img.sndimg.com/food/image/upload/w_266/v1/img/recipes/50/84/7/picMcSyVd.jpg"
+      },
+      {
+        "id": "3",
+        "name": "Curried Lentils and Rice",
+        "owner": "Gianna Moretti",
+        "time": "40",
+        "category": [
+          "Quick & Easy"
+        ],
+        "portions": 4,
+        "last_update": "5/5/2024",
+        "ingredients": [
+          "1 quart beef broth",
+          "1 cup dried green lentils",
+          "1/2 cup basmati rice",
+          "1 tsp curry powder",
+          "1 tsp salt"
+        ],
+        "steps": [
+          "Bring broth to a low boil.",
+          "Add curry powder and salt.",
+          "Cook lentils for 20 minutes.",
+          "Add rice and simmer for 20 minutes.",
+          "Enjoy!"
+        ],
+        "timers": [
+          0,
+          0,
+          20,
+          20,
+          0
+        ],
+        "imageURL": "https://plus.unsplash.com/premium_photo-1699293238823-7f56fe53ae3e?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      }]
 }

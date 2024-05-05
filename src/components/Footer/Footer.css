@@ -34,6 +34,7 @@
 .company-menu {
   font-size: 14px;
   width: 15%;
+  height: 63%;
   padding: 0 10px;
 }
 
@@ -58,6 +59,7 @@
 
 .resources-menu {
   width: 15%;
+  height: 63%;
   font-size: 14px;
   padding: 0 10px;
 }
@@ -122,4 +124,57 @@
   border-bottom-left-radius: 0;
   background-color: #509e2f;
   color: white;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  background-color: #f8f9fa;
+  padding-bottom: 15px;
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
+  }
+
+  .logo-section,
+  .company-menu,
+  .resources-menu,
+  .subscribe-section {
+    width: 100%;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+
+  .description {
+    text-align: center;
+    width: 100%;
+  }
+
+  .logo-section {
+    text-align: center;
+  }
+
+  .logo-section img,
+  .subscribe-section img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .company-menu,
+  .resources-menu {
+    text-align: center;
+  }
+
+  .subscribe-section input[type="email"] {
+    width: 100%;
+  }
+
+  .subscribe-section button {
+    width: 100%;
+  }
 }

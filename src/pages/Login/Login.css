@@ -40,12 +40,13 @@
 .contentLogin {
   width: 90%;
 }
+
 h1 {
   text-align: center;
   color: green;
 }
 
-#name,
+#email,
 #passwordLogin {
   padding: 10px;
   width: 100%;
@@ -60,7 +61,7 @@ h1 {
   margin-bottom: 30px;
 }
 
-#loginButton {
+.loginButton {
   width: 100%;
   height: 40px;
   color: white;
@@ -71,7 +72,7 @@ h1 {
   /* border-radius: 10px; */
 }
 
-#loginButton:hover {
+.loginButton:hover {
   opacity: 1;
 }
 

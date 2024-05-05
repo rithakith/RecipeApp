@@ -4,10 +4,15 @@
 }
 
 #tag-buttons {
-  margin: 1rem 0;
+  margin: 1rem 0 2rem;
   padding: 0 1rem;
   display: flex;
   justify-content: space-between;
+}
+
+#tag-buttons a {
+  text-decoration: none;
+  color: white;
 }
 
 #tag-buttons div {

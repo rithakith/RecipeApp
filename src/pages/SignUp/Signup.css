@@ -32,12 +32,9 @@ h1 {
   justify-content: space-between;
 }
 
-.ageDiv,
-.genderDiv {
-  width: 47%;
-}
 
-.emailDiv,
+
+.emailDiv,.passwordDiv,
 .usernameDiv {
   margin: 10px 50px;
 }
@@ -52,7 +49,7 @@ h1 {
   justify-content: center;
 }
 
-#submitSignup {
+.submitSignup {
   width: 100%;
   height: 40px;
   color: white;
@@ -64,7 +61,7 @@ h1 {
   margin-bottom: 10px;
 }
 
-#submitSignup:hover {
+.submitSignup:hover {
   opacity: 1;
 }
 
