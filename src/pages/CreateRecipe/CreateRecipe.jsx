@@ -63,7 +63,7 @@ const CreateRecipe = () => {
     setNewIngredient("");
     ingredientInput.current.focus();
   };
-  
+
   const handleStepAdd = (e) => {
     e.preventDefault();
     const step = newStep.trim();
@@ -80,8 +80,8 @@ const CreateRecipe = () => {
     <>
       <Navbar />
       <br />
-      <form onSubmit={handleSubmit}>
-      <label>
+      <form className="form-container" onSubmit={handleSubmit}>
+        <label className="recipe-name">
           Recipe name:
           <input
             type="text"
@@ -93,7 +93,7 @@ const CreateRecipe = () => {
           />
         </label>
         <br />
-        <label>
+        <label className="owner-name">
           Name of owner:
           <input
             type="text"
@@ -105,7 +105,7 @@ const CreateRecipe = () => {
           />
         </label>
         <br />
-        <label>
+        <label className="category">
           Category:
           <select
             onChange={(e) => {
@@ -118,7 +118,7 @@ const CreateRecipe = () => {
             <option value="option3">Option3</option>
           </select>
         </label>
-        <div>
+        <div className="ingredients">
           Ingredients
           <ol>
             <li>
@@ -142,7 +142,7 @@ const CreateRecipe = () => {
           })}
         </div>
         <br />
-        <label>
+        <label className="image-url">
           Image URL:
           <input
             type="text"
@@ -153,7 +153,7 @@ const CreateRecipe = () => {
             value={image}
           />
         </label>
-        <div>
+        <div className="steps">
           Steps:
           <ol>
             <li>
@@ -179,6 +179,7 @@ const CreateRecipe = () => {
         <br />
         <br />
         <button
+          className="create-recipe-btn"
           type="submit"
           onClick={() => {
             handleSubmit();
