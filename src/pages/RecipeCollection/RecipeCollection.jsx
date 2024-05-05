@@ -23,7 +23,7 @@ const RecipeCollection = () => {
   return (
     <>
       <Navbar />
-
+<br /><br />
       <div id="recipe-collection-container">
         <div id="collectionpage-topic">
           Browse through our <span>Collection</span>

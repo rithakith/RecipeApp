@@ -2,8 +2,12 @@
   padding: 0.5rem 2rem;
   border-radius: 5px;
   box-shadow: 1px 2px 7px 0px rgba(0, 0, 0, 0.75);
-  margin: 10px 10px 1.5rem;
+  margin:0 auto;
   background-color: #f8f9fa;
+  position: fixed;
+  width:100%;
+  z-index: 1000;
+
 }
 
 #navUL {
