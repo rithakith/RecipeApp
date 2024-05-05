@@ -12,6 +12,7 @@
   "dependencies": {
     "@phosphor-icons/react": "^2.1.5",
     "bootstrap": "^5.3.3",
+    "dynamic-readme-generator": "^1.1.4",
     "firebase": "8.5",
     "react": "^18.2.0",
     "react-bootstrap": "^2.10.2",
