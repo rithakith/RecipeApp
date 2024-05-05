@@ -5,9 +5,7 @@
       "name": "Crock Pot Roast",
       "owner": "Sofia Rossi",
       "time": "40",
-      "category": [
-        "Quick & Easy"
-      ],
+      "category": ["Quick & Easy"],
       "portions": 6,
       "last_update": "5/5/2024",
       "ingredients": [
@@ -23,12 +21,7 @@
         "Pour the water around the roast.",
         "Cook on low for 7-9 hours."
       ],
-      "timers": [
-        0,
-        0,
-        0,
-        420
-      ],
+      "timers": [0, 0, 0, 420],
       "imageURL": "http://img.sndimg.com/food/image/upload/w_266/v1/img/recipes/27/20/8/picVfzLZo.jpg"
     },
     {
@@ -36,9 +29,7 @@
       "name": "Roasted Asparagus",
       "owner": "Luca Bianchi",
       "time": "40",
-      "category": [
-        "Italian"
-      ],
+      "category": ["Italian"],
       "portions": 4,
       "last_update": "5/5/2024",
       "ingredients": [
@@ -58,18 +49,7 @@
         "The tips of the spears will get very brown but watch them to prevent burning.",
         "They are great plain, but sometimes I serve them with a light vinaigrette if we need something acidic to balance out our meal."
       ],
-      "timers": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        10,
-        0,
-        0,
-        0
-      ],
+      "timers": [0, 0, 0, 0, 0, 0, 10, 0, 0, 0],
       "imageURL": "http://img.sndimg.com/food/image/upload/w_266/v1/img/recipes/50/84/7/picMcSyVd.jpg"
     },
     {
@@ -77,9 +57,7 @@
       "name": "Curried Lentils and Rice",
       "owner": "Gianna Moretti",
       "time": "40",
-      "category": [
-        "Quick & Easy"
-      ],
+      "category": ["Quick & Easy"],
       "portions": 4,
       "last_update": "5/5/2024",
       "ingredients": [
@@ -96,13 +74,7 @@
         "Add rice and simmer for 20 minutes.",
         "Enjoy!"
       ],
-      "timers": [
-        0,
-        0,
-        20,
-        20,
-        0
-      ],
+      "timers": [0, 0, 20, 20, 0],
       "imageURL": "https://plus.unsplash.com/premium_photo-1699293238823-7f56fe53ae3e?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
@@ -110,9 +82,7 @@
       "name": "Big Night Pizza",
       "owner": "Marco Conti",
       "time": "40",
-      "category": [
-        "Italian"
-      ],
+      "category": ["Italian"],
       "portions": 8,
       "last_update": "5/5/2024",
       "ingredients": [
@@ -134,15 +104,7 @@
         "Bake at 400 deg Fahrenheit for 15 minutes.",
         "Enjoy!"
       ],
-      "timers": [
-        15,
-        60,
-        0,
-        0,
-        0,
-        15,
-        0
-      ],
+      "timers": [15, 60, 0, 0, 0, 15, 0],
       "imageURL": "http://upload.wikimedia.org/wikipedia/commons/c/c7/Spinach_pizza.jpg"
     },
     {
@@ -150,9 +112,7 @@
       "name": "Grilled Steak",
       "owner": "Alessia Romano",
       "time": "40",
-      "category": [
-        "Grilled"
-      ],
+      "category": ["Grilled"],
       "portions": 2,
       "last_update": "5/5/2024",
       "ingredients": [
@@ -167,12 +127,7 @@
         "Let it rest for 5 minutes before slicing.",
         "Serve hot and enjoy!"
       ],
-      "timers": [
-        30,
-        0,
-        0,
-        0
-      ],
+      "timers": [30, 0, 0, 0],
       "imageURL": "https://hips.hearstapps.com/hmg-prod/images/how-to-grill-steak-1653399983.jpeg"
     },
     {
@@ -180,9 +135,7 @@
       "name": "Chicken Alfredo Pasta",
       "owner": "Matteo Russo",
       "time": "40",
-      "category": [
-        "Italian"
-      ],
+      "category": ["Italian"],
       "portions": 4,
       "last_update": "5/5/2024",
       "ingredients": [
@@ -201,14 +154,7 @@
         "Combine cooked pasta, broccoli, sliced chicken, and creamy sauce.",
         "Serve hot and enjoy!"
       ],
-      "timers": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
+      "timers": [0, 0, 0, 0, 0, 0],
       "imageURL": "https://www.budgetbytes.com/wp-content/uploads/2022/07/Chicken-Alfredo-above.jpg"
     },
     {
@@ -216,9 +162,7 @@
       "name": "Grilled Salmon with Honey Soy",
       "owner": "Isabella Ferrari",
       "time": "30",
-      "category": [
-        "Grilled"
-      ],
+      "category": ["Grilled"],
       "portions": 4,
       "last_update": "5/5/2024",
       "ingredients": [
@@ -235,13 +179,7 @@
         "Grill salmon for 4-5 minutes per side, or until cooked through.",
         "Serve hot and enjoy!"
       ],
-      "timers": [
-        30,
-        0,
-        0,
-        0,
-        0
-      ],
+      "timers": [30, 0, 0, 0, 0],
       "imageURL": "https://carlsbadcravings.com/wp-content/uploads/2021/04/honey-glazed-salmon-6.jpg"
     },
     {
@@ -249,9 +187,7 @@
       "name": "Garlic Grilled Shrimp",
       "owner": "Giovanni Martini",
       "time": "30",
-      "category": [
-        "Grilled"
-      ],
+      "category": ["Grilled"],
       "portions": 4,
       "last_update": "5/5/2024",
       "ingredients": [
@@ -270,13 +206,7 @@
         "Grill shrimp for 2-3 minutes per side, or until pink and opaque.",
         "Serve hot and enjoy!"
       ],
-      "timers": [
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
+      "timers": [0, 0, 0, 0, 0],
       "imageURL": "https://s23209.pcdn.co/wp-content/uploads/2018/07/Grilled-Garlic-Butter-ShrimpIMG_5629.jpg"
     },
     {
@@ -284,9 +214,7 @@
       "name": "Grilled Soy Honey Sesame Chicken Thighs",
       "owner": "Chiara Ricci",
       "time": "30",
-      "category": [
-        "Grilled"
-      ],
+      "category": ["Grilled"],
       "portions": 4,
       "last_update": "5/5/2024",
       "ingredients": [
@@ -303,13 +231,7 @@
         "Grill chicken thighs for 6-7 minutes per side, or until cooked through.",
         "Serve hot and enjoy!"
       ],
-      "timers": [
-        30,
-        0,
-        0,
-        0,
-        0
-      ],
+      "timers": [30, 0, 0, 0, 0],
       "imageURL": "https://cafedelites.com/wp-content/uploads/2019/02/Honey-Soy-Chicken-IMAGE-3.jpg"
     },
     {
@@ -317,9 +239,7 @@
       "name": "Grilled Pork Chops",
       "owner": "Elena Ferri",
       "time": "30",
-      "category": [
-        "Grilled"
-      ],
+      "category": ["Grilled"],
       "portions": 2,
       "last_update": "5/5/2024",
       "ingredients": [
@@ -336,178 +256,43 @@
         "Grill pork chops for 5-6 minutes per side, or until cooked through.",
         "Serve hot and enjoy!"
       ],
-      "timers": [
-        30,
-        0,
-        0,
-        0,
-        0
-      ],
+      "timers": [30, 0, 0, 0, 0],
       "imageURL": "https://static01.nyt.com/images/2023/06/07/multimedia/02GRILL-BASICSrex2-pork-chops-mvzf/07GRILL-BASICSrex2-pork-chops-mvzf-superJumbo.jpg"
     },
     {
-      "name": "fsdfs",
-      "owner": "fdsfds",
-      "category": [
-        "option1"
-      ],
-      "ingredients": [
-        "fdsfsdf"
-      ],
-      "steps": [
-        "fsdfds"
-      ],
-      "imageURL": "dsfdsfds",
-      "id": "11"
-    },
-    {
-      "name": "dsada",
-      "owner": "dsadsad",
-      "category": [
-        "option1"
-      ],
-      "ingredients": [
-        "dsadsadsa"
-      ],
-      "steps": [
-        "sdadsad"
-      ],
-      "imageURL": "ssadsadsa",
-      "id": "12"
-    },
-    {
-      "name": "dsada",
-      "owner": "dsadsad",
-      "category": [
-        "option1"
-      ],
-      "ingredients": [
-        "dsadsadsa"
-      ],
-      "steps": [
-        "sdadsad"
-      ],
-      "imageURL": "ssadsadsa",
-      "id": "13"
-    },
-    {
-      "name": "dsada",
-      "owner": "dsadsad",
-      "category": [
-        "option1"
-      ],
-      "ingredients": [
-        "dsadsadsa"
-      ],
-      "steps": [
-        "sdadsad"
-      ],
-      "imageURL": "ssadsadsa",
-      "id": "14"
-    },
-    {
-      "name": "",
-      "owner": "",
-      "category": [
-        "option1"
-      ],
-      "ingredients": [],
-      "steps": [],
-      "imageURL": "",
-      "id": "15"
-    },
-    {
-      "name": "fdsa",
-      "owner": "dsada",
-      "category": [
-        "option1"
-      ],
-      "ingredients": [
-        "sadsad"
-      ],
-      "steps": [
-        "dsada"
-      ],
-      "imageURL": "dsadad",
-      "id": "16"
-    },
-    {
-      "id": "6f37",
-      "name": "dhall",
-      "owner": "akith",
-      "category": [
-        "option3"
-      ],
-      "ingredients": [
-        "dhal",
-        "chilly"
-      ],
-      "steps": [
-        "cook",
-        "stir"
-      ],
-      "imageURL": "https://foodvoyageur.com/wp-content/uploads/2021/03/Sri-Lankan-Dhal-Curry.webp"
-    },
-    {
-      "id": "27ee",
-      "name": "nifonib",
-      "owner": "nvjirobnigo",
-      "category": [
-        "option1"
-      ],
-      "ingredients": [
-        "nvferiotbiuo",
-        "vnefignturo"
-      ],
-      "steps": [
-        "njeiorgntjo;frg",
-        "nrehinvfon"
-      ],
-      "imageURL": "fdefiongtjifv",
-      "portions": "5",
-      "time": "88"
-    }
-  ],
-  "favourites": [
-    {
-      "id": "1",
-      "name": "Crock Pot Roast",
-      "owner": "Sofia Rossi",
-      "time": "40",
-      "category": [
-        "Quick & Easy"
-      ],
-      "portions": 6,
+      "id": "11",
+      "name": "Lemon Herb Grilled Chicken",
+      "owner": "Sofia Ferrari",
+      "time": "25",
+      "category": ["Grilled"],
+      "portions": 4,
       "last_update": "5/5/2024",
       "ingredients": [
-        "1 beef roast Meat",
-        "1 package brown gravy mix Baking",
-        "1 package dried Italian salad dressing mix",
-        "1 package dry ranch dressing mix",
-        "1/2 cup water"
+        "4 chicken breasts",
+        "2 tbsp olive oil",
+        "2 tbsp lemon juice",
+        "1 tsp dried basil",
+        "1 tsp dried oregano",
+        "Salt and pepper to taste"
       ],
       "steps": [
-        "Place beef roast in crock pot.",
-        "Mix the dried mixes together in a bowl and sprinkle over the roast.",
-        "Pour the water around the roast.",
-        "Cook on low for 7-9 hours."
+        "In a bowl, mix together olive oil, lemon juice, dried basil, dried oregano, salt, and pepper.",
+        "Add chicken breasts to the bowl and toss to coat evenly.",
+        "Preheat grill to medium-high heat.",
+        "Grill chicken breasts for 6-7 minutes per side, or until cooked through.",
+        "Serve hot and enjoy!"
       ],
-      "timers": [
-        0,
-        0,
-        0,
-        420
-      ],
-      "imageURL": "http://img.sndimg.com/food/image/upload/w_266/v1/img/recipes/27/20/8/picVfzLZo.jpg"
-    },
+      "imageURL": "https://www.feastingathome.com/wp-content/uploads/2021/06/Grilled-lemon-Herb-Chicken-17.jpg"
+    }
+  ],
+
+  "favourites": [
     {
       "id": "2",
       "name": "Roasted Asparagus",
       "owner": "Luca Bianchi",
       "time": "40",
-      "category": [
-        "Italian"
-      ],
+      "category": ["Italian"],
       "portions": 4,
       "last_update": "5/5/2024",
       "ingredients": [
@@ -527,28 +312,70 @@
         "The tips of the spears will get very brown but watch them to prevent burning.",
         "They are great plain, but sometimes I serve them with a light vinaigrette if we need something acidic to balance out our meal."
       ],
-      "timers": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        10,
-        0,
-        0,
-        0
-      ],
+      "timers": [0, 0, 0, 0, 0, 0, 10, 0, 0, 0],
       "imageURL": "http://img.sndimg.com/food/image/upload/w_266/v1/img/recipes/50/84/7/picMcSyVd.jpg"
     },
+    {
+      "id": "6",
+      "name": "Chicken Alfredo Pasta",
+      "owner": "Matteo Russo",
+      "time": "40",
+      "category": ["Italian"],
+      "portions": 4,
+      "last_update": "5/5/2024",
+      "ingredients": [
+        "2 cups penne pasta",
+        "chicken breast Meat",
+        "1 cup broccoli florets",
+        "1/2 cup heavy cream",
+        "1/2 cup parmesan cheese"
+      ],
+      "steps": [
+        "Cook penne pasta according to package instructions.",
+        "Season chicken breast with salt and pepper, then grill until cooked through.",
+        "Steam broccoli until tender-crisp.",
+        "In a saucepan, heat heavy cream and parmesan cheese until cheese is melted and sauce is smooth.",
+        "Slice chicken breast into strips.",
+        "Combine cooked pasta, broccoli, sliced chicken, and creamy sauce.",
+        "Serve hot and enjoy!"
+      ],
+      "timers": [0, 0, 0, 0, 0, 0],
+      "imageURL": "https://www.budgetbytes.com/wp-content/uploads/2022/07/Chicken-Alfredo-above.jpg"
+    },
+    {
+      "id": "10",
+      "name": "Grilled Pork Chops",
+      "owner": "Elena Ferri",
+      "time": "30",
+      "category": ["Grilled"],
+      "portions": 2,
+      "last_update": "5/5/2024",
+      "ingredients": [
+        "pork chops",
+        "1/4 cup balsamic vinegar",
+        "2 tbsp honey",
+        "1 tbsp dijon mustard",
+        "1 tsp minced garlic"
+      ],
+      "steps": [
+        "In a bowl, whisk together balsamic vinegar, honey, dijon mustard, and minced garlic.",
+        "Marinate pork chops in the mixture for at least 30 minutes.",
+        "Preheat grill to medium-high heat.",
+        "Grill pork chops for 5-6 minutes per side, or until cooked through.",
+        "Serve hot and enjoy!"
+      ],
+      "timers": [30, 0, 0, 0, 0],
+      "imageURL": "https://static01.nyt.com/images/2023/06/07/multimedia/02GRILL-BASICSrex2-pork-chops-mvzf/07GRILL-BASICSrex2-pork-chops-mvzf-superJumbo.jpg"
+    }
+  ],
+
+  "recommended": [
     {
       "id": "3",
       "name": "Curried Lentils and Rice",
       "owner": "Gianna Moretti",
       "time": "40",
-      "category": [
-        "Quick & Easy"
-      ],
+      "category": ["Quick & Easy"],
       "portions": 4,
       "last_update": "5/5/2024",
       "ingredients": [
@@ -565,119 +392,57 @@
         "Add rice and simmer for 20 minutes.",
         "Enjoy!"
       ],
-      "timers": [
-        0,
-        0,
-        20,
-        20,
-        0
-      ],
+      "timers": [0, 0, 20, 20, 0],
       "imageURL": "https://plus.unsplash.com/premium_photo-1699293238823-7f56fe53ae3e?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-    }],
-    "recommended": [
-      {
-        "id": "1",
-        "name": "Crock Pot Roast",
-        "owner": "Sofia Rossi",
-        "time": "40",
-        "category": [
-          "Quick & Easy"
-        ],
-        "portions": 6,
-        "last_update": "5/5/2024",
-        "ingredients": [
-          "1 beef roast Meat",
-          "1 package brown gravy mix Baking",
-          "1 package dried Italian salad dressing mix",
-          "1 package dry ranch dressing mix",
-          "1/2 cup water"
-        ],
-        "steps": [
-          "Place beef roast in crock pot.",
-          "Mix the dried mixes together in a bowl and sprinkle over the roast.",
-          "Pour the water around the roast.",
-          "Cook on low for 7-9 hours."
-        ],
-        "timers": [
-          0,
-          0,
-          0,
-          420
-        ],
-        "imageURL": "http://img.sndimg.com/food/image/upload/w_266/v1/img/recipes/27/20/8/picVfzLZo.jpg"
-      },
-      {
-        "id": "2",
-        "name": "Roasted Asparagus",
-        "owner": "Luca Bianchi",
-        "time": "40",
-        "category": [
-          "Italian"
-        ],
-        "portions": 4,
-        "last_update": "5/5/2024",
-        "ingredients": [
-          "1 lb asparagus",
-          "1 1/2 tbsp olive oil",
-          "1/2 tsp kosher salt Baking"
-        ],
-        "steps": [
-          "Preheat oven to 425°F.",
-          "Cut off the woody bottom part of the asparagus spears and discard.",
-          "With a vegetable peeler, peel off the skin on the bottom 2-3 inches of the spears.",
-          "Place asparagus on foil-lined baking sheet and drizzle with olive oil.",
-          "Sprinkle with salt.",
-          "With your hands, roll the asparagus around until they are evenly coated with oil and salt.",
-          "Roast for 10-15 minutes, depending on the thickness of your stalks and how tender you like them.",
-          "They should be tender when pierced with the tip of a knife.",
-          "The tips of the spears will get very brown but watch them to prevent burning.",
-          "They are great plain, but sometimes I serve them with a light vinaigrette if we need something acidic to balance out our meal."
-        ],
-        "timers": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          10,
-          0,
-          0,
-          0
-        ],
-        "imageURL": "http://img.sndimg.com/food/image/upload/w_266/v1/img/recipes/50/84/7/picMcSyVd.jpg"
-      },
-      {
-        "id": "3",
-        "name": "Curried Lentils and Rice",
-        "owner": "Gianna Moretti",
-        "time": "40",
-        "category": [
-          "Quick & Easy"
-        ],
-        "portions": 4,
-        "last_update": "5/5/2024",
-        "ingredients": [
-          "1 quart beef broth",
-          "1 cup dried green lentils",
-          "1/2 cup basmati rice",
-          "1 tsp curry powder",
-          "1 tsp salt"
-        ],
-        "steps": [
-          "Bring broth to a low boil.",
-          "Add curry powder and salt.",
-          "Cook lentils for 20 minutes.",
-          "Add rice and simmer for 20 minutes.",
-          "Enjoy!"
-        ],
-        "timers": [
-          0,
-          0,
-          20,
-          20,
-          0
-        ],
-        "imageURL": "https://plus.unsplash.com/premium_photo-1699293238823-7f56fe53ae3e?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-      }]
+    },
+    {
+      "id": "5",
+      "name": "Grilled Steak",
+      "owner": "Alessia Romano",
+      "time": "40",
+      "category": ["Grilled"],
+      "portions": 2,
+      "last_update": "5/5/2024",
+      "ingredients": [
+        "beef steak Meat",
+        "1/2 cup barbecue sauce",
+        "1 tsp garlic powder",
+        "1 tsp black pepper"
+      ],
+      "steps": [
+        "Marinate beef steak with barbecue sauce, garlic powder, and black pepper for 30 minutes.",
+        "Grill the steak over medium heat until desired doneness.",
+        "Let it rest for 5 minutes before slicing.",
+        "Serve hot and enjoy!"
+      ],
+      "timers": [30, 0, 0, 0],
+      "imageURL": "https://hips.hearstapps.com/hmg-prod/images/how-to-grill-steak-1653399983.jpeg"
+    },
+    {
+      "id": "11",
+      "name": "Lemon Herb Grilled Chicken",
+      "owner": "Sofia Ferrari",
+      "time": "25",
+      "category": ["Grilled"],
+      "portions": 4,
+      "last_update": "5/5/2024",
+      "ingredients": [
+        "4 chicken breasts",
+        "2 tbsp olive oil",
+        "2 tbsp lemon juice",
+        "1 tsp dried basil",
+        "1 tsp dried oregano",
+        "Salt and pepper to taste"
+      ],
+      "steps": [
+        "In a bowl, mix together olive oil, lemon juice, dried basil, dried oregano, salt, and pepper.",
+        "Add chicken breasts to the bowl and toss to coat evenly.",
+        "Preheat grill to medium-high heat.",
+        "Grill chicken breasts for 6-7 minutes per side, or until cooked through.",
+        "Serve hot and enjoy!"
+      ],
+      "timers": [0, 0, 0, 0, 0],
+      "imageURL": "https://www.thechunkychef.com/wp-content/uploads/2021/09/Lemon-Herb-Grilled-Chicken-recipe-card.jpg"
+    }
+  ]
 }

@@ -65,10 +65,10 @@ const Footer = () => {
       </footer>
 
       <div className="social-media">
-        <FacebookLogo size={25} />
-        <InstagramLogo size={25} />
-        <XLogo size={25} />
-        <TiktokLogo size={25} />
+        <FacebookLogo size={25} weight="bold" />
+        <InstagramLogo size={25} weight="bold" />
+        <XLogo size={25} weight="bold" />
+        <TiktokLogo size={25} weight="bold" />
       </div>
     </>
   );

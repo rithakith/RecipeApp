@@ -58,21 +58,21 @@ const Home = () => {
             </div>
 
             <div id="tag-button-3">
-              <a href="/">
+              <a href="/Premium">
                 <p>Custom Meal Plan</p>
               </a>
               <CaretRight size={28} />
             </div>
 
             <div id="tag-button-4">
-              <a href="/">
+              <a href="/premium">
                 <p>Create Grocery List</p>
               </a>
               <CaretRight size={28} />
             </div>
 
             <div id="tag-button-5">
-              <a href="/">
+              <a href="/premium">
                 <p>Cooking Tips</p>
               </a>
               <CaretRight size={28} />
@@ -87,7 +87,8 @@ const Home = () => {
             <div id="collection-container">
               {favourites &&
                 favourites.map((recipe, index) => {
-                  return <RecipeCard key={index} recipe={favourites} />;
+                  return <>
+                  <RecipeCard key={index} recipe={recipe} /></>;
                 })}
             </div>
           </div>
@@ -100,7 +101,7 @@ const Home = () => {
             <div id="collection-container">
               {recommended &&
                 recommended.map((recipe, index) => {
-                  return <RecipeCard key={index} recipe={recommended} />;
+                  return <RecipeCard key={index} recipe={recipe} />;
                 })}
             </div>
           </div>

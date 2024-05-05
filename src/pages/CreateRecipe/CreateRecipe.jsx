@@ -19,6 +19,7 @@ const CreateRecipe = () => {
   const [image, setImage] = useState("");
   const [portions, setPortions] = useState("");
   const [time, setTime] = useState("");
+  const [last_update, setLastUpdated] = useState("");
   const [showModal, setShowModal] = useState(false); // State for showing/hiding modal
   const navigate = useNavigate();
 
@@ -27,8 +28,14 @@ const CreateRecipe = () => {
     "POST"
   );
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
+    
+    const currentDate = new Date();
+    const formattedDate = currentDate.toLocaleDateString();
+
+    setLastUpdated(formattedDate);
+
     console.log(
       title,
       steps,
@@ -49,6 +56,7 @@ const CreateRecipe = () => {
       imageURL: image,
       portions,
       time,
+      last_update: formattedDate,
     });
     setImage("");
     setTitle("");
@@ -209,15 +217,17 @@ const CreateRecipe = () => {
           })}
         </div>
 
-        <button
-          className="create-recipe-btn"
-          type="submit"
-          onClick={() => {
-            handleSubmit();
-          }}
-        >
-          Create New
-        </button>
+        <div className="create-new">
+          <button
+            className="create-recipe-btn"
+            type="submit"
+            onClick={() => {
+              handleSubmit();
+            }}
+          >
+            Create New
+          </button>
+        </div>
       </form>
 
       {showModal && (
