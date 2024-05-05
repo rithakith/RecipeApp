@@ -282,7 +282,7 @@
         "Grill chicken breasts for 6-7 minutes per side, or until cooked through.",
         "Serve hot and enjoy!"
       ],
-
+      "imageURL": "https://www.feastingathome.com/wp-content/uploads/2021/06/Grilled-lemon-Herb-Chicken-17.jpg"
     }
   ],
 
@@ -394,7 +394,6 @@
       ],
       "timers": [0, 0, 20, 20, 0],
       "imageURL": "https://plus.unsplash.com/premium_photo-1699293238823-7f56fe53ae3e?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-
     },
     {
       "id": "5",
@@ -447,115 +446,3 @@
     }
   ]
 }
-
-    }
-  ],
-  "recommended": [
-    {
-      "id": "1",
-      "name": "Crock Pot Roast",
-      "owner": "Sofia Rossi",
-      "time": "40",
-      "category": [
-        "Quick & Easy"
-      ],
-      "portions": 6,
-      "last_update": "5/5/2024",
-      "ingredients": [
-        "1 beef roast Meat",
-        "1 package brown gravy mix Baking",
-        "1 package dried Italian salad dressing mix",
-        "1 package dry ranch dressing mix",
-        "1/2 cup water"
-      ],
-      "steps": [
-        "Place beef roast in crock pot.",
-        "Mix the dried mixes together in a bowl and sprinkle over the roast.",
-        "Pour the water around the roast.",
-        "Cook on low for 7-9 hours."
-      ],
-      "timers": [
-        0,
-        0,
-        0,
-        420
-      ],
-      "imageURL": "http://img.sndimg.com/food/image/upload/w_266/v1/img/recipes/27/20/8/picVfzLZo.jpg"
-    },
-    {
-      "id": "2",
-      "name": "Roasted Asparagus",
-      "owner": "Luca Bianchi",
-      "time": "40",
-      "category": [
-        "Italian"
-      ],
-      "portions": 4,
-      "last_update": "5/5/2024",
-      "ingredients": [
-        "1 lb asparagus",
-        "1 1/2 tbsp olive oil",
-        "1/2 tsp kosher salt Baking"
-      ],
-      "steps": [
-        "Preheat oven to 425°F.",
-        "Cut off the woody bottom part of the asparagus spears and discard.",
-        "With a vegetable peeler, peel off the skin on the bottom 2-3 inches of the spears.",
-        "Place asparagus on foil-lined baking sheet and drizzle with olive oil.",
-        "Sprinkle with salt.",
-        "With your hands, roll the asparagus around until they are evenly coated with oil and salt.",
-        "Roast for 10-15 minutes, depending on the thickness of your stalks and how tender you like them.",
-        "They should be tender when pierced with the tip of a knife.",
-        "The tips of the spears will get very brown but watch them to prevent burning.",
-        "They are great plain, but sometimes I serve them with a light vinaigrette if we need something acidic to balance out our meal."
-      ],
-      "timers": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        10,
-        0,
-        0,
-        0
-      ],
-      "imageURL": "http://img.sndimg.com/food/image/upload/w_266/v1/img/recipes/50/84/7/picMcSyVd.jpg"
-    },
-    {
-      "id": "3",
-      "name": "Curried Lentils and Rice",
-      "owner": "Gianna Moretti",
-      "time": "40",
-      "category": [
-        "Quick & Easy"
-      ],
-      "portions": 4,
-      "last_update": "5/5/2024",
-      "ingredients": [
-        "1 quart beef broth",
-        "1 cup dried green lentils",
-        "1/2 cup basmati rice",
-        "1 tsp curry powder",
-        "1 tsp salt"
-      ],
-      "steps": [
-        "Bring broth to a low boil.",
-        "Add curry powder and salt.",
-        "Cook lentils for 20 minutes.",
-        "Add rice and simmer for 20 minutes.",
-        "Enjoy!"
-      ],
-      "timers": [
-        0,
-        0,
-        20,
-        20,
-        0
-      ],
-      "imageURL": "https://plus.unsplash.com/premium_photo-1699293238823-7f56fe53ae3e?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-    }
-  ]
-}
-

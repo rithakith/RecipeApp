@@ -13,6 +13,8 @@ const Login = () => {
   const handleLogin = (e) => {
     e.preventDefault();
     login(email, password);
+    setEmail("");
+    setPassword("");
   };
 
   return (
@@ -78,6 +80,7 @@ const Login = () => {
             </form>
             Don't have an account? then
             <span id="SignupSpan">
+              {" "}
               <a href="/signup" id="signupButton">
                 {" "}
                 Sign up
