@@ -128,6 +128,40 @@
 }
 
 #premium-content {
-  width: 90%;
-  margin: 1rem auto;
+  width: 70%;
+  margin: 3rem auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.premium-option {
+  width: 20vw;
+  height: 40vh;
+  border-radius: 15px;
+  border: 2px solid #509e2f;
+  background-color: #cdffb8;
+  padding: 10px 20px;
+}
+
+#premium-option-top {
+  display: flex;
+  gap: 1rem;
+}
+
+#premium-option-top span {
+  height: fit-content;
+  margin-top: 0.9rem;
+  color: grey;
+}
+.premium-option h2 {
+  color: #509e2f;
+  margin: 0;
+}
+
+.premium-option hr {
+  margin: 5px 0;
+}
+
+.premium-option ul {
+  margin-top: 1rem;
 }
