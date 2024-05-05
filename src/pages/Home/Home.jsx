@@ -100,7 +100,7 @@ const Home = () => {
             <div id="collection-container">
               {recommended &&
                 recommended.map((recipe, index) => {
-                  return <RecipeCard key={index} recipe={recipe} />;
+                  return <RecipeCard key={index} recipe={recommended} />;
                 })}
             </div>
           </div>
