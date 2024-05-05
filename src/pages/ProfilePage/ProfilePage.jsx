@@ -13,7 +13,7 @@ const ProfilePage = () => {
         <div id="profile-container">
           <div id="profile-pic-area">
             <div id="profile-pic-bg">
-              <div id="profile-topic">Profile</div>
+              {/* <div id="profile-topic">Profile</div> */}
             </div>
 
             <div id="profile-pic">
@@ -22,7 +22,22 @@ const ProfilePage = () => {
           </div>
 
           <div id="profile-details">
-            <div>name</div>
+            <div>
+              <p>Full Name</p>
+              <p></p>
+            </div>
+            <div>
+              <p>User Name</p>
+              <p></p>
+            </div>
+            <div>
+              <p>Email</p>
+              <p></p>
+            </div>
+          </div>
+
+          <div id="profile-recipes">
+            <p>Recipes created</p>
           </div>
         </div>
       </div>

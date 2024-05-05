@@ -46,18 +46,7 @@ h1 {
   color: green;
 }
 
-.name,
-.passwordDiv{
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-}
-
-.passwordDiv {
-  margin-bottom: 0;
-}
-
-#name,
+#email,
 #passwordLogin {
   padding: 10px;
   width: 100%;
