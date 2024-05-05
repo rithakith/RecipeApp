@@ -13,22 +13,26 @@ export default function App() {
         <Carousel.Item interval={3000}>
           <img className="slider-image" src={sliderimg1} alt="Image One" />
           <Carousel.Caption>
-            <h3>Label for first slide</h3>
-            <p>Sample Text for Image One</p>
+            <h3>Kabsa</h3>
+            <p>Kabsa is a mixed rice dish</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item interval={3000}>
           <img className="slider-image" src={sliderimg2} alt="Image Two" />
           <Carousel.Caption>
-            <h3>Label for second slide</h3>
-            <p>Sample Text for Image Two</p>
+            <h3>Grilled Fish</h3>
+            <p>Whole Grilled Fish with Fried Pepper Sauce</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item interval={3000}>
           <img className="slider-image" src={sliderimg3} alt="Image Three" />
           <Carousel.Caption>
-            <h3>Label for third slide</h3>
-            <p>Sample Text for Image Three</p>
+            <h3>Croissants</h3>
+            <p>
+              {" "}
+              a French pastry made from yeast-risen, laminated dough in the
+              shape of a crescent
+            </p>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
