@@ -5,7 +5,7 @@ import Navbar from "../../components/Navbar/Navbar";
 import Footer from "../../components/Footer/Footer";
 import RecipeCard from "../../components/RecipeCard/RecipeCard";
 import useFetch from "../../Hooks/useFetch";
-
+import Modal from "../../components/Modal/Modal";
 const RecipeCollection = () => {
   const [url, setURL] = useState("http://localhost:3000/recipes");
   const { data: recipes, isPending, error } = useFetch(url);
@@ -62,7 +62,11 @@ const RecipeCollection = () => {
             })}
         </div>
       </div>
-
+      {/* <Modal>
+      <h2>jdfljfdslkjf</h2>
+          <Link to={'/'}>hehe</Link>
+          <button></button>
+      </Modal> */}
       <Footer />
     </>
   );

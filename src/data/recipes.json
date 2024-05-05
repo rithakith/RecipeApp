@@ -5,7 +5,9 @@
       "name": "Crock Pot Roast",
       "owner": "John",
       "time": "40",
-      "category": ["Quick & Easy"],
+      "category": [
+        "Quick & Easy"
+      ],
       "portions": 6,
       "last update": "5/5/2024",
       "ingredients": [
@@ -34,7 +36,9 @@
       "name": "Roasted Asparagus",
       "owner": "John",
       "time": "40",
-      "category": ["Italian"],
+      "category": [
+        "Italian"
+      ],
       "portions": 4,
       "last update": "5/5/2024",
       "ingredients": [
@@ -73,7 +77,9 @@
       "name": "Curried Lentils and Rice",
       "owner": "John",
       "time": "40",
-      "category": ["Quick & Easy"],
+      "category": [
+        "Quick & Easy"
+      ],
       "portions": 4,
       "last update": "5/5/2024",
       "ingredients": [
@@ -104,7 +110,9 @@
       "name": "Big Night Pizza",
       "owner": "John",
       "time": "40",
-      "category": ["Italian"],
+      "category": [
+        "Italian"
+      ],
       "portions": 8,
       "last update": "5/5/2024",
       "ingredients": [
@@ -142,7 +150,9 @@
       "name": "Grilled Steak",
       "owner": "John",
       "time": "40",
-      "category": ["Grilled"],
+      "category": [
+        "Grilled"
+      ],
       "portions": 2,
       "last update": "5/5/2024",
       "ingredients": [
@@ -170,7 +180,9 @@
       "name": "Chicken Alfredo Pasta",
       "owner": "Anna",
       "time": "40",
-      "category": ["Italian"],
+      "category": [
+        "Italian"
+      ],
       "portions": 4,
       "last update": "5/5/2024",
       "ingredients": [
@@ -204,7 +216,9 @@
       "name": "Grilled Salmon with Honey Soy",
       "owner": "Anna",
       "time": "30",
-      "category": ["Grilled"],
+      "category": [
+        "Grilled"
+      ],
       "portions": 4,
       "last update": "5/5/2024",
       "ingredients": [
@@ -235,7 +249,9 @@
       "name": "Garlic Grilled Shrimp",
       "owner": "Anna",
       "time": "30",
-      "category": ["Grilled"],
+      "category": [
+        "Grilled"
+      ],
       "portions": 4,
       "last update": "5/5/2024",
       "ingredients": [
@@ -268,7 +284,9 @@
       "name": "Grilled Soy Honey Sesame Chicken Thighs",
       "owner": "Anna",
       "time": "30",
-      "category": ["Grilled"],
+      "category": [
+        "Grilled"
+      ],
       "portions": 4,
       "last update": "5/5/2024",
       "ingredients": [
@@ -299,7 +317,9 @@
       "name": "Grilled Pork Chops",
       "owner": "Anna",
       "time": "30",
-      "category": ["Grilled"],
+      "category": [
+        "Grilled"
+      ],
       "portions": 2,
       "last update": "5/5/2024",
       "ingredients": [
@@ -324,6 +344,92 @@
         0
       ],
       "imageURL": "https://static01.nyt.com/images/2023/06/07/multimedia/02GRILL-BASICSrex2-pork-chops-mvzf/07GRILL-BASICSrex2-pork-chops-mvzf-superJumbo.jpg"
+    },
+    {
+      "name": "fsdfs",
+      "owner": "fdsfds",
+      "category": [
+        "option1"
+      ],
+      "ingredients": [
+        "fdsfsdf"
+      ],
+      "steps": [
+        "fsdfds"
+      ],
+      "imageURL": "dsfdsfds",
+      "id": 11
+    },
+    {
+      "name": "dsada",
+      "owner": "dsadsad",
+      "category": [
+        "option1"
+      ],
+      "ingredients": [
+        "dsadsadsa"
+      ],
+      "steps": [
+        "sdadsad"
+      ],
+      "imageURL": "ssadsadsa",
+      "id": 12
+    },
+    {
+      "name": "dsada",
+      "owner": "dsadsad",
+      "category": [
+        "option1"
+      ],
+      "ingredients": [
+        "dsadsadsa"
+      ],
+      "steps": [
+        "sdadsad"
+      ],
+      "imageURL": "ssadsadsa",
+      "id": 13
+    },
+    {
+      "name": "dsada",
+      "owner": "dsadsad",
+      "category": [
+        "option1"
+      ],
+      "ingredients": [
+        "dsadsadsa"
+      ],
+      "steps": [
+        "sdadsad"
+      ],
+      "imageURL": "ssadsadsa",
+      "id": 14
+    },
+    {
+      "name": "",
+      "owner": "",
+      "category": [
+        "option1"
+      ],
+      "ingredients": [],
+      "steps": [],
+      "imageURL": "",
+      "id": 15
+    },
+    {
+      "name": "fdsa",
+      "owner": "dsada",
+      "category": [
+        "option1"
+      ],
+      "ingredients": [
+        "sadsad"
+      ],
+      "steps": [
+        "dsada"
+      ],
+      "imageURL": "dsadad",
+      "id": 16
     }
   ]
 }

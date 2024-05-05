@@ -4,11 +4,13 @@ import Navbar from "../../components/Navbar/Navbar";
 import Footer from "../../components/Footer/Footer";
 import Carousel from "../../components/Carousel/Carousel";
 import { CaretRight } from "@phosphor-icons/react";
+import Modal from "../../components/Modal/Modal";
 
 const Home = () => {
   return (
     <>
       <Navbar />
+     
 
       <div id="home">
         <div id="home-container">
@@ -50,6 +52,7 @@ const Home = () => {
           </div>
         </div>
       </div>
+
 
       <Footer />
     </>
