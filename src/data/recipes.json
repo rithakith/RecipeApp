@@ -11,7 +11,6 @@
       "ingredients": [
         "1 beef roast Meat",
         "1 package brown gravy mix Baking",
-
         "1 package dried Italian salad dressing mix",
         "1 package dry ranch dressing mix",
         "1/2 cup water"
@@ -22,7 +21,12 @@
         "Pour the water around the roast.",
         "Cook on low for 7-9 hours."
       ],
-      "timers": [0, 0, 0, 420],
+      "timers": [
+        0,
+        0,
+        0,
+        420
+      ],
       "imageURL": "http://img.sndimg.com/food/image/upload/w_266/v1/img/recipes/27/20/8/picVfzLZo.jpg"
     },
     {
@@ -50,7 +54,18 @@
         "The tips of the spears will get very brown but watch them to prevent burning.",
         "They are great plain, but sometimes I serve them with a light vinaigrette if we need something acidic to balance out our meal."
       ],
-      "timers": [0, 0, 0, 0, 0, 0, 10, 0, 0, 0],
+      "timers": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        10,
+        0,
+        0,
+        0
+      ],
       "imageURL": "http://img.sndimg.com/food/image/upload/w_266/v1/img/recipes/50/84/7/picMcSyVd.jpg"
     },
     {
@@ -75,7 +90,13 @@
         "Add rice and simmer for 20 minutes.",
         "Enjoy!"
       ],
-      "timers": [0, 0, 20, 20, 0],
+      "timers": [
+        0,
+        0,
+        20,
+        20,
+        0
+      ],
       "imageURL": "https://plus.unsplash.com/premium_photo-1699293238823-7f56fe53ae3e?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
@@ -105,7 +126,15 @@
         "Bake at 400 deg Fahrenheit for 15 minutes.",
         "Enjoy!"
       ],
-      "timers": [15, 60, 0, 0, 0, 15, 0],
+      "timers": [
+        15,
+        60,
+        0,
+        0,
+        0,
+        15,
+        0
+      ],
       "imageURL": "http://upload.wikimedia.org/wikipedia/commons/c/c7/Spinach_pizza.jpg"
     },
     {
@@ -128,7 +157,12 @@
         "Let it rest for 5 minutes before slicing.",
         "Serve hot and enjoy!"
       ],
-      "timers": [30, 0, 0, 0],
+      "timers": [
+        30,
+        0,
+        0,
+        0
+      ],
       "imageURL": "https://hips.hearstapps.com/hmg-prod/images/how-to-grill-steak-1653399983.jpeg"
     },
     {
@@ -155,7 +189,14 @@
         "Combine cooked pasta, broccoli, sliced chicken, and creamy sauce.",
         "Serve hot and enjoy!"
       ],
-      "timers": [0, 0, 0, 0, 0, 0],
+      "timers": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
       "imageURL": "https://www.budgetbytes.com/wp-content/uploads/2022/07/Chicken-Alfredo-above.jpg"
     },
     {
@@ -180,7 +221,13 @@
         "Grill salmon for 4-5 minutes per side, or until cooked through.",
         "Serve hot and enjoy!"
       ],
-      "timers": [30, 0, 0, 0, 0],
+      "timers": [
+        30,
+        0,
+        0,
+        0,
+        0
+      ],
       "imageURL": "https://carlsbadcravings.com/wp-content/uploads/2021/04/honey-glazed-salmon-6.jpg"
     },
     {
@@ -207,7 +254,13 @@
         "Grill shrimp for 2-3 minutes per side, or until pink and opaque.",
         "Serve hot and enjoy!"
       ],
-      "timers": [0, 0, 0, 0, 0],
+      "timers": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
       "imageURL": "https://s23209.pcdn.co/wp-content/uploads/2018/07/Grilled-Garlic-Butter-ShrimpIMG_5629.jpg"
     },
     {
@@ -232,7 +285,13 @@
         "Grill chicken thighs for 6-7 minutes per side, or until cooked through.",
         "Serve hot and enjoy!"
       ],
-      "timers": [30, 0, 0, 0, 0],
+      "timers": [
+        30,
+        0,
+        0,
+        0,
+        0
+      ],
       "imageURL": "https://cafedelites.com/wp-content/uploads/2019/02/Honey-Soy-Chicken-IMAGE-3.jpg"
     },
     {
@@ -257,7 +316,13 @@
         "Grill pork chops for 5-6 minutes per side, or until cooked through.",
         "Serve hot and enjoy!"
       ],
-      "timers": [30, 0, 0, 0, 0],
+      "timers": [
+        30,
+        0,
+        0,
+        0,
+        0
+      ],
       "imageURL": "https://static01.nyt.com/images/2023/06/07/multimedia/02GRILL-BASICSrex2-pork-chops-mvzf/07GRILL-BASICSrex2-pork-chops-mvzf-superJumbo.jpg"
     }
   ]

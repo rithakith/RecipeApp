@@ -1,8 +1,9 @@
-import React, { useState, useRef } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import Navbar from "../../components/Navbar/Navbar";
 import useFetch from "../../Hooks/useFetch";
 
 import "./CreateRecipe.css";
+import { Link, useNavigate } from "react-router-dom";
 
 const CreateRecipe = () => {
   const [title, setTitle] = useState("");
@@ -15,6 +16,7 @@ const CreateRecipe = () => {
   const [category, setCategory] = useState("option1");
   const [owner, setOwner] = useState("");
   const [image, setImage] = useState("");
+  const navigate = useNavigate();
 
   const { postData, data, error } = useFetch(
     "http://localhost:3000/recipes",
@@ -40,6 +42,13 @@ const CreateRecipe = () => {
       steps,
       imageURL: image,
     });
+    setImage("");
+    setTitle("");
+    setCategory("option1");
+    setIngredients([]);
+    setSteps([]);
+    setOwner("");
+    
   };
 
   const handleIngAdd = (e) => {
@@ -120,7 +129,6 @@ const CreateRecipe = () => {
                   }}
                   value={newIngredient}
                   ref={ingredientInput}
-
                 />
                 <button onClick={handleIngAdd}>Add</button>
               </label>
@@ -143,20 +151,6 @@ const CreateRecipe = () => {
             value={image}
           />
         </label>
-        {/* <label>
-          Directions: <br />
-          <textarea
-            name=""
-            id=""
-            cols="30"
-            rows="10"
-            onChange={(e) => {
-              setSteps(e.target.value);
-            }}
-            value={steps}
-            required
-          ></textarea>
-        </label> */}
         <div>
           Steps:
           <ol>
@@ -170,7 +164,6 @@ const CreateRecipe = () => {
                   }}
                   value={newStep}
                   ref={stepInput}
-                  required
                 />
                 <button onClick={handleStepAdd}>Add</button>
               </label>
