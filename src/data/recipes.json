@@ -4,10 +4,8 @@
       "id": 1,
       "name": "Crock Pot Roast",
       "owner": "John",
-      "time": "40 min",
-      "category": [
-        "Quick & Easy"
-      ],
+      "time": "40",
+      "category": ["Quick & Easy"],
       "portions": 6,
       "last update": "5/5/2024",
       "ingredients": [
@@ -35,10 +33,8 @@
       "id": 2,
       "name": "Roasted Asparagus",
       "owner": "John",
-      "time": "40 min",
-      "category": [
-        "Italian"
-      ],
+      "time": "40",
+      "category": ["Italian"],
       "portions": 4,
       "last update": "5/5/2024",
       "ingredients": [
@@ -76,10 +72,8 @@
       "id": 3,
       "name": "Curried Lentils and Rice",
       "owner": "John",
-      "time": "40 min",
-      "category": [
-        "Quick & Easy"
-      ],
+      "time": "40",
+      "category": ["Quick & Easy"],
       "portions": 4,
       "last update": "5/5/2024",
       "ingredients": [
@@ -109,10 +103,8 @@
       "id": 4,
       "name": "Big Night Pizza",
       "owner": "John",
-      "time": "40 min",
-      "category": [
-        "Italian"
-      ],
+      "time": "40",
+      "category": ["Italian"],
       "portions": 8,
       "last update": "5/5/2024",
       "ingredients": [
@@ -149,10 +141,8 @@
       "id": 5,
       "name": "Grilled Steak",
       "owner": "John",
-      "time": "40 min",
-      "category": [
-        "Grilled"
-      ],
+      "time": "40",
+      "category": ["Grilled"],
       "portions": 2,
       "last update": "5/5/2024",
       "ingredients": [
@@ -179,10 +169,8 @@
       "id": 6,
       "name": "Chicken Alfredo Pasta",
       "owner": "Anna",
-      "time": "40 min",
-      "category": [
-        "Italian"
-      ],
+      "time": "40",
+      "category": ["Italian"],
       "portions": 4,
       "last update": "5/5/2024",
       "ingredients": [
@@ -215,10 +203,8 @@
       "id": 7,
       "name": "Grilled Salmon with Honey Soy",
       "owner": "Anna",
-      "time": "30 min",
-      "category": [
-        "Grilled"
-      ],
+      "time": "30",
+      "category": ["Grilled"],
       "portions": 4,
       "last update": "5/5/2024",
       "ingredients": [
@@ -248,10 +234,8 @@
       "id": 8,
       "name": "Garlic Grilled Shrimp",
       "owner": "Anna",
-      "time": "30 min",
-      "category": [
-        "Grilled"
-      ],
+      "time": "30",
+      "category": ["Grilled"],
       "portions": 4,
       "last update": "5/5/2024",
       "ingredients": [
@@ -283,10 +267,8 @@
       "id": 9,
       "name": "Grilled Soy Honey Sesame Chicken Thighs",
       "owner": "Anna",
-      "time": "30 min",
-      "category": [
-        "Grilled"
-      ],
+      "time": "30",
+      "category": ["Grilled"],
       "portions": 4,
       "last update": "5/5/2024",
       "ingredients": [
@@ -316,10 +298,8 @@
       "id": 10,
       "name": "Grilled Pork Chops",
       "owner": "Anna",
-      "time": "30 min",
-      "category": [
-        "Grilled"
-      ],
+      "time": "30",
+      "category": ["Grilled"],
       "portions": 2,
       "last update": "5/5/2024",
       "ingredients": [
@@ -344,351 +324,6 @@
         0
       ],
       "imageURL": "https://static01.nyt.com/images/2023/06/07/multimedia/02GRILL-BASICSrex2-pork-chops-mvzf/07GRILL-BASICSrex2-pork-chops-mvzf-superJumbo.jpg"
-    },
-    {
-      "name": "jkjlj",
-      "owner": "jkjljk",
-      "category": [
-        "option1"
-      ],
-      "ingredients": [
-        "kjlkjljl"
-      ],
-      "steps": [
-        "kjkljljl"
-      ],
-      "imageURL": "jkjkjlkj",
-      "id": 11
-    },
-    {
-      "name": "jkjlj",
-      "owner": "jkjljk",
-      "category": [
-        "option1"
-      ],
-      "ingredients": [
-        "kjlkjljl"
-      ],
-      "steps": [
-        "kjkljljl"
-      ],
-      "imageURL": "jkjkjlkj",
-      "id": 12
-    },
-    {
-      "name": "jjljlkj",
-      "owner": "jkljlkj",
-      "category": [
-        "option2"
-      ],
-      "ingredients": [
-        "jkjlkjl"
-      ],
-      "steps": [
-        "jlkjlj"
-      ],
-      "imageURL": "jljkjlkj",
-      "id": 13
-    },
-    {
-      "name": "jjljlkj",
-      "owner": "jkljlkj",
-      "category": [
-        "option2"
-      ],
-      "ingredients": [
-        "jkjlkjl"
-      ],
-      "steps": [
-        "jlkjlj"
-      ],
-      "imageURL": "jljkjlkj",
-      "id": 14
-    },
-    {
-      "name": "jjljlkj",
-      "owner": "jkljlkj",
-      "category": [
-        "option2"
-      ],
-      "ingredients": [
-        "jkjlkjl"
-      ],
-      "steps": [
-        "jlkjlj"
-      ],
-      "imageURL": "jljkjlkj",
-      "id": 15
-    },
-    {
-      "name": "jjljlkj",
-      "owner": "jkljlkj",
-      "category": [
-        "option2"
-      ],
-      "ingredients": [
-        "jkjlkjl"
-      ],
-      "steps": [
-        "jlkjlj"
-      ],
-      "imageURL": "jljkjlkj",
-      "id": 16
-    },
-    {
-      "name": "jjljlkj",
-      "owner": "jkljlkj",
-      "category": [
-        "option2"
-      ],
-      "ingredients": [
-        "jkjlkjl"
-      ],
-      "steps": [
-        "jlkjlj"
-      ],
-      "imageURL": "jljkjlkj",
-      "id": 17
-    },
-    {
-      "name": "jjljlkj",
-      "owner": "jkljlkj",
-      "category": [
-        "option2"
-      ],
-      "ingredients": [
-        "jkjlkjl"
-      ],
-      "steps": [
-        "jlkjlj"
-      ],
-      "imageURL": "jljkjlkj",
-      "id": 18
-    },
-    {
-      "name": "jjljlkj",
-      "owner": "jkljlkj",
-      "category": [
-        "option2"
-      ],
-      "ingredients": [
-        "jkjlkjl"
-      ],
-      "steps": [
-        "jlkjlj"
-      ],
-      "imageURL": "jljkjlkj",
-      "id": 19
-    },
-    {
-      "name": "jjljlkj",
-      "owner": "jkljlkj",
-      "category": [
-        "option2"
-      ],
-      "ingredients": [
-        "jkjlkjl"
-      ],
-      "steps": [
-        "jlkjlj"
-      ],
-      "imageURL": "jljkjlkj",
-      "id": 20
-    },
-    {
-      "name": "jjljlkj",
-      "owner": "jkljlkj",
-      "category": [
-        "option2"
-      ],
-      "ingredients": [
-        "jkjlkjl"
-      ],
-      "steps": [
-        "jlkjlj"
-      ],
-      "imageURL": "jljkjlkj",
-      "id": 21
-    },
-    {
-      "name": "jjljlkj",
-      "owner": "jkljlkj",
-      "category": [
-        "option2"
-      ],
-      "ingredients": [
-        "jkjlkjl"
-      ],
-      "steps": [
-        "jlkjlj"
-      ],
-      "imageURL": "jljkjlkj",
-      "id": 22
-    },
-    {
-      "name": "jjljlkj",
-      "owner": "jkljlkj",
-      "category": [
-        "option2"
-      ],
-      "ingredients": [
-        "jkjlkjl"
-      ],
-      "steps": [
-        "jlkjlj"
-      ],
-      "imageURL": "jljkjlkj",
-      "id": 23
-    },
-    {
-      "name": "jjljlkj",
-      "owner": "jkljlkj",
-      "category": [
-        "option2"
-      ],
-      "ingredients": [
-        "jkjlkjl"
-      ],
-      "steps": [
-        "jlkjlj"
-      ],
-      "imageURL": "jljkjlkj",
-      "id": 24
-    },
-    {
-      "name": "jjljlkj",
-      "owner": "jkljlkj",
-      "category": [
-        "option2"
-      ],
-      "ingredients": [
-        "jkjlkjl"
-      ],
-      "steps": [
-        "jlkjlj"
-      ],
-      "imageURL": "jljkjlkj",
-      "id": 25
-    },
-    {
-      "name": "jjljlkj",
-      "owner": "jkljlkj",
-      "category": [
-        "option2"
-      ],
-      "ingredients": [
-        "jkjlkjl"
-      ],
-      "steps": [
-        "jlkjlj"
-      ],
-      "imageURL": "jljkjlkj",
-      "id": 26
-    },
-    {
-      "name": "jjljlkj",
-      "owner": "jkljlkj",
-      "category": [
-        "option2"
-      ],
-      "ingredients": [
-        "jkjlkjl"
-      ],
-      "steps": [
-        "jlkjlj"
-      ],
-      "imageURL": "jljkjlkj",
-      "id": 27
-    },
-    {
-      "name": "jjljlkj",
-      "owner": "jkljlkj",
-      "category": [
-        "option2"
-      ],
-      "ingredients": [
-        "jkjlkjl"
-      ],
-      "steps": [
-        "jlkjlj"
-      ],
-      "imageURL": "jljkjlkj",
-      "id": 28
-    },
-    {
-      "name": "jljlkj",
-      "owner": "jlkjlj",
-      "category": [
-        "option1"
-      ],
-      "ingredients": [
-        "kjlkjlkj"
-      ],
-      "steps": [
-        "jlkjlkjlk"
-      ],
-      "imageURL": "kjljlkj",
-      "id": 29
-    },
-    {
-      "name": "jljlkj",
-      "owner": "jlkjlj",
-      "category": [
-        "option1"
-      ],
-      "ingredients": [
-        "kjlkjlkj"
-      ],
-      "steps": [
-        "jlkjlkjlk"
-      ],
-      "imageURL": "kjljlkj",
-      "id": 30
-    },
-    {
-      "name": "jljlkj",
-      "owner": "jlkjlj",
-      "category": [
-        "option1"
-      ],
-      "ingredients": [
-        "kjlkjlkj"
-      ],
-      "steps": [
-        "jlkjlkjlk"
-      ],
-      "imageURL": "kjljlkj",
-      "id": 31
-    },
-    {
-      "name": "kjljlkj",
-      "owner": "jlkjlj",
-      "category": [
-        "option2"
-      ],
-      "ingredients": [
-        "jkjkjl"
-      ],
-      "steps": [
-        "jlkjkljlk"
-      ],
-      "imageURL": "kjljlj",
-      "id": 32
-    },
-    {
-      "name": "kjljlkj",
-      "owner": "jlkjlj",
-      "category": [
-        "option2"
-      ],
-      "ingredients": [
-        "jkjkjl"
-      ],
-      "steps": [
-        "jlkjkljlk"
-      ],
-      "imageURL": "kjljlj",
-      "id": 33
     }
   ]
 }

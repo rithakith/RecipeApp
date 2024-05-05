@@ -22,10 +22,24 @@
   color: black;
 }
 
-.logo {
+.logo a {
   display: flex;
   justify-content: center;
+  align-items: center;
+  gap: 1rem;
   width: fit-content;
+  text-decoration: none;
+  color: black;
+}
+.logo a p {
+  color: black;
+  font-weight: 700;
+  font-size: 2rem;
+  margin: 0;
+}
+.logo a p span {
+  color: #509e2f;
+  font-weight: 700;
 }
 
 .logo img {

@@ -16,7 +16,13 @@ const RecipePage = () => {
         {isPending && <div>Loading...</div>}
         {error && <div>{error}</div>}
         <h3>{recipe.name}</h3>
+        <h5>
+          <u>By:</u> {recipe.owner}
+        </h5>
         <img src={recipe.imageURL} alt={recipe.title} />
+        <h6>
+          <u>Prep Time:</u> {recipe.time} minutes
+        </h6>
         <h4>
           <u>Ingredients</u>
         </h4>
