@@ -4,13 +4,13 @@
   border-radius: 5px;
   display: flex;
   flex-direction: column;
-  height: 700px;
+  height: 650px;
   justify-content: center;
   box-shadow: 1px 1px 8px 4px rgba(0, 0, 0, 0.75);
 }
 
 h1 {
-  margin-top: 2rem;
+  margin-top: 1rem;
   text-align: center;
   color: green;
 }
@@ -19,7 +19,7 @@ h1 {
 #selectGender {
   padding: 8px;
   width: 100%;
-  margin: 10px 0 0 4px;
+  margin: 5px 0 0 4px;
   font-size: 15px;
 }
 
@@ -27,7 +27,7 @@ h1 {
   width: 100%;
 }
 .collection {
-  margin: 8px 50px;
+  margin: 10px 50px;
   display: flex;
   justify-content: space-between;
 }
@@ -39,11 +39,11 @@ h1 {
 
 .emailDiv,
 .usernameDiv {
-  margin: 8px 50px;
+  margin: 10px 50px;
 }
 
 .passwordDivSignup {
-  margin: 8px 50px 0;
+  margin: 10px 50px 0;
 }
 
 .submitSignupDiv {
