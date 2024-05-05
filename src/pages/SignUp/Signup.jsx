@@ -7,21 +7,20 @@ const Signup = () => {
     <>
       <Navbar />
 
-      <div class="containerSignup">
+      <div className="containerSignup">
         <div class="title">
           <h1>Join with us!!</h1>
         </div>
 
-        <div class="usernameDiv">
-          Username:
+        <div className="usernameDiv">
           <label for="username">
-            <br />
-            <input type="text" name="" id="username" placeholder="username"  />
+            Username:
+            <input type="text" name="" id="username" placeholder="username" />
           </label>
         </div>
 
-        <div class="collection">
-          <div class="ageDiv">
+        <div className="collection">
+          <div className="ageDiv">
             <label for="age">
               Age:
               <br />
@@ -34,7 +33,7 @@ const Signup = () => {
               />
             </label>
           </div>
-          <div class="genderDiv">
+          <div className="genderDiv">
             <label for="gender">
               Gender:
               <br />
@@ -49,7 +48,7 @@ const Signup = () => {
           </div>
         </div>
 
-        <div class="emailDiv">
+        <div className="emailDiv">
           <label for="email">
             Email:
             <br />
@@ -57,7 +56,7 @@ const Signup = () => {
           </label>
         </div>
 
-        <div class="collection">
+        <div className="collection">
           <div class="ageDiv">
             <label for="password">
               Password:
@@ -70,7 +69,7 @@ const Signup = () => {
               />
             </label>
           </div>
-          <div class="genderDiv">
+          <div className="genderDiv">
             <label for="password">
               Confirm Password:
               <br />
@@ -84,11 +83,13 @@ const Signup = () => {
           </div>
         </div>
 
-        <div class="passwordDivSignup">
-          <div class="submitSignupDiv">
+        <div className="passwordDivSignup">
+          <div className="submitSignupDiv">
             <input type="submit" value="Sign up" id="submitSignup" />
           </div>
         </div>
+
+        <div id="signin-direct">Already have an account? Signin here</div>
       </div>
     </>
   );
