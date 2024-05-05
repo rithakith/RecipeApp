@@ -34,8 +34,9 @@ function App() {
         <Route path="/recipes" element={<RecipeCollection />} />
         <Route path="/recipes/:id" element={<RecipePage />} />
         <Route path="/newrecipe" element={<CreateRecipe />} />
-        <Route path="/login" element={user ? <Navigate to="/home" /> : <Navigate to="/login" />} />
-        <Route path="/signup" element={user ? <Navigate to="/home" /> : <Navigate to="/signup" />} />
+        <Route path="/login" element={<Login/>} />
+        <Route path="/signup" element={<Signup/>}/>
+      
         <Route path="/profile" element={<ProfilePage />} />
           <Route path="/premium" Component={Premium} />
       </Routes>
