@@ -28,42 +28,44 @@ const RecipeCollection = () => {
         </div>
 
         <div id="collectionpage-buttons">
-          <button
-            onClick={() => handleButtonClick("http://localhost:3000/recipes")}
-          >
-            All
-          </button>
-          <button
-            onClick={() =>
-              handleButtonClick(
-                "http://localhost:3000/recipes?category" +
-                  encodeURIComponent("Itallian")
-              )
-            }
-          >
-            Itallian
-          </button>
-          <button
-            onClick={() =>
-              handleButtonClick(
-                "http://localhost:3000/recipes?category=" +
-                  encodeURIComponent("Grilled")
-              )
-            }
-          >
-            Grilled
-          </button>
-          <button
-            onClick={() =>
-              handleButtonClick(
-                "http://localhost:3000/recipes?category=" +
-                  encodeURIComponent("Quick & Easy")
-              )
-            }
-          >
-            Quick & Easy
-          </button>
-          <span className="createRecipeBtn">
+          <div id="collectionpage-buttons-left">
+            <button
+              onClick={() => handleButtonClick("http://localhost:3000/recipes")}
+            >
+              All
+            </button>
+            <button
+              onClick={() =>
+                handleButtonClick(
+                  "http://localhost:3000/recipes?category" +
+                    encodeURIComponent("Itallian")
+                )
+              }
+            >
+              Itallian
+            </button>
+            <button
+              onClick={() =>
+                handleButtonClick(
+                  "http://localhost:3000/recipes?category=" +
+                    encodeURIComponent("Grilled")
+                )
+              }
+            >
+              Grilled
+            </button>
+            <button
+              onClick={() =>
+                handleButtonClick(
+                  "http://localhost:3000/recipes?category=" +
+                    encodeURIComponent("Quick & Easy")
+                )
+              }
+            >
+              Quick & Easy
+            </button>
+          </div>
+          <div className="createRecipeBtn">
             <Link
               to={"/newrecipe"}
               style={{ textDecoration: "none", color: "white" }}
