@@ -3,6 +3,12 @@ import "./Footer.css";
 
 import { Link } from "react-router-dom";
 import logo from "../../assets/images/logoFinal.png";
+import {
+  FacebookLogo,
+  InstagramLogo,
+  XLogo,
+  TiktokLogo,
+} from "@phosphor-icons/react";
 
 const Footer = () => {
   return (
@@ -51,7 +57,12 @@ const Footer = () => {
           <button>Subscribe</button>
         </div>
       </footer>
-      <div className="social-media"></div>
+      <div className="social-media">
+        <FacebookLogo size={25} />
+        <InstagramLogo size={25} />
+        <XLogo size={25} />
+        <TiktokLogo size={25} />
+      </div>
     </>
   );
 };
