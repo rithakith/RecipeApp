@@ -3,7 +3,7 @@
     {
       "id": 1,
       "name": "Crock Pot Roast",
-      "owner": "John",
+      "owner": "Sofia Rossi",
       "time": "40",
       "category": ["Quick & Easy"],
       "portions": 6,
@@ -32,7 +32,7 @@
     {
       "id": 2,
       "name": "Roasted Asparagus",
-      "owner": "John",
+      "owner": "Luca Bianchi",
       "time": "40",
       "category": ["Italian"],
       "portions": 4,
@@ -71,7 +71,7 @@
     {
       "id": 3,
       "name": "Curried Lentils and Rice",
-      "owner": "John",
+      "owner": "Gianna Moretti",
       "time": "40",
       "category": ["Quick & Easy"],
       "portions": 4,
@@ -102,7 +102,7 @@
     {
       "id": 4,
       "name": "Big Night Pizza",
-      "owner": "John",
+      "owner": "Marco Conti",
       "time": "40",
       "category": ["Italian"],
       "portions": 8,
@@ -140,7 +140,7 @@
     {
       "id": 5,
       "name": "Grilled Steak",
-      "owner": "John",
+      "owner": "Alessia Romano",
       "time": "40",
       "category": ["Grilled"],
       "portions": 2,
@@ -168,7 +168,7 @@
     {
       "id": 6,
       "name": "Chicken Alfredo Pasta",
-      "owner": "Anna",
+      "owner": "Matteo Russo",
       "time": "40",
       "category": ["Italian"],
       "portions": 4,
@@ -202,7 +202,7 @@
     {
       "id": 7,
       "name": "Grilled Salmon with Honey Soy",
-      "owner": "Anna",
+      "owner": "Isabella Ferrari",
       "time": "30",
       "category": ["Grilled"],
       "portions": 4,
@@ -233,7 +233,7 @@
     {
       "id": 8,
       "name": "Garlic Grilled Shrimp",
-      "owner": "Anna",
+      "owner": "Giovanni Martini",
       "time": "30",
       "category": ["Grilled"],
       "portions": 4,
@@ -266,7 +266,7 @@
     {
       "id": 9,
       "name": "Grilled Soy Honey Sesame Chicken Thighs",
-      "owner": "Anna",
+      "owner": "Chiara Ricci",
       "time": "30",
       "category": ["Grilled"],
       "portions": 4,
@@ -297,7 +297,7 @@
     {
       "id": 10,
       "name": "Grilled Pork Chops",
-      "owner": "Anna",
+      "owner": "Elena Ferri",
       "time": "30",
       "category": ["Grilled"],
       "portions": 2,
