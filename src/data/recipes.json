@@ -4,7 +4,7 @@
       "id": 1,
       "name": "Crock Pot Roast",
       "owner": "John",
-      "time": "40 min",
+      "time": "40",
       "category": ["Quick & Easy"],
       "ingredients": [
         "1 beef roast Meat",
@@ -27,7 +27,7 @@
       "id": 2,
       "name": "Roasted Asparagus",
       "owner": "John",
-      "time": "40 min",
+      "time": "40",
       "category": ["Italian"],
       "ingredients": [
         "1 lb asparagus",
@@ -53,7 +53,7 @@
       "id": 3,
       "name": "Curried Lentils and Rice",
       "owner": "John",
-      "time": "40 min",
+      "time": "40",
       "category": ["Quick & Easy"],
       "ingredients": [
         "1 quart beef broth",
@@ -76,7 +76,7 @@
       "id": 4,
       "name": "Big Night Pizza",
       "owner": "John",
-      "time": "40 min",
+      "time": "40",
       "category": ["Italian"],
       "ingredients": [
         "5 teaspoons yeast",
@@ -104,7 +104,7 @@
       "id": 5,
       "name": "Grilled Steak",
       "owner": "John",
-      "time": "40 min",
+      "time": "40",
       "category": ["Grilled"],
       "ingredients": [
         "beef steak Meat",
@@ -125,7 +125,7 @@
       "id": 6,
       "name": "Chicken Alfredo Pasta",
       "owner": "Anna",
-      "time": "40 min",
+      "time": "40",
       "category": ["Italian"],
       "ingredients": [
         "2 cups penne pasta",
@@ -150,7 +150,7 @@
       "id": 7,
       "name": "Grilled Salmon with Honey Soy",
       "owner": "Anna",
-      "time": "30 min",
+      "time": "30",
       "category": ["Grilled"],
       "ingredients": [
         "1 lb salmon fillets",
@@ -173,7 +173,7 @@
       "id": 8,
       "name": "Garlic Grilled Shrimp",
       "owner": "Anna",
-      "time": "30 min",
+      "time": "30",
       "category": ["Grilled"],
       "ingredients": [
         "1 lb shrimp",
@@ -198,7 +198,7 @@
       "id": 9,
       "name": "Grilled Soy Honey Sesame Chicken Thighs",
       "owner": "Anna",
-      "time": "30 min",
+      "time": "30",
       "category": ["Grilled"],
       "ingredients": [
         "2 chicken thighs",
@@ -221,7 +221,7 @@
       "id": 10,
       "name": "Grilled Pork Chops",
       "owner": "Anna",
-      "time": "30 min",
+      "time": "30",
       "category": ["Grilled"],
       "ingredients": [
         "pork chops",
