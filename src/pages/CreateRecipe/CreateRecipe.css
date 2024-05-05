@@ -91,6 +91,7 @@
 
 .ingredients p {
   margin: 10px 0 10px 10px;
+}
 
 .ingredients label button:hover {
   background-color: #3c7d24;
@@ -187,4 +188,3 @@
 .modal-button:hover {
   background-color: #3c7d24;
 }
-
