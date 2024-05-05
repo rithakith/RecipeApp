@@ -30,24 +30,24 @@ const RecipeCollection = () => {
         </button>
         <button
           onClick={() =>
-            handleButtonClick("http://localhost:3000/recipes?category=option1")
+            handleButtonClick("http://localhost:3000/recipes?category"+encodeURIComponent("Itallian"))
           }
         >
-          Option 1
+          Itallian
         </button>
         <button
           onClick={() =>
-            handleButtonClick("http://localhost:3000/recipes?category=option2")
+            handleButtonClick("http://localhost:3000/recipes?category="+encodeURIComponent("Grilled"))
           }
         >
-          Option 2
+          Grilled
         </button>
         <button
           onClick={() =>
-            handleButtonClick("http://localhost:3000/recipes?category=option3")
+            handleButtonClick("http://localhost:3000/recipes?category="+encodeURIComponent("Quick & Easy"))
           }
         >
-          Option 3
+          Quick & Easy
         </button>
         <span className="createRecipeBtn"><Link to={"/newrecipe"} style={{textDecoration:"none",color:"white"}}>+ Recipe</Link></span>
 

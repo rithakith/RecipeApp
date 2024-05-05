@@ -45,7 +45,7 @@ const RecipeCard = ({ recipe }) => {
         </div> */}
 
         <div id="card-container-bottom">
-          <div id="recipe-time">{recipe.time}</div>
+          <div id="recipe-time">{recipe.time} min</div>
 
           <div id="card-button-section">
             <Heart size={32} color="#509e2f" />
