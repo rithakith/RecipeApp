@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 import "./RecipeCollection.css";
 import Navbar from "../../components/Navbar/Navbar";
 import Footer from "../../components/Footer/Footer";
@@ -23,34 +23,55 @@ const RecipeCollection = () => {
       <Navbar />
 
       <div id="recipe-collection-container">
-        <button
-          onClick={() => handleButtonClick("http://localhost:3000/recipes")}
-        >
-          All
-        </button>
-        <button
-          onClick={() =>
-            handleButtonClick("http://localhost:3000/recipes?category"+encodeURIComponent("Itallian"))
-          }
-        >
-          Itallian
-        </button>
-        <button
-          onClick={() =>
-            handleButtonClick("http://localhost:3000/recipes?category="+encodeURIComponent("Grilled"))
-          }
-        >
-          Grilled
-        </button>
-        <button
-          onClick={() =>
-            handleButtonClick("http://localhost:3000/recipes?category="+encodeURIComponent("Quick & Easy"))
-          }
-        >
-          Quick & Easy
-        </button>
-        <span className="createRecipeBtn"><Link to={"/newrecipe"} style={{textDecoration:"none",color:"white"}}>+ Recipe</Link></span>
+        <div id="collectionpage-topic">
+          Browse through our <span>Collection</span>
+        </div>
 
+        <div id="collectionpage-buttons">
+          <button
+            onClick={() => handleButtonClick("http://localhost:3000/recipes")}
+          >
+            All
+          </button>
+          <button
+            onClick={() =>
+              handleButtonClick(
+                "http://localhost:3000/recipes?category" +
+                  encodeURIComponent("Itallian")
+              )
+            }
+          >
+            Itallian
+          </button>
+          <button
+            onClick={() =>
+              handleButtonClick(
+                "http://localhost:3000/recipes?category=" +
+                  encodeURIComponent("Grilled")
+              )
+            }
+          >
+            Grilled
+          </button>
+          <button
+            onClick={() =>
+              handleButtonClick(
+                "http://localhost:3000/recipes?category=" +
+                  encodeURIComponent("Quick & Easy")
+              )
+            }
+          >
+            Quick & Easy
+          </button>
+          <span className="createRecipeBtn">
+            <Link
+              to={"/newrecipe"}
+              style={{ textDecoration: "none", color: "white" }}
+            >
+              + Recipe
+            </Link>
+          </span>
+        </div>
 
         {isPending && <div>Loading...</div>}
         {error && <div>{error}</div>}
