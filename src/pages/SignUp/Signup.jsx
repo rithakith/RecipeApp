@@ -14,6 +14,9 @@ const Signup = () => {
   const handleSignup = (e) => {
     e.preventDefault();
     signup(email, password, displayName);
+    setEmail("");
+    setPassword("");
+    setDisplayName("");
   };
   return (
     <>
