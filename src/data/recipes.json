@@ -1,7 +1,7 @@
 {
   "recipes": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Crock Pot Roast",
       "owner": "Sofia Rossi",
       "time": "40",
@@ -32,7 +32,7 @@
       "imageURL": "http://img.sndimg.com/food/image/upload/w_266/v1/img/recipes/27/20/8/picVfzLZo.jpg"
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "Roasted Asparagus",
       "owner": "Luca Bianchi",
       "time": "40",
@@ -73,7 +73,7 @@
       "imageURL": "http://img.sndimg.com/food/image/upload/w_266/v1/img/recipes/50/84/7/picMcSyVd.jpg"
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "Curried Lentils and Rice",
       "owner": "Gianna Moretti",
       "time": "40",
@@ -106,7 +106,7 @@
       "imageURL": "https://plus.unsplash.com/premium_photo-1699293238823-7f56fe53ae3e?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
-      "id": 4,
+      "id": "4",
       "name": "Big Night Pizza",
       "owner": "Marco Conti",
       "time": "40",
@@ -146,7 +146,7 @@
       "imageURL": "http://upload.wikimedia.org/wikipedia/commons/c/c7/Spinach_pizza.jpg"
     },
     {
-      "id": 5,
+      "id": "5",
       "name": "Grilled Steak",
       "owner": "Alessia Romano",
       "time": "40",
@@ -176,7 +176,7 @@
       "imageURL": "https://hips.hearstapps.com/hmg-prod/images/how-to-grill-steak-1653399983.jpeg"
     },
     {
-      "id": 6,
+      "id": "6",
       "name": "Chicken Alfredo Pasta",
       "owner": "Matteo Russo",
       "time": "40",
@@ -212,7 +212,7 @@
       "imageURL": "https://www.budgetbytes.com/wp-content/uploads/2022/07/Chicken-Alfredo-above.jpg"
     },
     {
-      "id": 7,
+      "id": "7",
       "name": "Grilled Salmon with Honey Soy",
       "owner": "Isabella Ferrari",
       "time": "30",
@@ -245,7 +245,7 @@
       "imageURL": "https://carlsbadcravings.com/wp-content/uploads/2021/04/honey-glazed-salmon-6.jpg"
     },
     {
-      "id": 8,
+      "id": "8",
       "name": "Garlic Grilled Shrimp",
       "owner": "Giovanni Martini",
       "time": "30",
@@ -280,7 +280,7 @@
       "imageURL": "https://s23209.pcdn.co/wp-content/uploads/2018/07/Grilled-Garlic-Butter-ShrimpIMG_5629.jpg"
     },
     {
-      "id": 9,
+      "id": "9",
       "name": "Grilled Soy Honey Sesame Chicken Thighs",
       "owner": "Chiara Ricci",
       "time": "30",
@@ -313,7 +313,7 @@
       "imageURL": "https://cafedelites.com/wp-content/uploads/2019/02/Honey-Soy-Chicken-IMAGE-3.jpg"
     },
     {
-      "id": 10,
+      "id": "10",
       "name": "Grilled Pork Chops",
       "owner": "Elena Ferri",
       "time": "30",
@@ -358,7 +358,7 @@
         "fsdfds"
       ],
       "imageURL": "dsfdsfds",
-      "id": 11
+      "id": "11"
     },
     {
       "name": "dsada",
@@ -373,7 +373,7 @@
         "sdadsad"
       ],
       "imageURL": "ssadsadsa",
-      "id": 12
+      "id": "12"
     },
     {
       "name": "dsada",
@@ -388,7 +388,7 @@
         "sdadsad"
       ],
       "imageURL": "ssadsadsa",
-      "id": 13
+      "id": "13"
     },
     {
       "name": "dsada",
@@ -403,7 +403,7 @@
         "sdadsad"
       ],
       "imageURL": "ssadsadsa",
-      "id": 14
+      "id": "14"
     },
     {
       "name": "",
@@ -414,7 +414,7 @@
       "ingredients": [],
       "steps": [],
       "imageURL": "",
-      "id": 15
+      "id": "15"
     },
     {
       "name": "fdsa",
@@ -429,7 +429,24 @@
         "dsada"
       ],
       "imageURL": "dsadad",
-      "id": 16
+      "id": "16"
+    },
+    {
+      "id": "6f37",
+      "name": "dhall",
+      "owner": "akith",
+      "category": [
+        "option3"
+      ],
+      "ingredients": [
+        "dhal",
+        "chilly"
+      ],
+      "steps": [
+        "cook",
+        "stir"
+      ],
+      "imageURL": "https://foodvoyageur.com/wp-content/uploads/2021/03/Sri-Lankan-Dhal-Curry.webp"
     }
   ]
 }

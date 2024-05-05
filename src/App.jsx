@@ -7,6 +7,7 @@ import RecipePage from "./pages/RecipePage/RecipePage";
 import CreateRecipe from "./pages/CreateRecipe/CreateRecipe";
 import Login from "./pages/Login/Login";
 import Signup from "./pages/SignUp/Signup";
+import ProfilePage from "./pages/ProfilePage/ProfilePage";
 // import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
           <Route path="/newrecipe" Component={CreateRecipe} />
           <Route path="/login" Component={Login} />
           <Route path="/signup" Component={Signup} />
+          <Route path="/profile" Component={ProfilePage} />
         </Routes>
       </BrowserRouter>
     </>
