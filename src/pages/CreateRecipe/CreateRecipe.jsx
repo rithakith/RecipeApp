@@ -217,15 +217,17 @@ const CreateRecipe = () => {
           })}
         </div>
 
-        <button
-          className="create-recipe-btn"
-          type="submit"
-          onClick={() => {
-            handleSubmit();
-          }}
-        >
-          Create New
-        </button>
+        <div className="create-new">
+          <button
+            className="create-recipe-btn"
+            type="submit"
+            onClick={() => {
+              handleSubmit();
+            }}
+          >
+            Create New
+          </button>
+        </div>
       </form>
 
       {showModal && (

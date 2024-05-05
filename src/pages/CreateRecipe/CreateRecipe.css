@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 20px auto;
+  margin: 50px auto;
   padding: 10px 50px 0 60px;
   /* border: 1px solid #509e2f; */
   box-shadow: 0px 0px 20px 1px rgb(203, 203, 203);
@@ -148,9 +148,19 @@
 .steps li {
   margin-left: 10px;
 }
+
 .steps li::marker {
   color: #509e2f;
 }
+
+.create-new{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+}
+
 .create-recipe-btn {
   padding: 10px;
   background-color: #509e2f;
