@@ -27,8 +27,22 @@
   border-radius: 10px;
 }
 
-.recipe-details{
-    display: inline;
+.sub-titles {
+  font-size: 1rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 20px;
+  padding-bottom: 20px;
+}
+
+.sub-titles div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
 .title-section h6 {
@@ -37,63 +51,93 @@
   padding-top: 10px;
 }
 
-.ingredients{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-top: 20px;
-    border: 1px solid #e0e0e0;
-    border-radius: 10px;
-    width: 70%;
-    height: auto;
-    padding: 20px;
-    line-height: 2;
+.recipe-details {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.ingredients {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  line-height: 2;
 }
 
 .ingredients h4 {
-    font-size: 2rem;
-    font-weight: 500;
-    margin-bottom: 10px;
-    color: #509e2f;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 20px;
+  color: #509e2f;
 }
 
 .ingredients ul {
-    list-style-type: none;
-    padding: 0;
+  list-style-type: none;
+  padding: 0;
 }
 
 .ingredients ul li {
-    margin: 5px 5px;
+  margin: 5px 0;
 }
 
-.directions {
+.directions{
+    width: 50%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 20px;
-    border: 1px solid #e0e0e0;
-    border-radius: 10px;
-    width: 70%;
-    height: auto;
-    padding: 20px;
     line-height: 2;
 }
 
 .directions h4 {
-    font-size: 2rem;
-    font-weight: 500;
-    margin-bottom: 10px;
-    color: #509e2f;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 20px;
+  color: #509e2f;
 }
 
 .directions ol {
-    list-style-type: none;
-    padding: 0;
+  list-style-type: none;
+  padding: 0;
 }
 
 .directions ol li {
-    margin: 5px 5px;
+  margin: 5px 0;
 }
 
+@media screen and (max-width: 768px) {
+  .title-section h3 {
+    font-size: 3rem;
+  }
+
+  .sub-titles {
+    flex-direction: row;
+  }
+
+  .sub-titles div {
+    margin-bottom: 10px;
+  }
+
+  .title-section img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+
+  .recipe-details {
+    flex-direction: column;
+  }
+
+  .ingredients {
+    width: 100%;
+  }
+
+  .directions {
+    width: 100%;
+  }
+}
