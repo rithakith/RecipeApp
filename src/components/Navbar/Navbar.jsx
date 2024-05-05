@@ -2,8 +2,11 @@ import React from "react";
 import "./Navbar.css";
 import { Link } from "react-router-dom";
 import logo from "../../assets/images/logoFinal.png";
+import { useLogout } from "../../Hooks/useLogout";
+
 
 const Navbar = () => {
+  const {logout} = useLogout()
   return (
     <>
       <nav className="navContainer">
@@ -27,9 +30,14 @@ const Navbar = () => {
               {" "}
               <Link to={"/signup"}>Signup</Link>
             </li>
-            <li id="loginButtonNavbar" style={{}}>
+            <li id="loginButtonNavbar" >
               <Link to={"/login"} style={{ color: "white" }}>
                 Login
+              </Link>
+            </li>
+            <li id="loginButtonNavbar" >
+              <Link  style={{ color: "white" }} onClick={logout}>
+                Logout
               </Link>
             </li>
           </div>

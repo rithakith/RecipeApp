@@ -2,42 +2,47 @@ import React from "react";
 import { useState } from "react";
 import "./Signup.css";
 import Navbar from "../../components/Navbar/Navbar";
+import { useSignup } from "../../Hooks/useSignup";
+import Modal from "../../components/Modal/Modal";
 
 const Signup = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-  const [username, setUsername] = useState("");
+  const [displayName, setDisplayName] = useState("");
+  const { signup, isPending, error } = useSignup();
 
   const handleLogin = (e) => {
     e.preventDefault();
-    console.log(email, password, username);
+    signup(email, password, displayName);
   };
   return (
     <>
       <Navbar />
 
       <div className="containerSignup">
-        <div class="title">
+        <div className="title">
           <h1>Join with us!!</h1>
         </div>
         <form action="" onSubmit={handleLogin}>
           <div className="usernameDiv">
-            <label for="username">
+            <label htmlFor="displayName">
               Username:
               <input
                 type="text"
                 name=""
                 id="username"
-                placeholder="username"
-                onChange={(e)=>{setUsername(e.target.value)}}
-                value={username}
+                placeholder="Username"
+                onChange={(e) => {
+                  setDisplayName(e.target.value);
+                }}
+                value={displayName}
                 required
               />
             </label>
           </div>
 
           <div className="emailDiv">
-            <label for="email">
+            <label htmlFor="email">
               Email:
               <br />
               <input
@@ -46,14 +51,16 @@ const Signup = () => {
                 id="email"
                 placeholder="email"
                 required
-                onChange={(e)=>{setEmail(e.target.value)}}
+                onChange={(e) => {
+                  setEmail(e.target.value);
+                }}
                 value={email}
               />
             </label>
           </div>
 
           <div className="passwordDiv">
-            <label for="password">
+            <label htmlFor="password">
               Password:
               <br />
               <input
@@ -61,7 +68,9 @@ const Signup = () => {
                 name=""
                 id="password"
                 placeholder="Password"
-                onChange={(e)=>{setPassword(e.target.value)}}
+                onChange={(e) => {
+                  setPassword(e.target.value);
+                }}
                 value={password}
                 required
               />
@@ -69,10 +78,17 @@ const Signup = () => {
           </div>
 
           <br />
-
+          {error && <p>{error}</p>}
           <div className="passwordDivSignup">
             <div className="submitSignupDiv">
-              <input type="submit" value="Sign up" id="submitSignup" />
+              {isPending && (
+                <button className="submitSignup" disabled>
+                  Loading...
+                </button>
+              )}
+              {!isPending && (
+                <input type="submit" value="Sign up" className="submitSignup" />
+              )}
             </div>
           </div>
         </form>
