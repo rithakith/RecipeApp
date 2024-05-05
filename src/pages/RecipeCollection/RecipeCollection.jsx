@@ -5,7 +5,7 @@ import Navbar from "../../components/Navbar/Navbar";
 import Footer from "../../components/Footer/Footer";
 import RecipeCard from "../../components/RecipeCard/RecipeCard";
 import useFetch from "../../Hooks/useFetch";
-
+import Modal from "../../components/Modal/Modal";
 const RecipeCollection = () => {
   const [url, setURL] = useState("http://localhost:3000/recipes");
   const { data: recipes, isPending, error } = useFetch(url);
@@ -28,46 +28,42 @@ const RecipeCollection = () => {
         </div>
 
         <div id="collectionpage-buttons">
-          <div id="collectionpage-buttons-left">
-            <button
-              className="hover-underline-animation"
-              onClick={() => handleButtonClick("http://localhost:3000/recipes")}
-            >
-              All
-            </button>
-            <button
-              onClick={() =>
-                handleButtonClick(
-                  "http://localhost:3000/recipes?category" +
-                    encodeURIComponent("Itallian")
-                )
-              }
-            >
-              Itallian
-            </button>
-            <button
-              onClick={() =>
-                handleButtonClick(
-                  "http://localhost:3000/recipes?category=" +
-                    encodeURIComponent("Grilled")
-                )
-              }
-            >
-              Grilled
-            </button>
-            <button
-              onClick={() =>
-                handleButtonClick(
-                  "http://localhost:3000/recipes?category=" +
-                    encodeURIComponent("Quick & Easy")
-                )
-              }
-            >
-              Quick & Easy
-            </button>
-          </div>
-
-          <div className="createRecipeBtn">
+          <button
+            onClick={() => handleButtonClick("http://localhost:3000/recipes")}
+          >
+            All
+          </button>
+          <button
+            onClick={() =>
+              handleButtonClick(
+                "http://localhost:3000/recipes?category" +
+                  encodeURIComponent("Itallian")
+              )
+            }
+          >
+            Itallian
+          </button>
+          <button
+            onClick={() =>
+              handleButtonClick(
+                "http://localhost:3000/recipes?category=" +
+                  encodeURIComponent("Grilled")
+              )
+            }
+          >
+            Grilled
+          </button>
+          <button
+            onClick={() =>
+              handleButtonClick(
+                "http://localhost:3000/recipes?category=" +
+                  encodeURIComponent("Quick & Easy")
+              )
+            }
+          >
+            Quick & Easy
+          </button>
+          <span className="createRecipeBtn">
             <Link
               to={"/newrecipe"}
               style={{ textDecoration: "none", color: "white" }}
@@ -87,7 +83,11 @@ const RecipeCollection = () => {
             })}
         </div>
       </div>
-
+      {/* <Modal>
+      <h2>jdfljfdslkjf</h2>
+          <Link to={'/'}>hehe</Link>
+          <button></button>
+      </Modal> */}
       <Footer />
     </>
   );
