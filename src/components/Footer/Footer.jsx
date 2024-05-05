@@ -58,6 +58,7 @@ const Footer = () => {
         </div>
       </footer>
       <div className="social-media">
+        
         <FacebookLogo size={25} />
         <InstagramLogo size={25} />
         <XLogo size={25} />
