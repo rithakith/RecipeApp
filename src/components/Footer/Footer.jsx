@@ -51,7 +51,9 @@ const Footer = () => {
           <button>Subscribe</button>
         </div>
       </footer>
-      <div className="social-media"></div>
+      <div className="social-media">
+        
+      </div>
     </>
   );
 };

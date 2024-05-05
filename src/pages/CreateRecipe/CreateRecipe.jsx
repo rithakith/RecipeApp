@@ -118,6 +118,9 @@ const CreateRecipe = () => {
             <option value="option3">Option3</option>
           </select>
         </label>
+        <label>
+            Portions serve:
+        </label>
         <div className="ingredients">
           Ingredients
           <ol>
