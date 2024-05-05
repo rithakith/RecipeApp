@@ -42,6 +42,10 @@ const Premium = () => {
             <li>Create a grocery list</li>
             <li>Get daily cooking tips</li>
           </ul>
+
+          <h3>$5</h3>
+
+          <input type="button" value="Buy Now"></input>
         </div>
 
         <div className="premium-option">
@@ -58,6 +62,10 @@ const Premium = () => {
             <li>Create a grocery list</li>
             <li>Get daily cooking tips</li>
           </ul>
+
+          <h3>$28</h3>
+
+          <input type="button" value="Buy Now"></input>
         </div>
 
         <div className="premium-option">
@@ -74,6 +82,10 @@ const Premium = () => {
             <li>Create a grocery list</li>
             <li>Get daily cooking tips</li>
           </ul>
+
+          <h3>$55</h3>
+
+          <input type="button" value="Buy Now"></input>
         </div>
       </div>
 
