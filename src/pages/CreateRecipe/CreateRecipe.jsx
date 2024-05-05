@@ -79,8 +79,12 @@ const CreateRecipe = () => {
   return (
     <>
       <Navbar />
-      <br />
+
       <form className="form-container" onSubmit={handleSubmit}>
+        <h2 id="form-topic">
+          <span>Create</span> your own recipe
+        </h2>
+
         <label className="recipe-name">
           Recipe name:
           <input
@@ -92,7 +96,7 @@ const CreateRecipe = () => {
             required
           />
         </label>
-        <br />
+
         <label className="owner-name">
           Name of owner:
           <input
@@ -104,7 +108,7 @@ const CreateRecipe = () => {
             required
           />
         </label>
-        <br />
+
         <label className="category">
           Category:
           <select
@@ -113,35 +117,43 @@ const CreateRecipe = () => {
             }}
             value={category}
           >
-            <option value="option1">Option1</option>
-            <option value="option2">Option2</option>
-            <option value="option3">Option3</option>
+            <option value="option1">Grilled</option>
+            <option value="option2">Italian</option>
+            <option value="option3">Quick & easy</option>
           </select>
         </label>
+
+        <label className="portions">
+          Portions:
+          <input type="number" required />
+        </label>
+
+        <label className="time">
+          Time(min):
+          <input type="number" required />
+        </label>
+
         <div className="ingredients">
-          Ingredients
-          <ol>
-            <li>
-              <label>
-                {" "}
-                <input
-                  type="text"
-                  onChange={(e) => {
-                    setNewIngredient(e.target.value);
-                  }}
-                  value={newIngredient}
-                  ref={ingredientInput}
-                />
-                <button onClick={handleIngAdd}>Add</button>
-              </label>
-            </li>
-          </ol>
+          <label>
+            Ingredients:{" "}
+            <div>
+              <input
+                type="text"
+                onChange={(e) => {
+                  setNewIngredient(e.target.value);
+                }}
+                value={newIngredient}
+                ref={ingredientInput}
+              />
+              <button onClick={handleIngAdd}>Add</button>
+            </div>
+          </label>
           <p>Current Ingredients :</p>
           {ingredients.map((ing) => {
             return <li key={ing}>{ing}</li>;
           })}
         </div>
-        <br />
+
         <label className="image-url">
           Image URL:
           <input
@@ -153,31 +165,27 @@ const CreateRecipe = () => {
             value={image}
           />
         </label>
+
         <div className="steps">
           Steps:
-          <ol>
-            <li>
-              <label>
-                {" "}
-                <input
-                  type="text"
-                  onChange={(e) => {
-                    setNewStep(e.target.value);
-                  }}
-                  value={newStep}
-                  ref={stepInput}
-                />
-                <button onClick={handleStepAdd}>Add</button>
-              </label>
-            </li>
-          </ol>
+          <label>
+            {" "}
+            <input
+              type="text"
+              onChange={(e) => {
+                setNewStep(e.target.value);
+              }}
+              value={newStep}
+              ref={stepInput}
+            />
+            <button onClick={handleStepAdd}>Add</button>
+          </label>
           <p>Current Steps :</p>
           {steps.map((step) => {
             return <li key={step}>{step}</li>;
           })}
         </div>
-        <br />
-        <br />
+
         <button
           className="create-recipe-btn"
           type="submit"
@@ -188,11 +196,16 @@ const CreateRecipe = () => {
           Create New
         </button>
       </form>
-      {showModal && ( // Render modal only if showModal is true
-        <Modal>
+
+      {showModal && (
+        <Modal className="custom-modal">
           <h2>Recipe Created Successfully!</h2>
-          <Link to={"/"}>Go Back</Link>
-          <button onClick={() => setShowModal(false)}>Close</button>
+          <Link to={"/"} className="modal-link">
+            Go Back
+          </Link>
+          <button className="modal-button" onClick={() => setShowModal(false)}>
+            Close
+          </button>
         </Modal>
       )}
     </>

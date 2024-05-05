@@ -10,7 +10,6 @@ const Home = () => {
   return (
     <>
       <Navbar />
-     
 
       <div id="home">
         <div id="home-container">
@@ -18,27 +17,37 @@ const Home = () => {
 
           <div id="tag-buttons">
             <div id="tag-button-1">
-              <p>Recipes & Menus</p>
+              <a href="/recipes">
+                <p>Recipes & Menus</p>
+              </a>
               <CaretRight size={28} />
             </div>
 
             <div id="tag-button-2">
-              <p>Create Recipe</p>
+              <a href="/newrecipe">
+                <p>Create Recipe</p>
+              </a>
               <CaretRight size={28} />
             </div>
 
             <div id="tag-button-3">
-              <p>Custom Meal Plan</p>
+              <a href="/">
+                <p>Custom Meal Plan</p>
+              </a>
               <CaretRight size={28} />
             </div>
 
             <div id="tag-button-4">
-              <p>Create Grocery List</p>
+              <a href="/">
+                <p>Create Grocery List</p>
+              </a>
               <CaretRight size={28} />
             </div>
 
             <div id="tag-button-5">
-              <p>Cooking Tips</p>
+              <a href="/">
+                <p>Cooking Tips</p>
+              </a>
               <CaretRight size={28} />
             </div>
           </div>
@@ -52,7 +61,6 @@ const Home = () => {
           </div>
         </div>
       </div>
-
 
       <Footer />
     </>
