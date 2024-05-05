@@ -1,11 +1,11 @@
 # Cookpal Web Application
 
-Cookpal is a web application developed as a project for our web assignment in the first year. It is built using React for the frontend and Firebase for the backend. Cookpal provides a platform for users to explore various recipes, including premium features, and offers functionalities such as user authentication, login, and signup.
+Cookpal is a web application developed as a project for our web assignment in the first year. It is built using React+Vite for the frontend and Firebase for the backend. Cookpal provides a platform for users to explore various recipes, including premium features, and offers functionalities such as user authentication, login, and signup.
 
 ## Project Overview
 
 - **Project Name**: Cookpal
-- **Team Members**: [@jalinaH](https://github.com/JalinaH) , [@Akith-002](https://github.com/Akith-002) , [@VishwaJaya01](https://github.com/VishwaJaya01) 
+- **Team Members**: [@jalinaH](https://github.com/JalinaH) , [@Akith-002](https://github.com/Akith-002) , [@VishwaJaya01](https://github.com/VishwaJaya01) ,saradi
 
 ## Getting Started
 
