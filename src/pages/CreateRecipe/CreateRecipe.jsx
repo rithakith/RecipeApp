@@ -4,6 +4,7 @@ import useFetch from "../../Hooks/useFetch";
 import Modal from "../../components/Modal/Modal";
 import "./CreateRecipe.css";
 import { Link, useNavigate } from "react-router-dom";
+import Footer from "../../components/Footer/Footer";
 
 const CreateRecipe = () => {
   const [title, setTitle] = useState("");
@@ -211,6 +212,8 @@ const CreateRecipe = () => {
           </button>
         </Modal>
       )}
+
+      <Footer />
     </>
   );
 };
