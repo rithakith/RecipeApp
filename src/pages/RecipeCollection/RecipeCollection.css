@@ -2,6 +2,30 @@
   width: 98%;
   margin: 0 auto;
 }
+
+#collectionpage-topic {
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+  text-shadow: 2px 1px 2px;
+}
+#collectionpage-topic span {
+  color: #509e2f;
+  font-weight: 700;
+}
+
+#collectionpage-buttons button {
+  border: none;
+  border-radius: 20px;
+  padding: 5px 18px;
+  margin: 0 5px;
+  font-weight: 500;
+}
+#collectionpage-buttons button:hover {
+  background-color: grey;
+}
 #collection-container {
   display: flex;
   flex-wrap: wrap;
@@ -11,8 +35,8 @@
   margin: 1.5rem 0;
 }
 
-.createRecipeBtn{
-  background-color: rgb(80, 158, 47);
+.createRecipeBtn {
+  background-color: #509e2f;
   color: white;
   float: right;
   margin-right: 50px;
@@ -20,7 +44,6 @@
   border-radius: 5px;
 }
 
-.createRecipeBtn:hover{
+.createRecipeBtn:hover {
   padding: 6px;
-  
 }
