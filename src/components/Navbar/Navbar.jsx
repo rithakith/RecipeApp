@@ -42,7 +42,7 @@ const Navbar = () => {
             )}
             {user && (
               <>
-                {" "}
+
                 <li className="hello-user">
                   <UserCircle size={24} style={{ color: "#509e2f" }} />{" "}
                   <Link to={"/profile"}> {user.displayName} </Link>
