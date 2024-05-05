@@ -34,6 +34,7 @@
 .company-menu {
   font-size: 14px;
   width: 15%;
+  height: 63%;
   padding: 0 10px;
 }
 
@@ -58,6 +59,7 @@
 
 .resources-menu {
   width: 15%;
+  height: 63%;
   font-size: 14px;
   padding: 0 10px;
 }
@@ -129,7 +131,8 @@
   justify-content: center;
   gap: 20px;
   background-color: #f8f9fa;
-  padding-bottom: 5px;
+  padding-bottom: 15px;
+  color: #509e2f;
 }
 
 @media screen and (max-width: 768px) {
@@ -176,5 +179,3 @@
     width: 100%;
   }
 }
-
-

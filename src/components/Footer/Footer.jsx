@@ -34,6 +34,9 @@ const Footer = () => {
             <li>
               <Link to="/careers">Careers</Link>
             </li>
+            <li>
+              <Link to="/feedback">Feedback</Link>
+            </li>
           </ul>
         </div>
         <div className="resources-menu">
@@ -48,6 +51,9 @@ const Footer = () => {
             <li>
               <Link to="/privacy-policy">Privacy Policy</Link>
             </li>
+            <li>
+              <Link to="/terms">Terms</Link>
+            </li>
           </ul>
         </div>
         <div className="subscribe-section">
@@ -57,12 +63,12 @@ const Footer = () => {
           <button>Subscribe</button>
         </div>
       </footer>
+
       <div className="social-media">
-        
-        <FacebookLogo size={25} />
-        <InstagramLogo size={25} />
-        <XLogo size={25} />
-        <TiktokLogo size={25} />
+        <FacebookLogo size={25} weight="bold" />
+        <InstagramLogo size={25} weight="bold" />
+        <XLogo size={25} weight="bold" />
+        <TiktokLogo size={25} weight="bold" />
       </div>
     </>
   );

@@ -11,6 +11,7 @@ import CreateRecipe from "./pages/CreateRecipe/CreateRecipe";
 import Login from "./pages/Login/Login";
 import Signup from "./pages/SignUp/Signup";
 import ProfilePage from "./pages/ProfilePage/ProfilePage";
+import Premium from "./pages/Premium/Premium";
 // import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
   }
 
   return (
+<<<<<<< HEAD
     <BrowserRouter>
       <Routes>
         <Route
@@ -35,8 +37,10 @@ function App() {
         <Route path="/login" element={user ? <Navigate to="/home" /> : <Navigate to="/login" />} />
         <Route path="/signup" element={user ? <Navigate to="/home" /> : <Navigate to="/signup" />} />
         <Route path="/profile" element={<ProfilePage />} />
+          <Route path="/premium" Component={Premium} />
       </Routes>
     </BrowserRouter>
+
   );
 }
 
