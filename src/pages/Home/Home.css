@@ -2,3 +2,55 @@
   width: 90%;
   margin: 0 auto;
 }
+
+#tag-buttons {
+  margin: 1rem 0;
+  padding: 0 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+#tag-buttons div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1.1rem;
+  width: 14rem;
+  height: 4.5rem;
+  color: white;
+}
+
+#tag-buttons div p {
+  margin: 0;
+}
+
+#tag-button-1 {
+  background-color: #64c53a;
+  border-radius: 10px;
+  padding: 0 0.7rem 0 1rem;
+}
+#tag-button-2 {
+  background-color: #6c6d6b;
+  border-radius: 10px;
+  padding: 0 0.7rem 0 1rem;
+}
+#tag-button-3 {
+  background-color: #87aeac;
+  border-radius: 10px;
+  padding: 0 0.7rem 0 1rem;
+}
+#tag-button-4 {
+  background-color: #f5a65b;
+  border-radius: 10px;
+  padding: 0 0.7rem 0 1rem;
+}
+#tag-button-5 {
+  background-color: #7a89c2;
+  border-radius: 10px;
+  padding: 0 0.7rem 0 1rem;
+}
+
+.section-topic {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
