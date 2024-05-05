@@ -138,6 +138,15 @@
   background-color: #3c7d24;
 }
 
+.steps p {
+  margin: 10px 0 10px 10px;
+}
+.steps li {
+  margin-left: 10px;
+}
+.steps li::marker {
+  color: #509e2f;
+}
 .create-recipe-btn {
   padding: 10px;
   background-color: #509e2f;
