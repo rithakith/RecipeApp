@@ -11,8 +11,10 @@ const Navbar = () => {
           <div className="logo">
             <Link to={"/"}>
               <img src={logo} alt="logo" />
+              <p>
+                C<span>oo</span>kpal
+              </p>
             </Link>
-            <p>Cookpal</p>
           </div>
 
           <div className="remainingNav">

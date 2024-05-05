@@ -7,21 +7,26 @@ const Signup = () => {
     <>
       <Navbar />
 
-      <div class="containerSignup">
+      <div className="containerSignup">
         <div class="title">
           <h1>Join with us!!</h1>
         </div>
 
-        <div class="usernameDiv">
-          Username:
+        <div className="usernameDiv">
           <label for="username">
-            <br />
-            <input type="text" name="" id="username" placeholder="username"  />
+            Username:
+            <input
+              type="text"
+              name=""
+              id="username"
+              placeholder="username"
+              required
+            />
           </label>
         </div>
 
-        <div class="collection">
-          <div class="ageDiv">
+        <div className="collection">
+          <div className="ageDiv">
             <label for="age">
               Age:
               <br />
@@ -31,10 +36,11 @@ const Signup = () => {
                 id="age"
                 placeholder="Age"
                 min={10}
+                required
               />
             </label>
           </div>
-          <div class="genderDiv">
+          <div className="genderDiv">
             <label for="gender">
               Gender:
               <br />
@@ -49,15 +55,21 @@ const Signup = () => {
           </div>
         </div>
 
-        <div class="emailDiv">
+        <div className="emailDiv">
           <label for="email">
             Email:
             <br />
-            <input type="email" name="" id="email" placeholder="email" />
+            <input
+              type="email"
+              name=""
+              id="email"
+              placeholder="email"
+              required
+            />
           </label>
         </div>
 
-        <div class="collection">
+        <div className="collection">
           <div class="ageDiv">
             <label for="password">
               Password:
@@ -67,10 +79,11 @@ const Signup = () => {
                 name=""
                 id="password"
                 placeholder="password"
+                required
               />
             </label>
           </div>
-          <div class="genderDiv">
+          <div className="genderDiv">
             <label for="password">
               Confirm Password:
               <br />
@@ -79,16 +92,19 @@ const Signup = () => {
                 name=""
                 id="password"
                 placeholder="password"
+                required
               />
             </label>
           </div>
         </div>
 
-        <div class="passwordDivSignup">
-          <div class="submitSignupDiv">
+        <div className="passwordDivSignup">
+          <div className="submitSignupDiv">
             <input type="submit" value="Sign up" id="submitSignup" />
           </div>
         </div>
+
+        <div id="signin-direct">Already have an account? Signin here</div>
       </div>
     </>
   );

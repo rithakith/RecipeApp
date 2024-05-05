@@ -1,48 +1,67 @@
-import React from 'react'
+import React from "react";
+import "./Login.css";
+import Navbar from "../../components/Navbar/Navbar";
+import leftImg from "../../assets/images/loginImg.jpeg";
 
-import './Login.css'
-import Navbar from '../../components/Navbar/Navbar'
-import leftImg from '../../assets/images/loginImg.jpeg'
 const Login = () => {
   return (
     <>
-    <Navbar/>
-    <div class="containerLogin">
-      <div class="leftLogin">
-        <img src={leftImg} alt="" id='loginImg' />
-      </div>
-      <div className="rightLogin">
-        <div className="contentLogin">
-          <h1>Welcome Back!!</h1>
+      <Navbar />
 
-          <form action="">
-            <div class="name">
-              <label for="name">
-                Username:
-                <br />
-                <input type="text" name="" id="name" placeholder="Username" />
-              </label>
-            </div>
-            <div class="passwordDiv">
-              <label for="password">
-                Password:
-                <br />
-                <input type="password" name="" id="passwordLogin" placeholder="Password" />
-              </label>
-            </div>
+      <div class="containerLogin">
+        <div class="leftLogin">
+          <img src={leftImg} alt="" id="loginImg" />
+        </div>
 
-            <div class="buttonsLogin">
-              <input type="submit" value="Login" id="loginButton" />
-            </div>
-          </form>
-          Don't have an account? then 
-          <span id="SignupSpan"> <a href="/signup" id="signupButton"> Sign up</a></span>
+        <div className="rightLogin">
+          <div className="contentLogin">
+            <h1>Welcome Back!!</h1>
+            <form action="">
+              <div class="name">
+                <label for="name">
+                  Username:
+                  <br />
+                  <input
+                    type="text"
+                    name=""
+                    id="name"
+                    placeholder="Username"
+                    required
+                  />
+                </label>
+              </div>
+
+              <div class="passwordDiv">
+                <label for="password">
+                  Password:
+                  <br />
+                  <input
+                    type="password"
+                    name=""
+                    id="passwordLogin"
+                    placeholder="Password"
+                    required
+                  />
+                </label>
+              </div>
+
+              <div class="buttonsLogin">
+                <input type="submit" value="Login" id="loginButton" />
+              </div>
+            </form>
+            Don't have an account? then
+            <span id="SignupSpan">
+              {" "}
+              <a href="/signup" id="signupButton">
+                {" "}
+                Sign up
+              </a>
+            </span>
+          </div>
         </div>
       </div>
-    </div>
-
     </>
-  )
-}
+  );
+};
 
-export default Login
+export default Login;
