@@ -27,7 +27,11 @@ const Premium = () => {
         </ul>
       </div>
 
-      <div id="premium"></div>
+      <div id="premium-content">
+        <div className="premium-option"></div>
+        <div className="premium-option"></div>
+        <div className="premium-option"></div>
+      </div>
 
       <Footer />
     </>
