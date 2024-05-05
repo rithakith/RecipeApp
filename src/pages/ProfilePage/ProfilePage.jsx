@@ -2,9 +2,14 @@ import React from "react";
 import "./ProfilePage.css";
 import Navbar from "../../components/Navbar/Navbar";
 import Footer from "../../components/Footer/Footer";
+import { useAuthContext } from "../../Hooks/useAuthContext";
+
 import profile1 from "../../assets/profile_images/profilepic1.jpg";
 
 const ProfilePage = () => {
+  const { user } = useAuthContext();
+  console.log(user);
+
   return (
     <>
       <Navbar />
@@ -23,15 +28,15 @@ const ProfilePage = () => {
 
           <div id="profile-details">
             <div>
-              <p>Full Name</p>
+              <p> {user.displayName}</p>
               <p></p>
             </div>
             <div>
-              <p>User Name</p>
+              <p>{user.displayName}</p>
               <p></p>
             </div>
             <div>
-              <p>Email</p>
+              <p>{user.email}</p>
               <p></p>
             </div>
           </div>
