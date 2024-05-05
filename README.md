@@ -29,7 +29,7 @@ To run the Cookpal web application locally on your machine, follow these steps:
     ```
 
 4. **Access Cookpal**: 
-    Once the JSON Server and React app are running, you can access Cookpal by opening a web browser and navigating to [http://localhost:3000/](http://localhost:3000/).
+    Once the JSON Server and React app are running, you can access Cookpal by opening a web browser and navigating to [http://localhost:5173/](http://localhost:5173/).
 
 ## Future Plans
 
