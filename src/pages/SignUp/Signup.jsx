@@ -15,7 +15,13 @@ const Signup = () => {
         <div className="usernameDiv">
           <label for="username">
             Username:
-            <input type="text" name="" id="username" placeholder="username" />
+            <input
+              type="text"
+              name=""
+              id="username"
+              placeholder="username"
+              required
+            />
           </label>
         </div>
 
@@ -30,6 +36,7 @@ const Signup = () => {
                 id="age"
                 placeholder="Age"
                 min={10}
+                required
               />
             </label>
           </div>
@@ -52,7 +59,13 @@ const Signup = () => {
           <label for="email">
             Email:
             <br />
-            <input type="email" name="" id="email" placeholder="email" />
+            <input
+              type="email"
+              name=""
+              id="email"
+              placeholder="email"
+              required
+            />
           </label>
         </div>
 
@@ -66,6 +79,7 @@ const Signup = () => {
                 name=""
                 id="password"
                 placeholder="password"
+                required
               />
             </label>
           </div>
@@ -78,6 +92,7 @@ const Signup = () => {
                 name=""
                 id="password"
                 placeholder="password"
+                required
               />
             </label>
           </div>

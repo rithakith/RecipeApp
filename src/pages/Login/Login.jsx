@@ -21,7 +21,13 @@ const Login = () => {
                 <label for="name">
                   Username:
                   <br />
-                  <input type="text" name="" id="name" placeholder="Username" />
+                  <input
+                    type="text"
+                    name=""
+                    id="name"
+                    placeholder="Username"
+                    required
+                  />
                 </label>
               </div>
 
@@ -34,6 +40,7 @@ const Login = () => {
                     name=""
                     id="passwordLogin"
                     placeholder="Password"
+                    required
                   />
                 </label>
               </div>
