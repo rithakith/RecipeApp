@@ -11,7 +11,7 @@ const Signup = () => {
   const [displayName, setDisplayName] = useState("");
   const { signup, isPending, error } = useSignup();
 
-  const handleLogin = (e) => {
+  const handleSignup = (e) => {
     e.preventDefault();
     signup(email, password, displayName);
   };
@@ -23,7 +23,7 @@ const Signup = () => {
         <div className="title">
           <h1>Join with us!!</h1>
         </div>
-        <form action="" onSubmit={handleLogin}>
+        <form action="" onSubmit={handleSignup}>
           <div className="usernameDiv">
             <label htmlFor="displayName">
               Username:
