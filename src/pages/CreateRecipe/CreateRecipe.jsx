@@ -188,11 +188,15 @@ const CreateRecipe = () => {
           Create New
         </button>
       </form>
-      {showModal && ( // Render modal only if showModal is true
-        <Modal>
+      {showModal && (
+        <Modal className="custom-modal">
           <h2>Recipe Created Successfully!</h2>
-          <Link to={"/"}>Go Back</Link>
-          <button onClick={() => setShowModal(false)}>Close</button>
+          <Link to={"/"} className="modal-link">
+            Go Back
+          </Link>
+          <button className="modal-button" onClick={() => setShowModal(false)}>
+            Close
+          </button>
         </Modal>
       )}
     </>

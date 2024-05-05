@@ -80,6 +80,10 @@
   width: 10%;
 }
 
+.ingredients label button:hover {
+  background-color: #3c7d24;
+}
+
 .image-url {
   display: flex;
   flex-direction: column;
@@ -123,6 +127,10 @@
   width: 10%;
 }
 
+.steps label button:hover {
+  background-color: #3c7d24;
+}
+
 .create-recipe-btn {
   padding: 10px;
   background-color: #509e2f;
@@ -132,3 +140,44 @@
   width: 100%;
   border-radius: 5px;
 }
+
+.create-recipe-btn:hover {
+  background-color: #3c7d24;
+}
+
+.custom-modal {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.custom-modal h2 {
+  margin-top: 0;
+}
+
+.modal-link {
+  display: block;
+  margin-top: 10px;
+  color: #000;
+  text-decoration: none;
+}
+
+.modal-link:hover {
+  text-decoration: underline;
+}
+
+.modal-button {
+  margin-top: 10px;
+  padding: 8px 20px;
+  background-color: #509e2f;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.modal-button:hover {
+  background-color: #3c7d24;
+}
+
