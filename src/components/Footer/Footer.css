@@ -16,7 +16,6 @@
   width: 35%;
   font-size: 14px;
   padding-left: 100px;
-
 }
 
 .description {
@@ -32,23 +31,23 @@
   box-shadow: 0px 5px 10px 1px rgb(87, 87, 87);
 }
 
-.company-menu{
+.company-menu {
   font-size: 14px;
   width: 15%;
   padding: 0 10px;
 }
 
-.company-menu h3{
+.company-menu h3 {
   font-size: 20px;
   font-weight: bold;
 }
 
-.company-menu ul{
+.company-menu ul {
   list-style-type: none;
   padding: 0;
 }
 
-.company-menu ul li{
+.company-menu ul li {
   margin: 5px 5px;
 }
 
@@ -57,23 +56,23 @@
   color: black;
 }
 
-.resources-menu{
+.resources-menu {
   width: 15%;
   font-size: 14px;
   padding: 0 10px;
 }
 
-.resources-menu h3{
+.resources-menu h3 {
   font-size: 20px;
   font-weight: bold;
 }
 
-.resources-menu ul{
+.resources-menu ul {
   list-style-type: none;
   padding: 0;
 }
 
-.resources-menu ul li{
+.resources-menu ul li {
   margin: 5px 5px;
 }
 
@@ -82,14 +81,14 @@
   color: black;
 }
 
-.subscribe-section{
+.subscribe-section {
   width: 35%;
   font-size: 14px;
   padding: 0 10px;
   margin-right: 10px;
 }
 
-.subscribe-section p{
+.subscribe-section p {
   font-size: 12px;
   margin: 10px 0;
 }

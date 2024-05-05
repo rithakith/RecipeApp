@@ -24,30 +24,29 @@
   margin: 0;
 }
 
-#tag-button-1 {
-  background-color: #64c53a;
+#tag-button-1,
+#tag-button-2,
+#tag-button-3,
+#tag-button-4,
+#tag-button-5 {
   border-radius: 10px;
   padding: 0 0.7rem 0 1rem;
+  cursor: pointer;
+}
+#tag-button-1 {
+  background-color: #64c53a;
 }
 #tag-button-2 {
   background-color: #6c6d6b;
-  border-radius: 10px;
-  padding: 0 0.7rem 0 1rem;
 }
 #tag-button-3 {
   background-color: #87aeac;
-  border-radius: 10px;
-  padding: 0 0.7rem 0 1rem;
 }
 #tag-button-4 {
   background-color: #f5a65b;
-  border-radius: 10px;
-  padding: 0 0.7rem 0 1rem;
 }
 #tag-button-5 {
   background-color: #7a89c2;
-  border-radius: 10px;
-  padding: 0 0.7rem 0 1rem;
 }
 
 .section-topic {
