@@ -119,7 +119,23 @@ const CreateRecipe = () => {
           </select>
         </label>
         <label>
-            Portions serve:
+          How many people can this food serve?
+          <input
+            type="number"
+            onChange={(e) => {
+              setPortions(e.target.value);
+            }}
+            value={portions}
+          />
+        </label>
+        <label>How long does it take to prepare this dish?
+          <input
+            type="number"
+            onChange={(e) => {
+              setTime(e.target.value);
+            }}
+            value={time}
+          />
         </label>
         <div className="ingredients">
           Ingredients
