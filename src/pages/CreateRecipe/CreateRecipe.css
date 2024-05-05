@@ -1,0 +1,134 @@
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #509e2f;
+  box-shadow: 0px 5px 10px 1px rgb(87, 87, 87);
+  border-radius: 10px;
+  background-color: #f5f5f5;
+  width: 50%;
+}
+
+.recipe-name {
+  display: flex;
+  flex-direction: column;
+}
+
+.recipe-name input {
+  padding: 5px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: 1px solid #509e2f;
+  width: 100%;
+}
+
+.owner-name {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.owner-name input {
+  padding: 5px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: 1px solid #509e2f;
+  width: 100%;
+}
+
+.category {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+  gap: 20px;
+}
+
+.category select {
+  padding: 3px;
+  border: 1px solid #509e2f;
+  border-radius: 5px;
+}
+
+.ingredients {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.ingredients label {
+  display: flex;
+  align-items: center;
+}
+
+.ingredients label input[type="text"] {
+  margin-right: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #509e2f;
+  width: 90%;
+}
+
+.ingredients label button {
+  padding: 5px;
+  background-color: #509e2f;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 10%;
+}
+
+.image-url {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.image-url input {
+  padding: 5px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: 1px solid #509e2f;
+  width: 100%;
+}
+
+.steps {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.steps label {
+  display: flex;
+  align-items: center;
+}
+
+.steps label input[type="text"] {
+  margin-right: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #509e2f;
+  width: 90%;
+}
+
+.steps label button {
+  padding: 5px;
+  background-color: #509e2f;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 10%;
+}
+
+.create-recipe-btn {
+  padding: 10px;
+  background-color: #509e2f;
+  color: white;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 5px;
+}
