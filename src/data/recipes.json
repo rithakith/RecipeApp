@@ -5,7 +5,7 @@
       "name": "Crock Pot Roast",
       "owner": "John",
       "time": "40 min",
-      "category": ["option1"],
+      "category": ["Quick & Easy"],
       "ingredients": [
         "1 beef roast Meat",
         "1 package brown gravy mix Baking",
@@ -28,7 +28,7 @@
       "name": "Roasted Asparagus",
       "owner": "John",
       "time": "40 min",
-      "category": ["option2"],
+      "category": ["Italian"],
       "ingredients": [
         "1 lb asparagus",
         "1 1/2 tbsp olive oil",
@@ -54,7 +54,7 @@
       "name": "Curried Lentils and Rice",
       "owner": "John",
       "time": "40 min",
-      "category": ["option3"],
+      "category": ["Quick & Easy"],
       "ingredients": [
         "1 quart beef broth",
         "1 cup dried green lentils",
@@ -77,7 +77,7 @@
       "name": "Big Night Pizza",
       "owner": "John",
       "time": "40 min",
-      "category": ["option3"],
+      "category": ["Italian"],
       "ingredients": [
         "5 teaspoons yeast",
         "5 cups flour",
@@ -105,7 +105,7 @@
       "name": "Grilled Steak",
       "owner": "John",
       "time": "40 min",
-      "category": ["option1"],
+      "category": ["Grilled"],
       "ingredients": [
         "beef steak Meat",
         "1/2 cup barbecue sauce",
@@ -126,7 +126,7 @@
       "name": "Chicken Alfredo Pasta",
       "owner": "Anna",
       "time": "40 min",
-      "category": ["option2"],
+      "category": ["Italian"],
       "ingredients": [
         "2 cups penne pasta",
         "chicken breast Meat",
@@ -151,7 +151,7 @@
       "name": "Grilled Salmon with Honey Soy",
       "owner": "Anna",
       "time": "30 min",
-      "category": ["option3"],
+      "category": ["Grilled"],
       "ingredients": [
         "1 lb salmon fillets",
         "2 tbsp soy sauce",
@@ -174,7 +174,7 @@
       "name": "Garlic Grilled Shrimp",
       "owner": "Anna",
       "time": "30 min",
-      "category": ["option1"],
+      "category": ["Grilled"],
       "ingredients": [
         "1 lb shrimp",
         "2 tbsp olive oil",
@@ -199,7 +199,7 @@
       "name": "Grilled Soy Honey Sesame Chicken Thighs",
       "owner": "Anna",
       "time": "30 min",
-      "category": ["option1"],
+      "category": ["Grilled"],
       "ingredients": [
         "2 chicken thighs",
         "2 tbsp soy sauce",
@@ -222,7 +222,7 @@
       "name": "Grilled Pork Chops",
       "owner": "Anna",
       "time": "30 min",
-      "category": ["option2"],
+      "category": ["Grilled"],
       "ingredients": [
         "pork chops",
         "1/4 cup balsamic vinegar",
