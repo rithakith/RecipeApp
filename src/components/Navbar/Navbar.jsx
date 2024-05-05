@@ -3,10 +3,11 @@ import "./Navbar.css";
 import { Link } from "react-router-dom";
 import logo from "../../assets/images/logoFinal.png";
 import { useLogout } from "../../Hooks/useLogout";
-
+import { useAuthContext } from "../../Hooks/useAuthContext";
 
 const Navbar = () => {
-  const {logout} = useLogout()
+  const { logout } = useLogout();
+  const { user } = useAuthContext();
   return (
     <>
       <nav className="navContainer">
@@ -26,20 +27,29 @@ const Navbar = () => {
                 Recipes
               </Link>
             </li>
-            <li>
-              {" "}
-              <Link to={"/signup"}>Signup</Link>
-            </li>
-            <li id="loginButtonNavbar" >
-              <Link to={"/login"} style={{ color: "white" }}>
-                Login
-              </Link>
-            </li>
-            <li id="loginButtonNavbar" >
-              <Link  style={{ color: "white" }} onClick={logout}>
-                Logout
-              </Link>
-            </li>
+            {!user && (
+              <>
+                <li>
+                  <Link to={"/signup"}>Signup</Link>
+                </li>
+                <li id="loginButtonNavbar">
+                  <Link to={"/login"} style={{ color: "white" }}>
+                    Login
+                  </Link>
+                </li>
+              </>
+            )}
+            {user && (
+              <>
+                {" "}
+                <li>hello, {user.displayName}</li>
+                <li id="loginButtonNavbar">
+                  <Link style={{ color: "white" }} onClick={logout}>
+                    Logout
+                  </Link>
+                </li>
+              </>
+            )}
           </div>
         </ul>
       </nav>

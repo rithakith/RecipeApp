@@ -40,12 +40,13 @@
 .contentLogin {
   width: 90%;
 }
+
 h1 {
   text-align: center;
   color: green;
 }
 
-#name,
+#email,
 #passwordLogin {
   padding: 10px;
   width: 100%;
