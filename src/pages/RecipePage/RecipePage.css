@@ -11,60 +11,60 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-bottom: 20px;
+  margin-bottom: 2rem;
+  width: 70%;
 }
 
 .title-section h3 {
-  font-size: 4rem;
-  margin-bottom: 10px;
+  font-size: 3rem;
   font-weight: 700;
+  margin-bottom: 10px;
 }
 
 .title-section img {
   width: 100%;
-  height: auto;
+  height: 60vh;
   object-fit: cover;
-  border-radius: 10px;
+  border-radius: 15px;
+  box-shadow: 0 0 4px 3px rgb(80, 158, 47);
 }
 
 .sub-titles {
-  font-size: 1rem;
   display: flex;
-  flex-direction: row;
   align-items: center;
   justify-content: center;
-  margin-top: 20px;
   gap: 20px;
-  padding-bottom: 20px;
+  margin: 0 0 10px;
 }
 
 .sub-titles div {
   display: flex;
-  flex-direction: row;
   align-items: center;
   justify-content: center;
+  gap: 5px;
 }
 
-.title-section h6 {
+.title-section p {
   font-size: 1rem;
   font-weight: 400;
-  padding-top: 10px;
+  margin: 0;
 }
 
 .recipe-details {
   display: flex;
   justify-content: space-between;
-  width: 80%;
+  width: 70%;
 }
 
-.ingredients {
+.ingredients,
+.directions {
   width: 50%;
   height: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
-  line-height: 2;
+  line-height: 1.5;
 }
 
 .ingredients h4 {
@@ -75,22 +75,17 @@
 }
 
 .ingredients ul {
-  list-style-type: none;
-  padding: 0;
+  list-style-type: disc;
+  padding: 0 0 0 20px;
 }
 
 .ingredients ul li {
   margin: 5px 0;
 }
 
-.directions{
-    width: 50%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    line-height: 2;
+.ingredients ul li::marker,
+.directions ol li::marker {
+  color: #3b7523;
 }
 
 .directions h4 {
@@ -101,8 +96,8 @@
 }
 
 .directions ol {
-  list-style-type: none;
-  padding: 0;
+  list-style-type: decimal;
+  padding: 0 0 0 20px;
 }
 
 .directions ol li {
