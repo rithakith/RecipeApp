@@ -6,6 +6,8 @@
       "owner": "John",
       "time": "40 min",
       "category": ["Quick & Easy"],
+      "portions": 6,
+      "last update": "5/5/2024",
       "ingredients": [
         "1 beef roast Meat",
         "1 package brown gravy mix Baking",
@@ -29,6 +31,8 @@
       "owner": "John",
       "time": "40 min",
       "category": ["Italian"],
+      "portions": 4,
+      "last update": "5/5/2024",
       "ingredients": [
         "1 lb asparagus",
         "1 1/2 tbsp olive oil",
@@ -55,6 +59,8 @@
       "owner": "John",
       "time": "40 min",
       "category": ["Quick & Easy"],
+      "portions": 4,
+      "last update": "5/5/2024",
       "ingredients": [
         "1 quart beef broth",
         "1 cup dried green lentils",
@@ -78,6 +84,8 @@
       "owner": "John",
       "time": "40 min",
       "category": ["Italian"],
+      "portions": 8,
+      "last update": "5/5/2024",
       "ingredients": [
         "5 teaspoons yeast",
         "5 cups flour",
@@ -106,6 +114,8 @@
       "owner": "John",
       "time": "40 min",
       "category": ["Grilled"],
+      "portions": 2,
+      "last update": "5/5/2024",
       "ingredients": [
         "beef steak Meat",
         "1/2 cup barbecue sauce",
@@ -127,6 +137,8 @@
       "owner": "Anna",
       "time": "40 min",
       "category": ["Italian"],
+      "portions": 4,
+      "last update": "5/5/2024",
       "ingredients": [
         "2 cups penne pasta",
         "chicken breast Meat",
@@ -152,6 +164,8 @@
       "owner": "Anna",
       "time": "30 min",
       "category": ["Grilled"],
+      "portions": 4,
+      "last update": "5/5/2024",
       "ingredients": [
         "1 lb salmon fillets",
         "2 tbsp soy sauce",
@@ -175,6 +189,8 @@
       "owner": "Anna",
       "time": "30 min",
       "category": ["Grilled"],
+      "portions": 4,
+      "last update": "5/5/2024",
       "ingredients": [
         "1 lb shrimp",
         "2 tbsp olive oil",
@@ -200,6 +216,8 @@
       "owner": "Anna",
       "time": "30 min",
       "category": ["Grilled"],
+      "portions": 4,
+      "last update": "5/5/2024",
       "ingredients": [
         "2 chicken thighs",
         "2 tbsp soy sauce",
@@ -223,6 +241,8 @@
       "owner": "Anna",
       "time": "30 min",
       "category": ["Grilled"],
+      "portions": 2,
+      "last update": "5/5/2024",
       "ingredients": [
         "pork chops",
         "1/4 cup balsamic vinegar",
