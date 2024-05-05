@@ -16,6 +16,11 @@
   font-weight: 700;
 }
 
+#collectionpage-buttons {
+  margin-right: 50px;
+  display: flex;
+  justify-content: space-between;
+}
 #collectionpage-buttons button {
   border: none;
   border-radius: 20px;
@@ -26,6 +31,21 @@
 #collectionpage-buttons button:hover {
   background-color: grey;
 }
+
+.createRecipeBtn {
+  background-color: #509e2f;
+  color: white;
+  height: 2rem;
+  border-radius: 20px;
+  padding: 5px 18px;
+  display: flex;
+  align-items: center;
+}
+
+.createRecipeBtn:hover {
+  background-color: #3f7c25;
+}
+
 #collection-container {
   display: flex;
   flex-wrap: wrap;
@@ -33,17 +53,4 @@
   width: fit-content;
   justify-content: center;
   margin: 1.5rem 0;
-}
-
-.createRecipeBtn {
-  background-color: #509e2f;
-  color: white;
-  float: right;
-  margin-right: 50px;
-  padding: 5px;
-  border-radius: 5px;
-}
-
-.createRecipeBtn:hover {
-  padding: 6px;
 }
