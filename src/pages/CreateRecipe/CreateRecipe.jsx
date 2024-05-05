@@ -123,20 +123,17 @@ const CreateRecipe = () => {
             <option value="option3">Quick & easy</option>
           </select>
         </label>
+
         <label className="portions">
           Portions:
-          <input
-            type="number"
-            required
-          />
+          <input type="number" required />
         </label>
+
         <label className="time">
-          Time:
-          <input
-            type="number"
-            required
-          />
+          Time(min):
+          <input type="number" required />
         </label>
+
         <div className="ingredients">
           <label>
             Ingredients:{" "}

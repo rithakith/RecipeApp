@@ -140,9 +140,9 @@
     margin-bottom: 20px;
   }
 
-  .description{
+  .description {
     text-align: center;
-    width: 100% ;
+    width: 100%;
   }
 
   .logo-section {
@@ -167,4 +167,11 @@
   .subscribe-section button {
     width: 100%;
   }
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  background-color: #f8f9fa;
 }
