@@ -40,9 +40,21 @@
 .contentLogin {
   width: 90%;
 }
+
 h1 {
   text-align: center;
   color: green;
+}
+
+.name,
+.passwordDiv{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.passwordDiv {
+  margin-bottom: 0;
 }
 
 #name,
@@ -51,11 +63,13 @@ h1 {
   width: 100%;
   margin: 10px 0;
   font-size: 15px;
+  border: 1px solid #509e2f;
+  border-radius: 5px;
 }
 
 .buttonsLogin {
-  /* display: flex;
-  justify-content: space-around; */
+  display: flex;
+  justify-content: space-around;
   margin-top: 20px;
   margin-bottom: 30px;
 }
@@ -68,7 +82,7 @@ h1 {
   letter-spacing: 2px;
   opacity: 0.8;
   background-color: green;
-  /* border-radius: 10px; */
+  border-radius: 5px;
 }
 
 .loginButton:hover {
