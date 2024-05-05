@@ -122,7 +122,9 @@ const CreateRecipe = () => {
             <option value="option3">Quick & easy</option>
           </select>
         </label>
-
+        <label>
+            Portions serve:
+        </label>
         <div className="ingredients">
           <label>
             Ingredients:{" "}
@@ -187,11 +189,15 @@ const CreateRecipe = () => {
         </button>
       </form>
 
-      {showModal && ( // Render modal only if showModal is true
-        <Modal>
+      {showModal && (
+        <Modal className="custom-modal">
           <h2>Recipe Created Successfully!</h2>
-          <Link to={"/"}>Go Back</Link>
-          <button onClick={() => setShowModal(false)}>Close</button>
+          <Link to={"/"} className="modal-link">
+            Go Back
+          </Link>
+          <button className="modal-button" onClick={() => setShowModal(false)}>
+            Close
+          </button>
         </Modal>
       )}
     </>
