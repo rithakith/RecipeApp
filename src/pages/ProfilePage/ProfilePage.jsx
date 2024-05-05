@@ -24,20 +24,19 @@ const ProfilePage = () => {
             <div id="profile-pic">
               <img src={profile1} alt="" />
             </div>
+
+            <div id="profile-user">Hi, There!</div>
           </div>
 
           <div id="profile-details">
             <div>
-              <p> {user.displayName}</p>
-              <p></p>
-            </div>
-            <div>
+              <p className="profile-details-tag">Username :</p>
               <p>{user.displayName}</p>
-              <p></p>
             </div>
+
             <div>
+              <p className="profile-details-tag">Email :</p>
               <p>{user.email}</p>
-              <p></p>
             </div>
           </div>
 
