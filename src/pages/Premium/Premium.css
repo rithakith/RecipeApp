@@ -132,10 +132,12 @@
   margin: 3rem auto;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
 }
 
 .premium-option {
-  width: 20vw;
+  width: 19rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
