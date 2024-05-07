@@ -30,7 +30,7 @@ const CreateRecipe = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    
+
     const currentDate = new Date();
     const formattedDate = currentDate.toLocaleDateString();
 
