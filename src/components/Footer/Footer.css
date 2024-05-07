@@ -135,6 +135,11 @@
   color: #509e2f;
 }
 
+.social-media a {
+  text-decoration: none;
+  color: #509e2f;
+}
+
 @media screen and (max-width: 768px) {
   .footer {
     flex-direction: column;
