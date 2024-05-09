@@ -1,6 +1,5 @@
 import React, { useState, useRef, useEffect } from "react";
 import Navbar from "../../components/Navbar/Navbar";
-import useFetch from "../../Hooks/useFetch";
 import Modal from "../../components/Modal/Modal";
 import "./CreateRecipe.css";
 import { Link, useNavigate } from "react-router-dom";
