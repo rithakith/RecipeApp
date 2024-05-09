@@ -1,29 +1,75 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import "./RecipeCollection.css";
 import Navbar from "../../components/Navbar/Navbar";
 import Footer from "../../components/Footer/Footer";
 import RecipeCard from "../../components/RecipeCard/RecipeCard";
-import useFetch from "../../Hooks/useFetch";
-import Modal from "../../components/Modal/Modal";
 import { PlusCircle } from "@phosphor-icons/react";
 
-const RecipeCollection = () => {
-  const [url, setURL] = useState("http://localhost:3000/recipes");
-  const { data: recipes, isPending, error } = useFetch(url);
-  console.log(recipes);
-  console.log(isPending);
+import { projectFirestore } from "../../firebase/config";
 
-  // Function to update URL and navigate
-  const handleButtonClick = (newUrl) => {
-    setURL(newUrl); // Update the URL state
-    history.push(newUrl); // Push the new URL to history
+const RecipeCollection = () => {
+  const [recipes, setRecipes] = useState([]);
+  const [isPending, setIsPending] = useState(false);
+  const [error, setError] = useState(null);
+
+  useEffect(() => {
+    setIsPending(true);
+    projectFirestore
+      .collection("recipes")
+      .get()
+      .then((snapshot) => {
+        if (snapshot.empty) {
+          setError("No recipes to load");
+        } else {
+          const results = snapshot.docs.map((doc) => ({
+            id: doc.id,
+            ...doc.data(),
+          }));
+          setRecipes(results);
+        }
+        setIsPending(false);
+      })
+      .catch((err) => {
+        setError(err.message);
+        setIsPending(false);
+      });
+  }, []);
+
+  const handleButtonClick = (tag) => {
+    setIsPending(true);
+    let query = projectFirestore.collection("recipes");
+    if (tag) {
+      query = query.where("category", "array-contains", tag);
+    }
+    query
+      .get()
+      .then((snapshot) => {
+        if (snapshot.empty) {
+          setError("No recipes found with this tag");
+          setRecipes([]);
+        } else {
+          setError(null);
+
+          const results = snapshot.docs.map((doc) => ({
+            id: doc.id,
+            ...doc.data(),
+          }));
+          setRecipes(results);
+        }
+        setIsPending(false);
+      })
+      .catch((err) => {
+        setError(err.message);
+        setIsPending(false);
+      });
   };
 
   return (
     <>
       <Navbar />
-<br /><br />
+      <br />
+      <br />
       <div id="recipe-collection-container">
         <div id="collectionpage-topic">
           Browse through our <span>Collection</span>
@@ -31,39 +77,14 @@ const RecipeCollection = () => {
 
         <div id="collectionpage-buttons">
           <div id="collectionpage-buttons-left">
-            <button
-              onClick={() => handleButtonClick("http://localhost:3000/recipes")}
-            >
-              All
-            </button>
-            <button
-              onClick={() =>
-                handleButtonClick(
-                  "http://localhost:3000/recipes?category=" +
-                    encodeURIComponent("Italian")
-                )
-              }
-            >
+            <button onClick={() => handleButtonClick()}>All</button>
+            <button onClick={() => handleButtonClick("Italian")}>
               Italian
             </button>
-            <button
-              onClick={() =>
-                handleButtonClick(
-                  "http://localhost:3000/recipes?category=" +
-                    encodeURIComponent("Grilled")
-                )
-              }
-            >
+            <button onClick={() => handleButtonClick("Grilled")}>
               Grilled
             </button>
-            <button
-              onClick={() =>
-                handleButtonClick(
-                  "http://localhost:3000/recipes?category=" +
-                    encodeURIComponent("Quick & Easy")
-                )
-              }
-            >
+            <button onClick={() => handleButtonClick("Quick & Easy")}>
               Quick & Easy
             </button>
           </div>
@@ -80,19 +101,12 @@ const RecipeCollection = () => {
 
         {isPending && <div>Loading...</div>}
         {error && <div>{error}</div>}
-
         <div id="collection-container">
-          {recipes &&
-            recipes.map((recipe, index) => {
-              return <RecipeCard key={index} recipe={recipe} />;
-            })}
+          {recipes.map((recipe, index) => (
+            <RecipeCard key={index} recipe={recipe} />
+          ))}
         </div>
       </div>
-      {/* <Modal>
-      <h2>jdfljfdslkjf</h2>
-          <Link to={'/'}>hehe</Link>
-          <button></button>
-      </Modal> */}
       <Footer />
     </>
   );

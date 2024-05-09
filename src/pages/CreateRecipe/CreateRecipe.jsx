@@ -5,6 +5,7 @@ import Modal from "../../components/Modal/Modal";
 import "./CreateRecipe.css";
 import { Link, useNavigate } from "react-router-dom";
 import Footer from "../../components/Footer/Footer";
+import { projectFirestore } from "../../firebase/config";
 
 const CreateRecipe = () => {
   const [title, setTitle] = useState("");
@@ -23,18 +24,28 @@ const CreateRecipe = () => {
   const [showModal, setShowModal] = useState(false); // State for showing/hiding modal
   const navigate = useNavigate();
 
-  const { postData, data, error } = useFetch(
-    "http://localhost:3000/recipes",
-    "POST"
-  );
+
 
   const handleSubmit = async (e) => {
-    e.preventDefault();
 
     const currentDate = new Date();
     const formattedDate = currentDate.toLocaleDateString();
 
     setLastUpdated(formattedDate);
+
+    try {
+      await projectFirestore.collection("recipes").add({
+        name: title,
+        owner,
+        category: [category],
+        ingredients,
+        steps,
+        imageURL: image,
+        portions,
+        time,
+        last_update: formattedDate,
+      });
+    
 
     console.log(
       title,
@@ -47,17 +58,7 @@ const CreateRecipe = () => {
       portions,
       time
     );
-    postData({
-      name: title,
-      owner,
-      category: [category],
-      ingredients,
-      steps,
-      imageURL: image,
-      portions,
-      time,
-      last_update: formattedDate,
-    });
+ 
     setImage("");
     setTitle("");
     setCategory("option1");
@@ -67,7 +68,10 @@ const CreateRecipe = () => {
     setPortions("");
     setTime("");
     setShowModal(true); // Show modal after submitting
+  }catch(error){
+    console.error("Error adding document: ", error);
   };
+}
 
   const handleIngAdd = (e) => {
     e.preventDefault();
@@ -245,5 +249,6 @@ const CreateRecipe = () => {
     </>
   );
 };
+
 
 export default CreateRecipe;

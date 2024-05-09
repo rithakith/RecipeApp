@@ -2,6 +2,8 @@ import firebase from "firebase/app";
 import 'firebase/firestore'
 import 'firebase/auth'
 
+
+
 const firebaseConfig = {
     apiKey: "AIzaSyA0wf7MG5KaORHThsipgy6Kv1M18rojRTE",
     authDomain: "cookpal-7029c.firebaseapp.com",
