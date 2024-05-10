@@ -30,7 +30,7 @@ const Premium = () => {
       <div id="premium-content">
         <div className="premium-option">
           <div id="premium-option-top">
-            <h2>Plan 1</h2>
+            <h2 id="hover-underline-animation-1">Plan 1</h2>
             <span>1 Month</span>
           </div>
 
@@ -50,7 +50,7 @@ const Premium = () => {
 
         <div className="premium-option">
           <div id="premium-option-top">
-            <h2>Plan 2</h2>
+            <h2 id="hover-underline-animation-1">Plan 2</h2>
             <span>6 Months</span>
           </div>
 
@@ -70,7 +70,7 @@ const Premium = () => {
 
         <div className="premium-option">
           <div id="premium-option-top">
-            <h2>Plan 3</h2>
+            <h2 id="hover-underline-animation-1">Plan 3</h2>
             <span>12 Months</span>
           </div>
 

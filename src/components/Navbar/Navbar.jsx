@@ -16,7 +16,7 @@ const Navbar = () => {
           <div className="logo">
             <Link to={"/"}>
               <img src={logo} alt="logo" />
-              <p>
+              <p id="hover-underline-animation-1">
                 C<span>oo</span>kpal
               </p>
             </Link>
@@ -24,7 +24,11 @@ const Navbar = () => {
 
           <div className="remainingNav">
             <li>
-              <Link to={"/recipes"} style={{ textDecoration: "none" }}>
+              <Link
+                to={"/recipes"}
+                style={{ textDecoration: "none" }}
+                id="hover-underline-animation-1"
+              >
                 Recipes
               </Link>
             </li>
@@ -42,10 +46,12 @@ const Navbar = () => {
             )}
             {user && (
               <>
-
                 <li className="hello-user">
                   <UserCircle size={24} style={{ color: "#509e2f" }} />{" "}
-                  <Link to={"/profile"}> {user.displayName} </Link>
+                  <Link to={"/profile"} id="hover-underline-animation-1">
+                    {" "}
+                    {user.displayName}{" "}
+                  </Link>
                 </li>
                 <li id="loginButtonNavbar">
                   <Link to={"/login"} style={{ color: "white" }}>

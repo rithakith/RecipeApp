@@ -132,10 +132,12 @@
   margin: 3rem auto;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
 }
 
 .premium-option {
-  width: 20vw;
+  width: 19rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -183,4 +185,28 @@
   height: 6vh;
   margin: 0 auto;
   background-color: #509e2f;
+}
+
+#hover-underline-animation-1 {
+  display: inline-block;
+  position: relative;
+  /* color: #509e2f; */
+}
+
+#hover-underline-animation-1:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #509e2f;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+#hover-underline-animation-1:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
 }

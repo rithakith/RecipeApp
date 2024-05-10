@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState,useEffect } from "react";
 import "./Home.css";
 import Navbar from "../../components/Navbar/Navbar";
 import Footer from "../../components/Footer/Footer";
@@ -7,32 +7,61 @@ import { CaretRight } from "@phosphor-icons/react";
 import Modal from "../../components/Modal/Modal";
 import useFetch from "../../Hooks/useFetch";
 import RecipeCard from "../../components/RecipeCard/RecipeCard";
+
+import { projectFirestore } from "../../firebase/config";
 const Home = () => {
   // Today's special
-  const [urlFavourites, setURLFavourites] = useState(
-    "http://localhost:3000/favourites"
-  );
+  const [favourites, setFavourites] = useState([]);
+  const [isFavouritesPending, setIsFavouritesPending] = useState(false);
+  const [favouritesError, setFavouritesError] = useState(null);
 
-  const {
-    data: favourites,
-    isPending: isFavouritesPending,
-    error: favouritesError,
-  } = useFetch(urlFavourites);
-  console.log(favourites);
-  console.log(isFavouritesPending);
+  useEffect(() => {
+    setIsFavouritesPending(true);
+    projectFirestore
+      .collection("favourites")
+      .get()
+      .then((snapshot) => {
+        if (snapshot.empty) {
+          setFavouritesError("No recipes to load");
+        } else {
+          const results = snapshot.docs.map((doc) => ({ id: doc.id, ...doc.data() }));
+          setFavourites(results);
+        }
+        setIsFavouritesPending(false);
+      })
+      .catch((err) => {
+        setFavouritesError(err.message);
+        setIsFavouritesPending(false);
+      });
+  }, []);
 
-  // recommended recipes
-  const [urlRecommended, setURLRecommended] = useState(
-    "http://localhost:3000/recommended"
-  );
+  const [recommended, setRecommended] = useState([]);
+  const [isRecommendedPending, setIsRecommendedPending] = useState(false);
+  const [recommendedError, setRecommendedError] = useState(null);
 
-  const {
-    data: recommended,
-    isPending: isRecommendedPending,
-    error: recommendedError,
-  } = useFetch(urlRecommended);
-  console.log(recommended);
-  console.log(isRecommendedPending);
+  useEffect(() => {
+    setIsRecommendedPending(true);
+    projectFirestore
+      .collection("recommended")
+      .get()
+      .then((snapshot) => {
+        if (snapshot.empty) {
+          setRecommendedError("No recipes to load");
+        } else {
+          const results = snapshot.docs.map((doc) => ({ id: doc.id, ...doc.data() }));
+          setRecommended(results);
+        }
+        setIsRecommendedPending(false);
+      })
+      .catch((err) => {
+        setFavouritesError(err.message);
+        setIsFavouritesPending(false);
+      });
+  }, []);
+
+  
+
+  
 
   return (
     <>
@@ -45,35 +74,35 @@ const Home = () => {
           <div id="tag-buttons">
             <div id="tag-button-1">
               <a href="/recipes">
-                <p>Recipes & Menus</p>
+                <p className="hover-underline-animation">Recipes & Menus</p>
               </a>
               <CaretRight size={28} />
             </div>
 
             <div id="tag-button-2">
               <a href="/newrecipe">
-                <p>Create Recipe</p>
+                <p className="hover-underline-animation">Create Recipe</p>
               </a>
               <CaretRight size={28} />
             </div>
 
             <div id="tag-button-3">
               <a href="/Premium">
-                <p>Custom Meal Plan</p>
+                <p className="hover-underline-animation">Custom Meal Plan</p>
               </a>
               <CaretRight size={28} />
             </div>
 
             <div id="tag-button-4">
               <a href="/premium">
-                <p>Create Grocery List</p>
+                <p className="hover-underline-animation">Create Grocery List</p>
               </a>
               <CaretRight size={28} />
             </div>
 
             <div id="tag-button-5">
               <a href="/premium">
-                <p>Cooking Tips</p>
+                <p className="hover-underline-animation">Cooking Tips</p>
               </a>
               <CaretRight size={28} />
             </div>
@@ -87,8 +116,11 @@ const Home = () => {
             <div id="collection-container">
               {favourites &&
                 favourites.map((recipe, index) => {
-                  return <>
-                  <RecipeCard key={index} recipe={recipe} /></>;
+                  return (
+                    <>
+                      <RecipeCard key={index} recipe={recipe} />
+                    </>
+                  );
                 })}
             </div>
           </div>
