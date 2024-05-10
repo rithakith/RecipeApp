@@ -115,7 +115,7 @@
 
 #welcome-model-buttons a:hover {
   background-color: #509e2f;
-  color: #dfffd1;
+  color: white;
   text-decoration: none;
 }
 
@@ -127,7 +127,7 @@
 }
 
 #welcome-model-buttons button:hover {
-  color: #dfffd1;
+  color: white;
 }
 
 #hover-underline-animation-2 {
