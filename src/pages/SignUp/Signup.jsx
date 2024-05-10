@@ -87,14 +87,12 @@ const Signup = () => {
           <br />
           {error && <p>{error}</p>}
           <div className="passwordDivSignup">
-            {/* <div className="submitSignupDiv"> */}
             {isPending && (
               <button className="submitSignup" disabled>
                 Loading...
               </button>
             )}
             {!isPending && <button className="submitSignup">Sign up</button>}
-            {/* </div> */}
           </div>
         </form>
 
