@@ -2,14 +2,13 @@
   padding: 0.5rem 2rem;
   border-radius: 5px;
   box-shadow: 1px 2px 7px 0px rgba(0, 0, 0, 0.75);
-  margin:10px 10px 1.5rem;
+  margin: 10px 10px 1.5rem;
   background-color: #f8f9fa;
-
-
 }
 
 #navUL {
   margin: 0;
+  padding: 0 2rem;
   list-style: none;
   display: flex;
   justify-content: space-between;
@@ -69,4 +68,3 @@
 #loginButtonNavbar {
   background-color: #509e2f;
 }
-
