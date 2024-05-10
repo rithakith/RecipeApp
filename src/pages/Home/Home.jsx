@@ -7,6 +7,7 @@ import { CaretRight, X } from "@phosphor-icons/react";
 import Modal from "../../components/Modal/Modal";
 import useFetch from "../../Hooks/useFetch";
 import RecipeCard from "../../components/RecipeCard/RecipeCard";
+import { ThreeDots } from "react-loader-spinner";
 import { Link } from "react-router-dom";
 
 import { projectFirestore } from "../../firebase/config";
@@ -115,7 +116,11 @@ const Home = () => {
           <div id="home-container-top">
             <p className="section-topic">Today's Special</p>
 
-            {isFavouritesPending && <div>Loading...</div>}
+            {isFavouritesPending && (
+              <div>
+                <ThreeDots />
+              </div>
+            )}
             {favouritesError && <div>{error}</div>}
             <div id="collection-container">
               {favourites &&
@@ -132,7 +137,11 @@ const Home = () => {
           <div id="home-container-middle">
             <p className="section-topic">Recommended Recipes</p>
 
-            {isRecommendedPending && <div>Loading...</div>}
+            {isRecommendedPending && (
+              <div>
+                <ThreeDots />
+              </div>
+            )}
             {recommendedError && <div>{error}</div>}
             <div id="collection-container">
               {recommended &&
