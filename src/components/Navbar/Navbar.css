@@ -8,7 +8,7 @@
 
 #navUL {
   margin: 0;
-  padding: 0 2rem;
+  padding: 0 1rem;
   list-style: none;
   display: flex;
   justify-content: space-between;
