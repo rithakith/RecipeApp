@@ -154,22 +154,26 @@ const Home = () => {
       </div>
 
       {showModal && (
-        <Modal id="welcome-modal">
-          <X
-            size={32}
-            color="#509e2f"
-            weight="bold"
-            onClick={() => setShowModal(false)}
-          />
-          <div id="welcome-model-container">
-            <h2>Do you want to login?</h2>
+        <Modal>
+          <div id="welcome-model">
+            <div id="close-button" onClick={() => setShowModal(false)}>
+              <X size={32} color="#509e2f" weight="bold" />
+            </div>
+            <div id="welcome-model-container">
+              <h2>Do you want to login?</h2>
+              <h6>
+                You can also browse through our website without logging in.
+              </h6>
 
-            <Link to={"/login"} className="modal-link">
-              <input type="button" value="Login" />
-            </Link>
-            <Link to={"/signup"} className="modal-link">
-              <input type="button" value="Signup" />
-            </Link>
+              <div id="welcome-model-buttons">
+                <Link to={"/login"} className="modal-link">
+                  <input type="button" value="Login" />
+                </Link>
+                <Link to={"/signup"} className="modal-link">
+                  <input type="button" value="Signup" />
+                </Link>
+              </div>
+            </div>
           </div>
         </Modal>
       )}

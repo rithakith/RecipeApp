@@ -59,15 +59,64 @@
   font-weight: 600;
 }
 
-#welcome-modal {
-  background-color: white;
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+#welcome-model {
   display: flex;
   flex-direction: column;
 }
 
-#welcome-modal h2 {
-  margin-top: 0;
+#welcome-model h2 {
+  color: #509e2f;
+}
+
+#welcome-model h6 {
+  font-size: 0.8rem;
+  color: darkgreen;
+  padding: 0 10px;
+}
+#close-button {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#welcome-model-container {
+  text-align: center;
+}
+
+#welcome-model-buttons {
+  margin: 30px auto 10px;
+  width: 80%;
+  background-color: white;
+  overflow: hidden;
+  border-radius: 10px;
+  display: flex;
+  gap: 2rem;
+  justify-content: space-around;
+}
+
+#welcome-model-buttons a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 3rem;
+  background-color: rgb(233, 233, 233);
+  border-radius: 10px;
+  width: 50%;
+  margin: 0;
+}
+
+#welcome-model-buttons a:hover {
+  background-color: #dfffd1;
+  color: #509e2f;
+  text-decoration: none;
+}
+
+#welcome-model-buttons input {
+  background-color: rgba(255, 255, 255, 0);
+  width: 100%;
+  border: none;
+  font-weight: 500;
+}
+
+#welcome-model-buttons input:hover {
+  color: #509e2f;
 }
