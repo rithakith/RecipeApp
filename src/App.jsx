@@ -20,7 +20,14 @@ function App() {
   
   if (!authIsReady) {
     // Render loading state or spinner while authentication is being checked
-    return <div><ThreeDots/></div>;
+    return <div className="threeDots"><ThreeDots   visible={true}
+    height="360"
+    width="360"
+    color="#4fa94d"
+    radius="20"
+    ariaLabel="three-dots-loading"
+    wrapperStyle={{}}
+    wrapperClass=""/></div>;
   }
 
   return (

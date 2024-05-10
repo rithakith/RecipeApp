@@ -9,6 +9,10 @@ import { SignOut, UserCircle } from "@phosphor-icons/react";
 const Navbar = () => {
   const { logout } = useLogout();
   const { user } = useAuthContext();
+
+  const handleLogout = () => {
+    logout();
+  };
   return (
     <>
       <nav className="navContainer">
@@ -39,7 +43,7 @@ const Navbar = () => {
                 </li>
                 <li id="loginButtonNavbar">
                   <Link to={"/login"} style={{ color: "white" }}>
-                    <SignOut size={24} />
+                    Login
                   </Link>
                 </li>
               </>
@@ -53,10 +57,10 @@ const Navbar = () => {
                     {user.displayName}{" "}
                   </Link>
                 </li>
-                <li id="loginButtonNavbar">
-                  <Link to={"/login"} style={{ color: "white" }}>
-                    <SignOut size={24} />
-                  </Link>
+                {/* i want to logout when i click below icon */}
+                <li id="loginButtonNavbar" onClick={handleLogout}>
+                  <SignOut size={24} />
+                
                 </li>
               </>
             )}

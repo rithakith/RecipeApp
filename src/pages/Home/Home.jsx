@@ -117,8 +117,17 @@ const Home = () => {
             <p className="section-topic">Today's Special</p>
 
             {isFavouritesPending && (
-              <div>
-                <ThreeDots />
+              <div className="threeDots">
+                <ThreeDots
+                  visible={true}
+                  height="180"
+                  width="180"
+                  color="#4fa94d"
+                  radius="20"
+                  ariaLabel="three-dots-loading"
+                  wrapperStyle={{}}
+                  wrapperClass=""
+                />
               </div>
             )}
             {favouritesError && <div>{error}</div>}
@@ -138,8 +147,17 @@ const Home = () => {
             <p className="section-topic">Recommended Recipes</p>
 
             {isRecommendedPending && (
-              <div>
-                <ThreeDots />
+              <div className="threeDots">
+                <ThreeDots
+                  visible={true}
+                  height="180"
+                  width="180"
+                  color="#4fa94d"
+                  radius="20"
+                  ariaLabel="three-dots-loading"
+                  wrapperStyle={{}}
+                  wrapperClass=""
+                />
               </div>
             )}
             {recommendedError && <div>{error}</div>}
