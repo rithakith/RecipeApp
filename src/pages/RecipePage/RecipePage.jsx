@@ -5,6 +5,7 @@ import Navbar from "../../components/Navbar/Navbar";
 import Footer from "../../components/Footer/Footer";
 import { Timer, CookingPot, CalendarBlank } from "@phosphor-icons/react";
 import { projectFirestore } from "../../firebase/config";
+import { ThreeDots } from "react-loader-spinner";
 
 const RecipePage = () => {
   const { id } = useParams();
@@ -59,7 +60,14 @@ const RecipePage = () => {
       <Navbar />
 
       <div className="recipe-container">
-        {isPending && <div>Loading...</div>}
+        {isPending &&  <div className="threeDots"><ThreeDots   visible={true}
+    height="360"
+    width="360"
+    color="#4fa94d"
+    radius="20"
+    ariaLabel="three-dots-loading"
+    wrapperStyle={{}}
+    wrapperClass=""/></div>}
         {error && <div>{error}</div>}
         {recipe && (
           <>

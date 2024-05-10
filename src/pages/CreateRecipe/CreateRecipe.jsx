@@ -23,14 +23,23 @@ const CreateRecipe = () => {
   const [showModal, setShowModal] = useState(false); // State for showing/hiding modal
   const navigate = useNavigate();
 
-
-
   const handleSubmit = async (e) => {
+    e.preventDefault();
+    console.log("work");
 
+    console.log(
+      title,
+      steps,
+      newIngredient,
+      ingredients,
+      category,
+      owner,
+      image,
+      portions,
+      time
+    );
     const currentDate = new Date();
     const formattedDate = currentDate.toLocaleDateString();
-
-    setLastUpdated(formattedDate);
 
     try {
       await projectFirestore.collection("recipes").add({
@@ -44,20 +53,23 @@ const CreateRecipe = () => {
         time,
         last_update: formattedDate,
       });
-    
 
-    console.log(
-      title,
-      steps,
-      newIngredient,
-      ingredients,
-      category,
-      owner,
-      image,
-      portions,
-      time
-    );
- 
+      console.log(
+        title,
+        steps,
+        newIngredient,
+        ingredients,
+        category,
+        owner,
+        image,
+        portions,
+        time
+      );
+
+      // Show modal after submitting
+    } catch (error) {
+      console.error("Error adding document: ", error);
+    }
     setImage("");
     setTitle("");
     setCategory("option1");
@@ -66,11 +78,8 @@ const CreateRecipe = () => {
     setOwner("");
     setPortions("");
     setTime("");
-    setShowModal(true); // Show modal after submitting
-  }catch(error){
-    console.error("Error adding document: ", error);
+    setShowModal(true);
   };
-}
 
   const handleIngAdd = (e) => {
     e.preventDefault();
@@ -221,13 +230,7 @@ const CreateRecipe = () => {
         </div>
 
         <div className="create-new">
-          <button
-            className="create-recipe-btn"
-            type="submit"
-            onClick={() => {
-              handleSubmit();
-            }}
-          >
+          <button className="create-recipe-btn" type="submit">
             Create New
           </button>
         </div>
@@ -244,10 +247,10 @@ const CreateRecipe = () => {
           </button>
         </Modal>
       )}
+
       <Footer />
     </>
   );
 };
-
 
 export default CreateRecipe;

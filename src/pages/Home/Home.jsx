@@ -1,19 +1,24 @@
-import React, { useState,useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import "./Home.css";
 import Navbar from "../../components/Navbar/Navbar";
 import Footer from "../../components/Footer/Footer";
 import Carousel from "../../components/Carousel/Carousel";
-import { CaretRight } from "@phosphor-icons/react";
+import { CaretRight, X } from "@phosphor-icons/react";
 import Modal from "../../components/Modal/Modal";
 import useFetch from "../../Hooks/useFetch";
 import RecipeCard from "../../components/RecipeCard/RecipeCard";
-
+import { ThreeDots } from "react-loader-spinner";
+import { Link } from "react-router-dom";
+import { useAuthContext } from "../../Hooks/useAuthContext";
 import { projectFirestore } from "../../firebase/config";
+
 const Home = () => {
   // Today's special
   const [favourites, setFavourites] = useState([]);
   const [isFavouritesPending, setIsFavouritesPending] = useState(false);
   const [favouritesError, setFavouritesError] = useState(null);
+  const [showModal, setShowModal] = useState(true);
+  const { user } = useAuthContext();
 
   useEffect(() => {
     setIsFavouritesPending(true);
@@ -24,7 +29,10 @@ const Home = () => {
         if (snapshot.empty) {
           setFavouritesError("No recipes to load");
         } else {
-          const results = snapshot.docs.map((doc) => ({ id: doc.id, ...doc.data() }));
+          const results = snapshot.docs.map((doc) => ({
+            id: doc.id,
+            ...doc.data(),
+          }));
           setFavourites(results);
         }
         setIsFavouritesPending(false);
@@ -48,7 +56,10 @@ const Home = () => {
         if (snapshot.empty) {
           setRecommendedError("No recipes to load");
         } else {
-          const results = snapshot.docs.map((doc) => ({ id: doc.id, ...doc.data() }));
+          const results = snapshot.docs.map((doc) => ({
+            id: doc.id,
+            ...doc.data(),
+          }));
           setRecommended(results);
         }
         setIsRecommendedPending(false);
@@ -58,10 +69,6 @@ const Home = () => {
         setIsFavouritesPending(false);
       });
   }, []);
-
-  
-
-  
 
   return (
     <>
@@ -111,7 +118,20 @@ const Home = () => {
           <div id="home-container-top">
             <p className="section-topic">Today's Special</p>
 
-            {isFavouritesPending && <div>Loading...</div>}
+            {isFavouritesPending && (
+              <div className="threeDots">
+                <ThreeDots
+                  visible={true}
+                  height="180"
+                  width="180"
+                  color="#4fa94d"
+                  radius="20"
+                  ariaLabel="three-dots-loading"
+                  wrapperStyle={{}}
+                  wrapperClass=""
+                />
+              </div>
+            )}
             {favouritesError && <div>{error}</div>}
             <div id="collection-container">
               {favourites &&
@@ -128,7 +148,20 @@ const Home = () => {
           <div id="home-container-middle">
             <p className="section-topic">Recommended Recipes</p>
 
-            {isRecommendedPending && <div>Loading...</div>}
+            {isRecommendedPending && (
+              <div className="threeDots">
+                <ThreeDots
+                  visible={true}
+                  height="180"
+                  width="180"
+                  color="#4fa94d"
+                  radius="20"
+                  ariaLabel="three-dots-loading"
+                  wrapperStyle={{}}
+                  wrapperClass=""
+                />
+              </div>
+            )}
             {recommendedError && <div>{error}</div>}
             <div id="collection-container">
               {recommended &&
@@ -139,6 +172,32 @@ const Home = () => {
           </div>
         </div>
       </div>
+
+      {!user && showModal && (
+        <Modal>
+          <div id="welcome-model">
+            <div id="close-button" onClick={() => setShowModal(false)}>
+              <X size={32} color="#509e2f" weight="bold" />
+            </div>
+            <div id="welcome-model-container">
+              <h2>Do you want to login?</h2>
+              <h6>
+                You can also browse through our website without logging in.
+              </h6>
+
+              <div id="welcome-model-buttons">
+                <Link to={"/login"} className="modal-link">
+                  <input type="button" value="Login" />
+                </Link>
+                <Link to={"/signup"} className="modal-link">
+                  <input type="button" value="Signup" />
+                </Link>
+              </div>
+            </div>
+          </div>
+        </Modal>
+      )}
+
       <Footer />
     </>
   );

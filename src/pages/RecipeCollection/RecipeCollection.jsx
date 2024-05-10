@@ -5,7 +5,7 @@ import Navbar from "../../components/Navbar/Navbar";
 import Footer from "../../components/Footer/Footer";
 import RecipeCard from "../../components/RecipeCard/RecipeCard";
 import { PlusCircle } from "@phosphor-icons/react";
-
+import { ThreeDots } from "react-loader-spinner";
 import { projectFirestore } from "../../firebase/config";
 
 const RecipeCollection = () => {
@@ -99,7 +99,14 @@ const RecipeCollection = () => {
           </div>
         </div>
 
-        {isPending && <div>Loading...</div>}
+        {isPending && <div className="threeDots"><ThreeDots   visible={true}
+    height="360"
+    width="360"
+    color="#4fa94d"
+    radius="20"
+    ariaLabel="three-dots-loading"
+    wrapperStyle={{}}
+    wrapperClass=""/></div>}
         {error && <div>{error}</div>}
         <div id="collection-container">
           {recipes.map((recipe, index) => (

@@ -12,6 +12,7 @@ import Login from "./pages/Login/Login";
 import Signup from "./pages/SignUp/Signup";
 import ProfilePage from "./pages/ProfilePage/ProfilePage";
 import Premium from "./pages/Premium/Premium";
+import { ThreeDots } from "react-loader-spinner";
 // import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
@@ -19,7 +20,14 @@ function App() {
   
   if (!authIsReady) {
     // Render loading state or spinner while authentication is being checked
-    return <div>Loading...</div>;
+    return <div className="threeDots"><ThreeDots   visible={true}
+    height="360"
+    width="360"
+    color="#4fa94d"
+    radius="20"
+    ariaLabel="three-dots-loading"
+    wrapperStyle={{}}
+    wrapperClass=""/></div>;
   }
 
   return (
