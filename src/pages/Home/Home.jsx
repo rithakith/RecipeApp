@@ -9,14 +9,16 @@ import useFetch from "../../Hooks/useFetch";
 import RecipeCard from "../../components/RecipeCard/RecipeCard";
 import { ThreeDots } from "react-loader-spinner";
 import { Link } from "react-router-dom";
-
+import { useAuthContext } from "../../Hooks/useAuthContext";
 import { projectFirestore } from "../../firebase/config";
+
 const Home = () => {
   // Today's special
   const [favourites, setFavourites] = useState([]);
   const [isFavouritesPending, setIsFavouritesPending] = useState(false);
   const [favouritesError, setFavouritesError] = useState(null);
   const [showModal, setShowModal] = useState(true);
+  const { user } = useAuthContext();
 
   useEffect(() => {
     setIsFavouritesPending(true);
@@ -171,7 +173,7 @@ const Home = () => {
         </div>
       </div>
 
-      {showModal && (
+      {!user && showModal && (
         <Modal>
           <div id="welcome-model">
             <div id="close-button" onClick={() => setShowModal(false)}>
