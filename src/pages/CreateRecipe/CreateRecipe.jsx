@@ -24,7 +24,7 @@ const CreateRecipe = () => {
   const navigate = useNavigate();
 
   const handleSubmit = async (e) => {
-    e.preventDefault()
+    e.preventDefault();
     console.log("work");
 
     console.log(
@@ -66,7 +66,7 @@ const CreateRecipe = () => {
         time
       );
 
-// Show modal after submitting
+      // Show modal after submitting
     } catch (error) {
       console.error("Error adding document: ", error);
     }
@@ -78,7 +78,7 @@ const CreateRecipe = () => {
     setOwner("");
     setPortions("");
     setTime("");
-    setShowModal(true); 
+    setShowModal(true);
   };
 
   const handleIngAdd = (e) => {
@@ -247,6 +247,7 @@ const CreateRecipe = () => {
           </button>
         </Modal>
       )}
+
       <Footer />
     </>
   );

@@ -3,11 +3,12 @@ import "./Home.css";
 import Navbar from "../../components/Navbar/Navbar";
 import Footer from "../../components/Footer/Footer";
 import Carousel from "../../components/Carousel/Carousel";
-import { CaretRight } from "@phosphor-icons/react";
+import { CaretRight, X } from "@phosphor-icons/react";
 import Modal from "../../components/Modal/Modal";
 import useFetch from "../../Hooks/useFetch";
 import RecipeCard from "../../components/RecipeCard/RecipeCard";
 import { ThreeDots } from "react-loader-spinner";
+import { Link } from "react-router-dom";
 
 import { projectFirestore } from "../../firebase/config";
 const Home = () => {
@@ -15,6 +16,7 @@ const Home = () => {
   const [favourites, setFavourites] = useState([]);
   const [isFavouritesPending, setIsFavouritesPending] = useState(false);
   const [favouritesError, setFavouritesError] = useState(null);
+  const [showModal, setShowModal] = useState(true);
 
   useEffect(() => {
     setIsFavouritesPending(true);
@@ -168,6 +170,28 @@ const Home = () => {
           </div>
         </div>
       </div>
+
+      {showModal && (
+        <Modal id="welcome-modal">
+          <X
+            size={32}
+            color="#509e2f"
+            weight="bold"
+            onClick={() => setShowModal(false)}
+          />
+          <div id="welcome-model-container">
+            <h2>Do you want to login?</h2>
+
+            <Link to={"/login"} className="modal-link">
+              <input type="button" value="Login" />
+            </Link>
+            <Link to={"/signup"} className="modal-link">
+              <input type="button" value="Signup" />
+            </Link>
+          </div>
+        </Modal>
+      )}
+
       <Footer />
     </>
   );
