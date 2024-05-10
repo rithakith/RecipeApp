@@ -26,7 +26,7 @@ const CreateRecipe = () => {
 
 
   const handleSubmit = async (e) => {
-
+    console.log("work")
     const currentDate = new Date();
     const formattedDate = currentDate.toLocaleDateString();
 
