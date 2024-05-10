@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState,useEffect } from "react";
 import "./Home.css";
 import Navbar from "../../components/Navbar/Navbar";
 import Footer from "../../components/Footer/Footer";
@@ -7,32 +7,61 @@ import { CaretRight } from "@phosphor-icons/react";
 import Modal from "../../components/Modal/Modal";
 import useFetch from "../../Hooks/useFetch";
 import RecipeCard from "../../components/RecipeCard/RecipeCard";
+
+import { projectFirestore } from "../../firebase/config";
 const Home = () => {
   // Today's special
-  const [urlFavourites, setURLFavourites] = useState(
-    "http://localhost:3000/favourites"
-  );
+  const [favourites, setFavourites] = useState([]);
+  const [isFavouritesPending, setIsFavouritesPending] = useState(false);
+  const [favouritesError, setFavouritesError] = useState(null);
 
-  const {
-    data: favourites,
-    isPending: isFavouritesPending,
-    error: favouritesError,
-  } = useFetch(urlFavourites);
-  console.log(favourites);
-  console.log(isFavouritesPending);
+  useEffect(() => {
+    setIsFavouritesPending(true);
+    projectFirestore
+      .collection("favourites")
+      .get()
+      .then((snapshot) => {
+        if (snapshot.empty) {
+          setFavouritesError("No recipes to load");
+        } else {
+          const results = snapshot.docs.map((doc) => ({ id: doc.id, ...doc.data() }));
+          setFavourites(results);
+        }
+        setIsFavouritesPending(false);
+      })
+      .catch((err) => {
+        setFavouritesError(err.message);
+        setIsFavouritesPending(false);
+      });
+  }, []);
 
-  // recommended recipes
-  const [urlRecommended, setURLRecommended] = useState(
-    "http://localhost:3000/recommended"
-  );
+  const [recommended, setRecommended] = useState([]);
+  const [isRecommendedPending, setIsRecommendedPending] = useState(false);
+  const [recommendedError, setRecommendedError] = useState(null);
 
-  const {
-    data: recommended,
-    isPending: isRecommendedPending,
-    error: recommendedError,
-  } = useFetch(urlRecommended);
-  console.log(recommended);
-  console.log(isRecommendedPending);
+  useEffect(() => {
+    setIsRecommendedPending(true);
+    projectFirestore
+      .collection("recommended")
+      .get()
+      .then((snapshot) => {
+        if (snapshot.empty) {
+          setRecommendedError("No recipes to load");
+        } else {
+          const results = snapshot.docs.map((doc) => ({ id: doc.id, ...doc.data() }));
+          setRecommended(results);
+        }
+        setIsRecommendedPending(false);
+      })
+      .catch((err) => {
+        setFavouritesError(err.message);
+        setIsFavouritesPending(false);
+      });
+  }, []);
+
+  
+
+  
 
   return (
     <>
