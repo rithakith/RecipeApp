@@ -187,10 +187,10 @@ const Home = () => {
 
               <div id="welcome-model-buttons">
                 <Link to={"/login"} className="modal-link">
-                  <input type="button" value="Login" />
+                  <button id="hover-underline-animation-2">login</button>
                 </Link>
                 <Link to={"/signup"} className="modal-link">
-                  <input type="button" value="Signup" />
+                  <button id="hover-underline-animation-2"> signup</button>
                 </Link>
               </div>
             </div>
