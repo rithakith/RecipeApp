@@ -108,29 +108,6 @@
       "imageURL": "http://upload.wikimedia.org/wikipedia/commons/c/c7/Spinach_pizza.jpg"
     },
     {
-      "id": "5",
-      "name": "Grilled Steak",
-      "owner": "Alessia Romano",
-      "time": "40",
-      "category": ["Grilled"],
-      "portions": 2,
-      "last_update": "5/5/2024",
-      "ingredients": [
-        "beef steak Meat",
-        "1/2 cup barbecue sauce",
-        "1 tsp garlic powder",
-        "1 tsp black pepper"
-      ],
-      "steps": [
-        "Marinate beef steak with barbecue sauce, garlic powder, and black pepper for 30 minutes.",
-        "Grill the steak over medium heat until desired doneness.",
-        "Let it rest for 5 minutes before slicing.",
-        "Serve hot and enjoy!"
-      ],
-      "timers": [30, 0, 0, 0],
-      "imageURL": "https://hips.hearstapps.com/hmg-prod/images/how-to-grill-steak-1653399983.jpeg"
-    },
-    {
       "id": "6",
       "name": "Chicken Alfredo Pasta",
       "owner": "Matteo Russo",
