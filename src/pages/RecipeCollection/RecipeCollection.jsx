@@ -99,7 +99,14 @@ const RecipeCollection = () => {
           </div>
         </div>
 
-        {isPending && <div><ThreeDots></ThreeDots></div>}
+        {isPending && <div className="threeDots"><ThreeDots   visible={true}
+    height="360"
+    width="360"
+    color="#4fa94d"
+    radius="20"
+    ariaLabel="three-dots-loading"
+    wrapperStyle={{}}
+    wrapperClass=""/></div>}
         {error && <div>{error}</div>}
         <div id="collection-container">
           {recipes.map((recipe, index) => (

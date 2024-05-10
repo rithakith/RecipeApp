@@ -6,3 +6,12 @@
   font-style: normal;
   margin: 0;
 }
+
+.threeDots {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  
+}

@@ -1,4 +1,4 @@
-import React, { useState,useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import "./Home.css";
 import Navbar from "../../components/Navbar/Navbar";
 import Footer from "../../components/Footer/Footer";
@@ -25,7 +25,10 @@ const Home = () => {
         if (snapshot.empty) {
           setFavouritesError("No recipes to load");
         } else {
-          const results = snapshot.docs.map((doc) => ({ id: doc.id, ...doc.data() }));
+          const results = snapshot.docs.map((doc) => ({
+            id: doc.id,
+            ...doc.data(),
+          }));
           setFavourites(results);
         }
         setIsFavouritesPending(false);
@@ -49,7 +52,10 @@ const Home = () => {
         if (snapshot.empty) {
           setRecommendedError("No recipes to load");
         } else {
-          const results = snapshot.docs.map((doc) => ({ id: doc.id, ...doc.data() }));
+          const results = snapshot.docs.map((doc) => ({
+            id: doc.id,
+            ...doc.data(),
+          }));
           setRecommended(results);
         }
         setIsRecommendedPending(false);
@@ -59,10 +65,6 @@ const Home = () => {
         setIsFavouritesPending(false);
       });
   }, []);
-
-  
-
-  
 
   return (
     <>
@@ -112,7 +114,20 @@ const Home = () => {
           <div id="home-container-top">
             <p className="section-topic">Today's Special</p>
 
-            {isFavouritesPending && <div><ThreeDots/></div>}
+            {isFavouritesPending && (
+              <div className="threeDots">
+                <ThreeDots
+                  visible={true}
+                  height="180"
+                  width="180"
+                  color="#4fa94d"
+                  radius="20"
+                  ariaLabel="three-dots-loading"
+                  wrapperStyle={{}}
+                  wrapperClass=""
+                />
+              </div>
+            )}
             {favouritesError && <div>{error}</div>}
             <div id="collection-container">
               {favourites &&
@@ -129,7 +144,20 @@ const Home = () => {
           <div id="home-container-middle">
             <p className="section-topic">Recommended Recipes</p>
 
-            {isRecommendedPending && <div><ThreeDots/></div>}
+            {isRecommendedPending && (
+              <div className="threeDots">
+                <ThreeDots
+                  visible={true}
+                  height="180"
+                  width="180"
+                  color="#4fa94d"
+                  radius="20"
+                  ariaLabel="three-dots-loading"
+                  wrapperStyle={{}}
+                  wrapperClass=""
+                />
+              </div>
+            )}
             {recommendedError && <div>{error}</div>}
             <div id="collection-container">
               {recommended &&
