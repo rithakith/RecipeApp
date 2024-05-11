@@ -4,12 +4,15 @@ import "./Signup.css";
 import Navbar from "../../components/Navbar/Navbar";
 import { useSignup } from "../../Hooks/useSignup";
 import Modal from "../../components/Modal/Modal";
+import { X } from "@phosphor-icons/react";
+import { Link } from "react-router-dom";
 
 const Signup = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [displayName, setDisplayName] = useState("");
   const { signup, isPending, error } = useSignup();
+  const [showModal, setShowModal] = useState(false); // State for showing/hiding modal
 
   const handleSignup = (e) => {
     e.preventDefault();
@@ -17,6 +20,7 @@ const Signup = () => {
     setEmail("");
     setPassword("");
     setDisplayName("");
+    setShowModal(true);
   };
   return (
     <>
@@ -33,7 +37,7 @@ const Signup = () => {
               <input
                 type="text"
                 name=""
-                id="username"
+                className="signup-details"
                 placeholder="Username"
                 onChange={(e) => {
                   setDisplayName(e.target.value);
@@ -51,7 +55,7 @@ const Signup = () => {
               <input
                 type="email"
                 name=""
-                id="email"
+                className="signup-details"
                 placeholder="email"
                 required
                 onChange={(e) => {
@@ -69,7 +73,7 @@ const Signup = () => {
               <input
                 type="password"
                 name=""
-                id="password"
+                className="signup-details"
                 placeholder="Password"
                 onChange={(e) => {
                   setPassword(e.target.value);
@@ -83,21 +87,15 @@ const Signup = () => {
           <br />
           {error && <p>{error}</p>}
           <div className="passwordDivSignup">
-            <div className="submitSignupDiv">
-              {isPending && (
-                <button className="submitSignup" disabled>
-                  Loading...
-                </button>
-              )}
-              {!isPending && (
-                <input type="submit" value="Sign up" className="submitSignup" />
-              )}
-            </div>
+            {isPending && (
+              <button className="submitSignup" disabled>
+                Loading...
+              </button>
+            )}
+            {!isPending && <button className="submitSignup">Sign up</button>}
           </div>
         </form>
 
-        <br />
-        <br />
         <div id="signin-direct">
           Already have an account?{" "}
           <span id="SignupSpan">
@@ -107,6 +105,19 @@ const Signup = () => {
           </span>
         </div>
       </div>
+
+      {showModal && (
+        <Modal>
+          <div id="close-button">
+            <Link to={"/"}>
+              <X size={32} color="#509e2f" weight="bold" />
+            </Link>
+          </div>
+          <div id="signup-modal">
+            <h2>You have successfully signed up!</h2>
+          </div>
+        </Modal>
+      )}
     </>
   );
 };

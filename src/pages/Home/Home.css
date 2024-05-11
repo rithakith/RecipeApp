@@ -64,26 +64,35 @@
   flex-direction: column;
 }
 
-#welcome-model h2 {
-  color: #509e2f;
-}
-
-#welcome-model h6 {
-  font-size: 0.8rem;
-  color: darkgreen;
-  padding: 0 10px;
-}
 #close-button {
   display: flex;
   justify-content: flex-end;
 }
 
+#close-button svg {
+  cursor: pointer;
+}
+
 #welcome-model-container {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#welcome-model-container h2 {
+  color: #509e2f;
+}
+
+#welcome-model-container h6 {
+  width: 80%;
+  font-size: 0.8rem;
+  padding: 0 10px;
 }
 
 #welcome-model-buttons {
-  margin: 30px auto 10px;
+  margin: 20px auto 10px;
   width: 80%;
   background-color: white;
   overflow: hidden;
@@ -105,18 +114,18 @@
 }
 
 #welcome-model-buttons a:hover {
-  background-color: #dfffd1;
-  color: #509e2f;
+  background-color: #509e2f;
+  color: white;
   text-decoration: none;
 }
 
-#welcome-model-buttons input {
+#welcome-model-buttons button {
   background-color: rgba(255, 255, 255, 0);
-  width: 100%;
+  color: darkgreen;
   border: none;
   font-weight: 500;
 }
 
-#welcome-model-buttons input:hover {
-  color: #509e2f;
+#welcome-model-buttons button:hover {
+  color: white;
 }

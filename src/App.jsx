@@ -36,7 +36,7 @@ function App() {
       <Routes>
         <Route
           path="/"
-          element={user ? <Navigate to="/home" /> : <Navigate to="/login" />}
+          element={<Home/>}
         />
         <Route path="/home" element={<Home />} />
         <Route path="/recipes" element={<RecipeCollection />} />

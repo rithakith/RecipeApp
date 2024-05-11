@@ -1,10 +1,10 @@
 .containerSignup {
-  width: 45%;
-  margin: 50px auto;
+  width: 40%;
+  margin: 46px auto;
   border-radius: 5px;
   display: flex;
   flex-direction: column;
-  height: 650px;
+  height: 550px;
   justify-content: center;
   box-shadow: 1px 1px 8px 4px rgba(0, 0, 0, 0.75);
 }
@@ -32,19 +32,14 @@ h1 {
   justify-content: space-between;
 }
 
-
-
-.emailDiv,.passwordDiv,
+.emailDiv,
+.passwordDiv,
 .usernameDiv {
   margin: 10px 50px;
 }
 
 .passwordDivSignup {
-  margin: 10px 50px 0;
-}
-
-.submitSignupDiv {
-  width: 100%;
+  margin: 10px 46px 0 50px;
   display: flex;
   justify-content: center;
 }
@@ -58,15 +53,38 @@ h1 {
   letter-spacing: 2px;
   opacity: 0.8;
   background-color: green;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 .submitSignup:hover {
   opacity: 1;
 }
 
+.signup-details {
+  border: 1px solid #509e2f;
+  border-radius: 5px;
+}
+
+.signup-details:focus {
+  outline: none;
+}
+
 #signin-direct {
   text-align: center;
   font-size: 0.9rem;
   color: grey;
+}
+
+#signup-modal {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#signup-modal h2 {
+  color: #509e2f;
+}
+
+#signup-modal p {
+  color: darkgreen;
+  margin: 0;
 }

@@ -4,17 +4,22 @@ import Navbar from "../../components/Navbar/Navbar";
 import leftImg from "../../assets/images/loginImg.jpeg";
 import { useState } from "react";
 import { useLogin } from "../../Hooks/useLogin";
+import Modal from "../../components/Modal/Modal";
+import { X } from "@phosphor-icons/react";
+import { Link } from "react-router-dom";
 
 const Login = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const { login, error, isPending } = useLogin();
+  const [showModal, setShowModal] = useState(false); // State for showing/hiding modal
 
   const handleLogin = (e) => {
     e.preventDefault();
     login(email, password);
     setEmail("");
     setPassword("");
+    setShowModal(true);
   };
 
   return (
@@ -89,6 +94,19 @@ const Login = () => {
           </div>
         </div>
       </div>
+
+      {showModal && (
+        <Modal>
+          <div id="close-button">
+            <Link to={"/"}>
+              <X size={32} color="#509e2f" weight="bold" />
+            </Link>
+          </div>
+          <div id="signup-modal">
+            <h2>You have successfully Logged in!</h2>
+          </div>
+        </Modal>
+      )}
     </>
   );
 };
