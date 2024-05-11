@@ -1,29 +1,67 @@
 # Cookpal Web Application
 
-Cookpal is a web application developed as a project for our web assignment in the first year. It is built using React+Vite for the frontend and Firebase for the backend. Cookpal provides a platform for users to explore various recipes, including premium features, and offers functionalities such as user authentication, login, and signup.
+Welcome to Cookpal, your go-to platform for exploring a wide range of recipes! Cookpal is a web application developed as a project for our web assignment in the first year. It is built using React+Vite for the frontend and Firebase for the backend. With Cookpal, users can discover delicious recipes, access premium features, and enjoy functionalities such as user authentication, login, and signup.
 
 ## Project Overview
 
 - **Project Name**: Cookpal
-- **Team Members**: [@jalinaH](https://github.com/JalinaH) , [@Akith-002](https://github.com/Akith-002) , [@VishwaJaya01](https://github.com/VishwaJaya01) ,saradi
+- **Team Members**: [@jalinaH](https://github.com/JalinaH), [@Akith-002](https://github.com/Akith-002),
+[@VishwaJaya01](https://github.com/VishwaJaya01), saradi
+
+## Deployment
+
+We're excited to announce that Cookpal is now live! We've deployed the site using Firebase, and you can access it through the following link: [https://cookpal-7029c.web.app/](https://cookpal-7029c.web.app/). Feel free to explore the platform and discover your next favorite recipe!
 
 ## Getting Started
 
-To run the Cookpal web application locally on your machine, follow these steps:
+If you're interested in diving into the code or running Cookpal locally on your machine, here's how you can get started:
 
+1. **Clone the Repository**: 
+    First, clone the Cookpal repository to your local machine:
+    ```bash
+    git clone https://github.com/your-username/Cookpal.git
+    ```
 
-1. **Launch React App**: 
-    Open another terminal window and navigate to the root folder of the project. Then, run the following command to start the React application:
+2. **Navigate to the Project Directory**: 
+    Open a terminal window and navigate to the root folder of the project:
+    ```bash
+    cd Cookpal
+    ```
+
+3. **Install Dependencies**: 
+    Before running the application, install the necessary dependencies by running:
+    ```bash
+    npm install
+    ```
+
+4. **Launch React App**: 
+    Once the dependencies are installed, start the React application with the following command:
     ```bash
     npm run dev
     ```
 
-4. **Access Cookpal**: 
-    You can access Cookpal by opening a web browser and navigating to [http://localhost:5173/](http://localhost:5173/).
+5. **Access Cookpal**: 
+    You can now access Cookpal by opening a web browser and navigating to [http://localhost:5173/](http://localhost:5173/).
+
+## Features
+
+1. **User Authentication using Firebase**: Securely sign up and log in to the website using your email and password.
+   
+2. **Profile Page**: View and manage your profile page to personalize your experience on the website.
+
+3. **Recipe Management**:
+   - Create your own recipes with ease.
+   - View recipes with detailed information including:
+     - Owner's name
+     - Portion size
+     - Cook time
+     - Last updated date
+   
+4. **Tag Filtering**: Easily filter recipes using tags to find exactly what you're looking for.
 
 ## Future Plans
 
-Currently, Cookpal utilizes Firebase for authentication, and we plan to fully host the application on Firebase in the future. Additionally, we aim to implement more features and enhancements to enrich the user experience. And to make it more responsive
+While Cookpal is already packed with features, we're constantly working on improvements to enhance the user experience and add new functionalities. Stay tuned for exciting updates!
 
 ---
 
