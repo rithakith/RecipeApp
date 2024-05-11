@@ -1,6 +1,6 @@
 import React from "react";
 import "./Footer.css";
-
+import { projectFirestore } from "../../firebase/config";
 import { Link } from "react-router-dom";
 import logo from "../../assets/images/logoFinal.png";
 import {
@@ -9,6 +9,24 @@ import {
   XLogo,
   TiktokLogo,
 } from "@phosphor-icons/react";
+
+const subscribe = async() => {
+  const email = document.getElementById("emailInput").value;
+  if (email === "") {
+    alert("Please enter an email address");
+    return;
+  }
+
+  try{
+    await projectFirestore.collection("subscribers").add({
+      email: email,
+    });
+    alert("You have successfully subscribed to our newsletter!");
+  }
+  catch (error) {
+    alert("An error occured. Please try again later.");
+  }
+}
 
 const Footer = () => {
   return (
@@ -59,8 +77,8 @@ const Footer = () => {
         <div className="subscribe-section">
           <img src={logo} alt="logo" />
           <p>Subscribe to our newsletter and get the latest recipes!</p>
-          <input type="email" placeholder="Enter your email" />
-          <button>Subscribe</button>
+          <input type="email" id="emailInput" placeholder="Enter your email" />
+          <button type="submit" onClick={subscribe}>Subscribe</button>
         </div>
       </footer>
 
