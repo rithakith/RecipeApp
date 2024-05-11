@@ -5,6 +5,7 @@ import logo from "../../assets/images/logoFinal.png";
 import { useLogout } from "../../Hooks/useLogout";
 import { useAuthContext } from "../../Hooks/useAuthContext";
 import { SignOut, UserCircle } from "@phosphor-icons/react";
+import SearchBar from "../SearchBar/SearchBar";
 
 const Navbar = () => {
   const { logout } = useLogout();
@@ -25,6 +26,8 @@ const Navbar = () => {
               </p>
             </Link>
           </div>
+
+          <SearchBar />
 
           <div className="remainingNav">
             <li>
@@ -60,7 +63,6 @@ const Navbar = () => {
                 {/* i want to logout when i click below icon */}
                 <li id="loginButtonNavbar" onClick={handleLogout}>
                   <SignOut size={24} />
-                
                 </li>
               </>
             )}
