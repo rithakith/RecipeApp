@@ -47,13 +47,13 @@ If you're interested in diving into the code or running Cookpal locally on your 
 
 These are the features that are functional in our web application
 
-1. **login & signup**:
+- **login & signup**:
    You can signup using your email and a password of your choice. Later you can login with the same email and password.
 
-2. **Create recipe**:
+- **Create recipe**:
    You can add your own recipe to the collection now. Go to the recipe page look for the **+recipe** button.
 
-3. **sorting recipes**:
+- **sorting recipes**:
    You can sort the recipes in the collection with the given catergories.
 
 ## Future Plans
