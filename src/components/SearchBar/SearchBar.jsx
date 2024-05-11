@@ -7,8 +7,10 @@ const SearchBar = () => {
     <>
       <div id="search-bar">
         <label htmlFor="">
-          <MagnifyingGlass size={32} color="#509e2f" weight="duotone" />
-          <input type="text" />
+          <input type="text" placeholder="Search" />
+          <div id="search-icon">
+            <MagnifyingGlass size={32} color="#ffffff" weight="duotone" />
+          </div>
         </label>
       </div>
     </>
