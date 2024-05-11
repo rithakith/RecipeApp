@@ -59,6 +59,14 @@ If you're interested in diving into the code or running Cookpal locally on your 
    
 4. **Tag Filtering**: Easily filter recipes using tags to find exactly what you're looking for.
 
+## Screenshots
+
+![login modal](https://github.com/rithakith/RecipeApp/blob/main/Screenshots/Login%20page.png)
+*Login modal displayed upon successful login.*
+
+![Home page modal](https://github.com/rithakith/RecipeApp/blob/main/Screenshots/Home%20page.png)
+*Modal displaying when your not logged in.*
+
 ## Future Plans
 
 While Cookpal is already packed with features, we're constantly working on improvements to enhance the user experience and add new functionalities. Stay tuned for exciting updates!
