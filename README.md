@@ -45,16 +45,19 @@ If you're interested in diving into the code or running Cookpal locally on your 
 
 ## Features
 
-These are the features that are functional in our web application
+1. **User Authentication using Firebase**: Securely sign up and log in to the website using your email and password.
+   
+2. **Profile Page**: View and manage your profile page to personalize your experience on the website.
 
-- **login & signup**:
-   You can signup using your email and a password of your choice. Later you can login with the same email and password.
-
-- **Create recipe**:
-   You can add your own recipe to the collection now. Go to the recipe page look for the **+recipe** button.
-
-- **sorting recipes**:
-   You can sort the recipes in the collection with the given catergories.
+3. **Recipe Management**:
+   - Create your own recipes with ease.
+   - View recipes with detailed information including:
+     - Owner's name
+     - Portion size
+     - Cook time
+     - Last updated date
+   
+4. **Tag Filtering**: Easily filter recipes using tags to find exactly what you're looking for.
 
 ## Future Plans
 
