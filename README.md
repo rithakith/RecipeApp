@@ -43,6 +43,19 @@ If you're interested in diving into the code or running Cookpal locally on your 
 5. **Access Cookpal**: 
     You can now access Cookpal by opening a web browser and navigating to [http://localhost:5173/](http://localhost:5173/).
 
+## Features
+
+These are the features that are functional in our web application
+
+1. **login & signup**:
+   You can signup using your email and a password of your choice. Later you can login with the same email and password.
+
+2. **Create recipe**:
+   You can add your own recipe to the collection now. Go to the recipe page look for the **+recipe** button.
+
+3. **sorting recipes**:
+   You can sort the recipes in the collection with the given catergories.
+
 ## Future Plans
 
 While Cookpal is already packed with features, we're constantly working on improvements to enhance the user experience and add new functionalities. Stay tuned for exciting updates!
