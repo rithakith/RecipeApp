@@ -8,11 +8,15 @@
 
 #navUL {
   margin: 0;
-  padding: 0 1rem;
+  padding: 0 1.5rem;
   list-style: none;
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
-  height: 8vh;
+  align-items: center;
+  flex-wrap: wrap;
+  height: fit-content;
+  max-height: 20vh;
 }
 
 #navUL li {
@@ -67,4 +71,14 @@
 
 #loginButtonNavbar {
   background-color: #509e2f;
+}
+
+@media (max-width: 1200px) {
+  #navUL {
+    margin: 10px 0;
+    display: flex;
+    flex-direction: colomn;
+    justify-content: center;
+    align-items: center;
+  }
 }

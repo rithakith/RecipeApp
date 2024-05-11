@@ -1,0 +1,36 @@
+#search-bar {
+  width: 40%;
+  height: 5vh;
+  border: 2px solid #509e2f;
+  background-color: white;
+  border-radius: 20px;
+  padding: 5px 10px;
+  margin-left: 2rem;
+  box-shadow: 0 0 5px 0.5px;
+}
+
+#search-bar label {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#search-bar input {
+  width: 92%;
+  border: none;
+  border: white;
+  caret-color: #509e2f;
+}
+
+#search-bar input:focus {
+  outline: none;
+}
+
+@media (max-width: 1200px) {
+  #search-bar {
+    width: 100%;
+    margin: 1rem 0;
+  }
+}
