@@ -7,6 +7,7 @@ import { useLogin } from "../../Hooks/useLogin";
 import Modal from "../../components/Modal/Modal";
 import { X } from "@phosphor-icons/react";
 import { Link } from "react-router-dom";
+import checkImg from "../../assets/images/check.png";
 
 const Login = () => {
   const [email, setEmail] = useState("");
@@ -99,11 +100,16 @@ const Login = () => {
         <Modal>
           <div id="close-button">
             <Link to={"/"}>
-              <X size={32} color="#509e2f" weight="bold" />
+              <X size={24} color="#509e2f" weight="bold" />
             </Link>
           </div>
-          <div id="signup-modal">
+
+          <div className="signup-modal">
             <h2>You have successfully Logged in!</h2>
+          </div>
+
+          <div className="signup-modal-check">
+            <img src={checkImg} alt="check image" />
           </div>
         </Modal>
       )}

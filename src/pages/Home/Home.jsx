@@ -177,7 +177,7 @@ const Home = () => {
         <Modal>
           <div id="welcome-model">
             <div id="close-button" onClick={() => setShowModal(false)}>
-              <X size={32} color="#509e2f" weight="bold" />
+              <X size={24} color="#509e2f" weight="bold" />
             </div>
             <div id="welcome-model-container">
               <h2>Do you want to login?</h2>
