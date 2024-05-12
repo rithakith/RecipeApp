@@ -62,6 +62,7 @@
 #welcome-model {
   display: flex;
   flex-direction: column;
+  padding: 10px;
 }
 
 #close-button {
