@@ -13,7 +13,7 @@ const Login = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const { login, error, isPending } = useLogin();
-  const [showModal, setShowModal] = useState(true); // State for showing/hiding modal
+  const [showModal, setShowModal] = useState(false); // State for showing/hiding modal
 
   const handleLogin = (e) => {
     e.preventDefault();
