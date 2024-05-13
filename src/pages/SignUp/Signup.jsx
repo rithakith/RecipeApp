@@ -100,7 +100,7 @@ const Signup = () => {
         <div id="signin-direct">
           Already have an account?{" "}
           <span id="SignupSpan">
-            <a href="/signup" id="signupButton">
+            <a href="/login" id="signupButton">
               Login
             </a>
           </span>
