@@ -5,7 +5,7 @@ Welcome to Cookpal, your go-to platform for exploring a wide range of recipes! C
 ## Project Overview
 
 - **Project Name**: Cookpal
-- **Team Members**: [@jalinaH](https://github.com/JalinaH), [@Akith-002](https://github.com/Akith-002),
+- **Team Members**: [@JalinaH](https://github.com/JalinaH), [@Akith-002](https://github.com/Akith-002),
 [@VishwaJaya01](https://github.com/VishwaJaya01), saradi
 
 ## Deployment
