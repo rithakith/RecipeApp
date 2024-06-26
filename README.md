@@ -19,7 +19,7 @@ If you're interested in diving into the code or running Cookpal locally on your 
 1. **Clone the Repository**: 
     First, clone the Cookpal repository to your local machine:
     ```bash
-    git clone https://github.com/rithakith/Cookpal.git
+    git clone https://github.com/rithakith/RecipeApp.git
     ```
 
 2. **Navigate to the Project Directory**: 
